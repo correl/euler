@@ -1,5 +1,10 @@
 import operator
 
+class InvalidCard(Exception):
+    pass
+class InvalidHand(Exception):
+    pass
+
 class PokerCard:
     values = {'T': 10, 'J': 11, 'Q': 12, 'K': 13, 'A': 14}
     def __init__(self, string):
@@ -7,8 +12,13 @@ class PokerCard:
         if self.value in '23456789':
             self.value = int(self.value)
         else:
-            self.value = PokerCard.values[self.value]
+            try:
+                self.value = PokerCard.values[self.value]
+            except KeyError as e:
+                raise InvalidCard
         self.suit = string[1]
+        if not self.suit in ['H', 'C', 'S', 'D']:
+            raise InvalidCard
     @staticmethod
     def compare(a, b):
         if a.value > b.value:
@@ -118,28 +128,29 @@ class PokerHand:
                     return result
         return result
 
-wins = 0
-counter = 0
-with open('poker.txt', 'r') as f:
-    while True:
-        line = f.readline()
-        if not line:
-            break
-        counter = counter + 1
-        cards = line.strip().split()
-        one = PokerHand(cards[:5])
-        two = PokerHand(cards[-5:])
-        result = PokerHand.compare(one, two)
-        if result > 0:
-            wins = wins + 1
-            outcome = 'Player One wins'
-        elif result == 0:
-            outcome = 'Tie'
-        else:
-            outcome = 'Player Two wins'
-        print "Hand #{0}: {1}\n {2}\n {3}".format(
-            counter,
-            outcome,
-            one,
-            two)
-print "Player one won {0} hands".format(wins)
+if __name__ == '__main__':
+    wins = 0
+    counter = 0
+    with open('poker.txt', 'r') as f:
+        while True:
+            line = f.readline()
+            if not line:
+                break
+            counter = counter + 1
+            cards = line.strip().split()
+            one = PokerHand(cards[:5])
+            two = PokerHand(cards[-5:])
+            result = PokerHand.compare(one, two)
+            if result > 0:
+                wins = wins + 1
+                outcome = 'Player One wins'
+            elif result == 0:
+                outcome = 'Tie'
+            else:
+                outcome = 'Player Two wins'
+            print "Hand #{0}: {1}\n {2}\n {3}".format(
+                counter,
+                outcome,
+                one,
+                two)
+    print "Player one won {0} hands".format(wins)
