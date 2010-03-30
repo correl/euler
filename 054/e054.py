@@ -83,7 +83,7 @@ class PokerHand:
                (self._cards[4].value == 2 and self._cards[1].value == 5 and self._cards[0].value == 14):
                 straight = True
             if straight and flush:
-                if self._cards[4] == 14:
+                if self._cards[0].value == 14:
                     self._rank = PokerHand.ROYAL_FLUSH
                 else:
                     self._rank = PokerHand.STRAIGHT_FLUSH
