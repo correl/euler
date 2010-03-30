@@ -1,0 +1,3001 @@
+Hand #1: Player Two wins
+ Cards: ['13C', '10S', '9H', '8C', '4S'] Rank: 'High Card' Values: [13, 10, 9, 8, 4]
+ Cards: ['14C', '7D', '5D', '3S', '2S'] Rank: 'High Card' Values: [14, 7, 5, 3, 2]
+Hand #2: Player One wins
+ Cards: ['14D', '14C', '9C', '5C', '5D'] Rank: 'Two Pairs' Values: [5, 14, 9]
+ Cards: ['13S', '10D', '8D', '7C', '5H'] Rank: 'High Card' Values: [13, 10, 8, 7, 5]
+Hand #3: Player One wins
+ Cards: ['13C', '11S', '7H', '6S', '3H'] Rank: 'High Card' Values: [13, 11, 7, 6, 3]
+ Cards: ['12H', '11C', '10D', '8S', '2D'] Rank: 'High Card' Values: [12, 11, 10, 8, 2]
+Hand #4: Player Two wins
+ Cards: ['12S', '10H', '10C', '8H', '5C'] Rank: 'One Pair' Values: [10, 12, 8, 5]
+ Cards: ['13S', '11C', '11S', '9H', '4D'] Rank: 'One Pair' Values: [11, 13, 9, 4]
+Hand #5: Player Two wins
+ Cards: ['13C', '12H', '11D', '7C', '5H'] Rank: 'High Card' Values: [13, 12, 11, 7, 5]
+ Cards: ['14S', '14D', '13H', '4C', '4S'] Rank: 'Two Pairs' Values: [4, 14, 13]
+Hand #6: Player One wins
+ Cards: ['13S', '9C', '9H', '7D', '5H'] Rank: 'One Pair' Values: [9, 13, 7, 5]
+ Cards: ['14H', '8D', '5D', '5C', '3S'] Rank: 'One Pair' Values: [5, 14, 8, 3]
+Hand #7: Player One wins
+ Cards: ['6H', '5C', '4H', '3H', '2H'] Rank: 'Straight' Values: [6, 5, 4, 3, 2]
+ Cards: ['14S', '12H', '6S', '5S', '3S'] Rank: 'High Card' Values: [14, 12, 6, 5, 3]
+Hand #8: Player Two wins
+ Cards: ['10D', '10C', '8C', '7C', '4H'] Rank: 'One Pair' Values: [10, 8, 7, 4]
+ Cards: ['13C', '13S', '7S', '4C', '3H'] Rank: 'One Pair' Values: [13, 7, 4, 3]
+Hand #9: Player Two wins
+ Cards: ['13D', '9C', '7C', '6D', '3H'] Rank: 'High Card' Values: [13, 9, 7, 6, 3]
+ Cards: ['14C', '13H', '12S', '12C', '4C'] Rank: 'One Pair' Values: [12, 14, 13, 4]
+Hand #10: Player One wins
+ Cards: ['11C', '6S', '5H', '2H', '2D'] Rank: 'One Pair' Values: [2, 11, 6, 5]
+ Cards: ['14S', '13D', '11S', '9D', '7C'] Rank: 'High Card' Values: [14, 13, 11, 9, 7]
+Hand #11: Player Two wins
+ Cards: ['14D', '12H', '10H', '9D', '8H'] Rank: 'High Card' Values: [14, 12, 10, 9, 8]
+ Cards: ['14S', '14C', '10S', '6D', '3S'] Rank: 'One Pair' Values: [14, 10, 6, 3]
+Hand #12: Player One wins
+ Cards: ['10C', '5C', '5S', '4S', '2H'] Rank: 'One Pair' Values: [5, 10, 4, 2]
+ Cards: ['13C', '11D', '10S', '6C', '3C'] Rank: 'High Card' Values: [13, 11, 10, 6, 3]
+Hand #13: Player One wins
+ Cards: ['14S', '12D', '11S', '6H', '2C'] Rank: 'High Card' Values: [14, 12, 11, 6, 2]
+ Cards: ['13C', '9H', '8S', '4H', '3D'] Rank: 'High Card' Values: [13, 9, 8, 4, 3]
+Hand #14: Player Two wins
+ Cards: ['13D', '9S', '8S', '7C', '2S'] Rank: 'High Card' Values: [13, 9, 8, 7, 2]
+ Cards: ['13C', '6D', '6S', '4H', '3S'] Rank: 'One Pair' Values: [6, 13, 4, 3]
+Hand #15: Player Two wins
+ Cards: ['8C', '7D', '4D', '3C', '2D'] Rank: 'High Card' Values: [8, 7, 4, 3, 2]
+ Cards: ['12H', '11D', '9S', '4S', '4H'] Rank: 'One Pair' Values: [4, 12, 11, 9]
+Hand #16: Player Two wins
+ Cards: ['13C', '10C', '8C', '7S', '2D'] Rank: 'High Card' Values: [13, 10, 8, 7, 2]
+ Cards: ['14C', '12D', '10S', '8H', '5C'] Rank: 'High Card' Values: [14, 12, 10, 8, 5]
+Hand #17: Player Two wins
+ Cards: ['13H', '12D', '6C', '6S', '3D'] Rank: 'One Pair' Values: [6, 13, 12, 3]
+ Cards: ['14D', '14S', '12S', '8H', '2H'] Rank: 'One Pair' Values: [14, 12, 8, 2]
+Hand #18: Player One wins
+ Cards: ['8D', '8S', '6S', '6C', '4C'] Rank: 'Two Pairs' Values: [8, 6, 4]
+ Cards: ['12H', '10C', '9D', '7D', '6D'] Rank: 'High Card' Values: [12, 10, 9, 7, 6]
+Hand #19: Player Two wins
+ Cards: ['10S', '8D', '8C', '4C', '2S'] Rank: 'One Pair' Values: [8, 10, 4, 2]
+ Cards: ['14C', '9S', '9D', '9C', '3D'] Rank: 'Three of a Kind' Values: [9, 14, 3]
+Hand #20: Player One wins
+ Cards: ['12S', '11H', '4H', '3C', '2S'] Rank: 'High Card' Values: [12, 11, 4, 3, 2]
+ Cards: ['10D', '9H', '8S', '3D', '2D'] Rank: 'High Card' Values: [10, 9, 8, 3, 2]
+Hand #21: Player Two wins
+ Cards: ['12S', '8S', '6D', '5H', '3C'] Rank: 'High Card' Values: [12, 8, 6, 5, 3]
+ Cards: ['14S', '11D', '8C', '7H', '7D'] Rank: 'One Pair' Values: [7, 14, 11, 8]
+Hand #22: Player One wins
+ Cards: ['14S', '11H', '10D', '9D', '6H'] Rank: 'High Card' Values: [14, 11, 10, 9, 6]
+ Cards: ['13D', '12C', '11C', '9S', '6C'] Rank: 'High Card' Values: [13, 12, 11, 9, 6]
+Hand #23: Player Two wins
+ Cards: ['14H', '12S', '10H', '8S', '4D'] Rank: 'High Card' Values: [14, 12, 10, 8, 4]
+ Cards: ['14C', '10S', '5C', '3C', '3D'] Rank: 'One Pair' Values: [3, 14, 10, 5]
+Hand #24: Player Two wins
+ Cards: ['11S', '8H', '5S', '4D', '3D'] Rank: 'High Card' Values: [11, 8, 5, 4, 3]
+ Cards: ['14D', '10S', '8C', '6C', '3S'] Rank: 'High Card' Values: [14, 10, 8, 6, 3]
+Hand #25: Player Two wins
+ Cards: ['7C', '6D', '5D', '5H', '3S'] Rank: 'One Pair' Values: [5, 7, 6, 3]
+ Cards: ['11C', '5C', '5S', '3D', '2H'] Rank: 'One Pair' Values: [5, 11, 3, 2]
+Hand #26: Player Two wins
+ Cards: ['13S', '6H', '5H', '3D', '2S'] Rank: 'High Card' Values: [13, 6, 5, 3, 2]
+ Cards: ['11D', '11S', '8H', '7H', '5D'] Rank: 'One Pair' Values: [11, 8, 7, 5]
+Hand #27: Player One wins
+ Cards: ['14S', '13H', '12S', '11S', '4H'] Rank: 'High Card' Values: [14, 13, 12, 11, 4]
+ Cards: ['13S', '12C', '10C', '7C', '6D'] Rank: 'High Card' Values: [13, 12, 10, 7, 6]
+Hand #28: Player Two wins
+ Cards: ['12S', '11S', '10S', '3D', '2H'] Rank: 'High Card' Values: [12, 11, 10, 3, 2]
+ Cards: ['14S', '13D', '11C', '9S', '4D'] Rank: 'High Card' Values: [14, 13, 11, 9, 4]
+Hand #29: Player One wins
+ Cards: ['13H', '12D', '5H', '5D', '4D'] Rank: 'One Pair' Values: [5, 13, 12, 4]
+ Cards: ['13D', '11S', '7H', '4H', '3D'] Rank: 'High Card' Values: [13, 11, 7, 4, 3]
+Hand #30: Player One wins
+ Cards: ['9H', '9D', '6H', '5C', '2C'] Rank: 'One Pair' Values: [9, 6, 5, 2]
+ Cards: ['11C', '10H', '9S', '6C', '2D'] Rank: 'High Card' Values: [11, 10, 9, 6, 2]
+Hand #31: Player One wins
+ Cards: ['14S', '12D', '11H', '7D', '6D'] Rank: 'High Card' Values: [14, 12, 11, 7, 6]
+ Cards: ['12S', '11S', '7C', '5C', '4D'] Rank: 'High Card' Values: [12, 11, 7, 5, 4]
+Hand #32: Player One wins
+ Cards: ['14D', '13H', '12D', '8C', '3H'] Rank: 'High Card' Values: [14, 13, 12, 8, 3]
+ Cards: ['10H', '9D', '8H', '5S', '3S'] Rank: 'High Card' Values: [10, 9, 8, 5, 3]
+Hand #33: Player One wins
+ Cards: ['14H', '9S', '9D', '8S', '4D'] Rank: 'One Pair' Values: [9, 14, 8, 4]
+ Cards: ['11S', '10C', '8D', '4H', '3C'] Rank: 'High Card' Values: [11, 10, 8, 4, 3]
+Hand #34: Player Two wins
+ Cards: ['13S', '12D', '5H', '3S', '2C'] Rank: 'High Card' Values: [13, 12, 5, 3, 2]
+ Cards: ['14H', '14D', '10S', '9H', '8S'] Rank: 'One Pair' Values: [14, 10, 9, 8]
+Hand #35: Player One wins
+ Cards: ['13D', '9H', '7H', '5C', '5D'] Rank: 'One Pair' Values: [5, 13, 9, 7]
+ Cards: ['14D', '13S', '4D', '3D', '2D'] Rank: 'High Card' Values: [14, 13, 4, 3, 2]
+Hand #36: Player Two wins
+ Cards: ['13S', '13C', '9S', '6D', '2C'] Rank: 'One Pair' Values: [13, 9, 6, 2]
+ Cards: ['12H', '10S', '10C', '9D', '9H'] Rank: 'Two Pairs' Values: [9, 10, 12]
+Hand #37: Player Two wins
+ Cards: ['12H', '9C', '6H', '5D', '4D'] Rank: 'High Card' Values: [12, 9, 6, 5, 4]
+ Cards: ['14D', '13H', '12C', '11S', '6D'] Rank: 'High Card' Values: [14, 13, 12, 11, 6]
+Hand #38: Player One wins
+ Cards: ['11D', '9S', '9D', '5C', '3H'] Rank: 'One Pair' Values: [9, 11, 5, 3]
+ Cards: ['14S', '12H', '10C', '9H', '4D'] Rank: 'High Card' Values: [14, 12, 10, 9, 4]
+Hand #39: Player Two wins
+ Cards: ['11C', '9C', '6D', '3C', '2C'] Rank: 'High Card' Values: [11, 9, 6, 3, 2]
+ Cards: ['14D', '13H', '9S', '9D', '7D'] Rank: 'One Pair' Values: [9, 14, 13, 7]
+Hand #40: Player One wins
+ Cards: ['13C', '11C', '11S', '9C', '7C'] Rank: 'One Pair' Values: [11, 13, 9, 7]
+ Cards: ['14S', '13D', '7D', '3H', '3C'] Rank: 'One Pair' Values: [3, 14, 13, 7]
+Hand #41: Player Two wins
+ Cards: ['13H', '12D', '12S', '3S', '2C'] Rank: 'One Pair' Values: [12, 13, 3, 2]
+ Cards: ['11C', '9H', '9C', '8S', '8H'] Rank: 'Two Pairs' Values: [8, 9, 11]
+Hand #42: Player Two wins
+ Cards: ['13C', '12H', '8D', '4C', '3C'] Rank: 'High Card' Values: [13, 12, 8, 4, 3]
+ Cards: ['14D', '9H', '9D', '6D', '4H'] Rank: 'One Pair' Values: [9, 14, 6, 4]
+Hand #43: Player One wins
+ Cards: ['13S', '13H', '12S', '7H', '3S'] Rank: 'One Pair' Values: [13, 12, 7, 3]
+ Cards: ['14D', '11D', '7D', '5H', '5D'] Rank: 'One Pair' Values: [5, 14, 11, 7]
+Hand #44: Player One wins
+ Cards: ['10H', '10C', '6H', '2H', '2C'] Rank: 'Two Pairs' Values: [10, 2, 6]
+ Cards: ['14S', '8D', '8C', '7D', '4H'] Rank: 'One Pair' Values: [8, 14, 7, 4]
+Hand #45: Player Two wins
+ Cards: ['14C', '12C', '4S', '3S', '2H'] Rank: 'High Card' Values: [14, 12, 4, 3, 2]
+ Cards: ['13H', '10H', '6D', '4D', '4C'] Rank: 'One Pair' Values: [4, 13, 10, 6]
+Hand #46: Player Two wins
+ Cards: ['14S', '13S', '10C', '7C', '4D'] Rank: 'High Card' Values: [14, 13, 10, 7, 4]
+ Cards: ['9H', '6D', '6C', '3C', '2D'] Rank: 'One Pair' Values: [6, 9, 3, 2]
+Hand #47: Player Two wins
+ Cards: ['12S', '10D', '8C', '5D', '2C'] Rank: 'High Card' Values: [12, 10, 8, 5, 2]
+ Cards: ['9C', '9H', '7H', '4C', '3H'] Rank: 'One Pair' Values: [9, 7, 4, 3]
+Hand #48: Player One wins
+ Cards: ['11H', '10S', '10D', '7S', '5H'] Rank: 'One Pair' Values: [10, 11, 7, 5]
+ Cards: ['14D', '12D', '8H', '8S', '6H'] Rank: 'One Pair' Values: [8, 14, 12, 6]
+Hand #49: Player Two wins
+ Cards: ['14D', '9C', '8C', '7C', '5S'] Rank: 'High Card' Values: [14, 9, 8, 7, 5]
+ Cards: ['9D', '8D', '8S', '5H', '2S'] Rank: 'One Pair' Values: [8, 9, 5, 2]
+Hand #50: Player One wins
+ Cards: ['13H', '13S', '9S', '4H', '2S'] Rank: 'One Pair' Values: [13, 9, 4, 2]
+ Cards: ['14D', '13C', '7D', '5S', '4S'] Rank: 'High Card' Values: [14, 13, 7, 5, 4]
+Hand #51: Player Two wins
+ Cards: ['12S', '12D', '11S', '9C', '6H'] Rank: 'One Pair' Values: [12, 11, 9, 6]
+ Cards: ['14C', '14S', '8D', '5D', '2S'] Rank: 'One Pair' Values: [14, 8, 5, 2]
+Hand #52: Player Two wins
+ Cards: ['14C', '13H', '11C', '9D', '3S'] Rank: 'High Card' Values: [14, 13, 11, 9, 3]
+ Cards: ['11S', '9S', '9C', '5S', '3C'] Rank: 'One Pair' Values: [9, 11, 5, 3]
+Hand #53: Player One wins
+ Cards: ['14D', '13S', '3C', '3D', '3S'] Rank: 'Three of a Kind' Values: [3, 14, 13]
+ Cards: ['10S', '9C', '8C', '5C', '4S'] Rank: 'High Card' Values: [10, 9, 8, 5, 4]
+Hand #54: Player Two wins
+ Cards: ['13D', '11H', '8D', '6H', '5D'] Rank: 'High Card' Values: [13, 11, 8, 6, 5]
+ Cards: ['13C', '12S', '12D', '6C', '3D'] Rank: 'One Pair' Values: [12, 13, 6, 3]
+Hand #55: Player Two wins
+ Cards: ['11D', '8S', '8C', '6C', '3S'] Rank: 'One Pair' Values: [8, 11, 6, 3]
+ Cards: ['12C', '12H', '11S', '10C', '3C'] Rank: 'One Pair' Values: [12, 11, 10, 3]
+Hand #56: Player Two wins
+ Cards: ['13C', '11C', '9H', '8H', '2S'] Rank: 'High Card' Values: [13, 11, 9, 8, 2]
+ Cards: ['11H', '9C', '9S', '8S', '8C'] Rank: 'Two Pairs' Values: [8, 9, 11]
+Hand #57: Player One wins
+ Cards: ['12H', '12C', '8S', '4D', '2H'] Rank: 'One Pair' Values: [12, 8, 4, 2]
+ Cards: ['14S', '13C', '10H', '9D', '3C'] Rank: 'High Card' Values: [14, 13, 10, 9, 3]
+Hand #58: Player Two wins
+ Cards: ['10H', '8S', '7C', '6H', '2H'] Rank: 'High Card' Values: [10, 8, 7, 6, 2]
+ Cards: ['14S', '7S', '6S', '3C', '3H'] Rank: 'One Pair' Values: [3, 14, 7, 6]
+Hand #59: Player Two wins
+ Cards: ['12H', '11S', '5S', '5H', '4H'] Rank: 'One Pair' Values: [5, 12, 11, 4]
+ Cards: ['14H', '14C', '11C', '10S', '8H'] Rank: 'One Pair' Values: [14, 11, 10, 8]
+Hand #60: Player Two wins
+ Cards: ['10C', '9D', '8H', '4S', '2S'] Rank: 'High Card' Values: [10, 9, 8, 4, 2]
+ Cards: ['11C', '7H', '5C', '3C', '3H'] Rank: 'One Pair' Values: [3, 11, 7, 5]
+Hand #61: Player One wins
+ Cards: ['14D', '4C', '3D', '3C', '3S'] Rank: 'Three of a Kind' Values: [3, 14, 4]
+ Cards: ['14S', '12C', '10H', '8C', '5D'] Rank: 'High Card' Values: [14, 12, 10, 8, 5]
+Hand #62: Player Two wins
+ Cards: ['13H', '11S', '9D', '6S', '4C'] Rank: 'High Card' Values: [13, 11, 9, 6, 4]
+ Cards: ['14H', '14D', '11D', '10S', '8H'] Rank: 'One Pair' Values: [14, 11, 10, 8]
+Hand #63: Player Two wins
+ Cards: ['14C', '9D', '7S', '6S', '4C'] Rank: 'High Card' Values: [14, 9, 7, 6, 4]
+ Cards: ['11D', '10C', '4D', '3D', '3S'] Rank: 'One Pair' Values: [3, 11, 10, 4]
+Hand #64: Player Two wins
+ Cards: ['14D', '11H', '7H', '6H', '4H'] Rank: 'High Card' Values: [14, 11, 7, 6, 4]
+ Cards: ['13C', '10D', '10S', '7D', '6S'] Rank: 'One Pair' Values: [10, 13, 7, 6]
+Hand #65: Player One wins
+ Cards: ['11H', '10C', '8H', '8D', '3S'] Rank: 'One Pair' Values: [8, 11, 10, 3]
+ Cards: ['9S', '8C', '5C', '4D', '2C'] Rank: 'High Card' Values: [9, 8, 5, 4, 2]
+Hand #66: Player One wins
+ Cards: ['13C', '12H', '10H', '9D', '2C'] Rank: 'High Card' Values: [13, 12, 10, 9, 2]
+ Cards: ['12S', '11C', '10S', '9C', '4H'] Rank: 'High Card' Values: [12, 11, 10, 9, 4]
+Hand #67: Player One wins
+ Cards: ['13H', '12S', '12D', '8H', '3C'] Rank: 'One Pair' Values: [12, 13, 8, 3]
+ Cards: ['14C', '10D', '8D', '8S', '4H'] Rank: 'One Pair' Values: [8, 14, 10, 4]
+Hand #68: Player Two wins
+ Cards: ['10H', '8H', '7C', '5S', '3C'] Rank: 'High Card' Values: [10, 8, 7, 5, 3]
+ Cards: ['13D', '11D', '10C', '9C', '8C'] Rank: 'High Card' Values: [13, 11, 10, 9, 8]
+Hand #69: Player One wins
+ Cards: ['12C', '11D', '10C', '10S', '8C'] Rank: 'One Pair' Values: [10, 12, 11, 8]
+ Cards: ['13D', '10D', '7C', '6H', '3H'] Rank: 'High Card' Values: [13, 10, 7, 6, 3]
+Hand #70: Player Two wins
+ Cards: ['13S', '12S', '11H', '9C', '6D'] Rank: 'High Card' Values: [13, 12, 11, 9, 6]
+ Cards: ['14S', '13H', '9H', '6S', '6H'] Rank: 'One Pair' Values: [6, 14, 13, 9]
+Hand #71: Player One wins
+ Cards: ['14H', '11H', '4D', '2H', '2D'] Rank: 'One Pair' Values: [2, 14, 11, 4]
+ Cards: ['11D', '10D', '6H', '5D', '4H'] Rank: 'High Card' Values: [11, 10, 6, 5, 4]
+Hand #72: Player One wins
+ Cards: ['13D', '12D', '11H', '9S', '8C'] Rank: 'High Card' Values: [13, 12, 11, 9, 8]
+ Cards: ['12S', '11S', '7C', '5C', '2C'] Rank: 'High Card' Values: [12, 11, 7, 5, 2]
+Hand #73: Player Two wins
+ Cards: ['10C', '8D', '7H', '4S', '2S'] Rank: 'High Card' Values: [10, 8, 7, 4, 2]
+ Cards: ['13C', '9C', '7S', '7C', '6H'] Rank: 'One Pair' Values: [7, 13, 9, 6]
+Hand #74: Player Two wins
+ Cards: ['10D', '8C', '7H', '5D', '4S'] Rank: 'High Card' Values: [10, 8, 7, 5, 4]
+ Cards: ['13S', '12C', '11S', '8S', '4H'] Rank: 'High Card' Values: [13, 12, 11, 8, 4]
+Hand #75: Player Two wins
+ Cards: ['14D', '11H', '10D', '8S', '6D'] Rank: 'High Card' Values: [14, 11, 10, 8, 6]
+ Cards: ['13D', '7C', '7D', '6C', '2D'] Rank: 'One Pair' Values: [7, 13, 6, 2]
+Hand #76: Player One wins
+ Cards: ['11C', '11S', '6H', '6S', '4H'] Rank: 'Two Pairs' Values: [11, 6, 4]
+ Cards: ['14H', '12H', '9H', '4C', '3C'] Rank: 'High Card' Values: [14, 12, 9, 4, 3]
+Hand #77: Player Two wins
+ Cards: ['14S', '7C', '7S', '6H', '5H'] Rank: 'One Pair' Values: [7, 14, 6, 5]
+ Cards: ['13H', '13C', '5D', '5C', '3D'] Rank: 'Two Pairs' Values: [13, 5, 3]
+Hand #78: Player Two wins
+ Cards: ['14S', '11C', '10D', '4D', '3D'] Rank: 'High Card' Values: [14, 11, 10, 4, 3]
+ Cards: ['13S', '12H', '11D', '6D', '6S'] Rank: 'One Pair' Values: [6, 13, 12, 11]
+Hand #79: Player One wins
+ Cards: ['12H', '8C', '8S', '7S', '2S'] Rank: 'One Pair' Values: [8, 12, 7, 2]
+ Cards: ['14H', '12D', '11D', '7H', '5C'] Rank: 'High Card' Values: [14, 12, 11, 7, 5]
+Hand #80: Player One wins
+ Cards: ['8S', '6H', '6C', '3C', '2C'] Rank: 'One Pair' Values: [6, 8, 3, 2]
+ Cards: ['10D', '8D', '7D', '4C', '4D'] Rank: 'One Pair' Values: [4, 10, 8, 7]
+Hand #81: Player Two wins
+ Cards: ['13H', '12H', '7C', '5D', '2S'] Rank: 'High Card' Values: [13, 12, 7, 5, 2]
+ Cards: ['12C', '12D', '11S', '7H', '6D'] Rank: 'One Pair' Values: [12, 11, 7, 6]
+Hand #82: Player Two wins
+ Cards: ['14D', '10H', '7D', '6C', '6S'] Rank: 'One Pair' Values: [6, 14, 10, 7]
+ Cards: ['13H', '8H', '6H', '4H', '2H'] Rank: 'Flush' Values: [13, 8, 6, 4, 2]
+Hand #83: Player One wins
+ Cards: ['13S', '13D', '11S', '5D', '2D'] Rank: 'One Pair' Values: [13, 11, 5, 2]
+ Cards: ['13H', '9C', '8C', '7D', '3D'] Rank: 'High Card' Values: [13, 9, 8, 7, 3]
+Hand #84: Player Two wins
+ Cards: ['13S', '12D', '9C', '6D', '3C'] Rank: 'High Card' Values: [13, 12, 9, 6, 3]
+ Cards: ['14H', '11D', '7S', '3S', '2D'] Rank: 'High Card' Values: [14, 11, 7, 3, 2]
+Hand #85: Player One wins
+ Cards: ['14H', '14S', '12H', '11C', '8S'] Rank: 'One Pair' Values: [14, 12, 11, 8]
+ Cards: ['13C', '10H', '8H', '7D', '4C'] Rank: 'High Card' Values: [13, 10, 8, 7, 4]
+Hand #86: Player One wins
+ Cards: ['11C', '10D', '7C', '5H', '5D'] Rank: 'One Pair' Values: [5, 11, 10, 7]
+ Cards: ['14D', '13D', '11S', '8H', '4C'] Rank: 'High Card' Values: [14, 13, 11, 8, 4]
+Hand #87: Player One wins
+ Cards: ['14C', '14H', '13C', '7D', '2H'] Rank: 'One Pair' Values: [14, 13, 7, 2]
+ Cards: ['13H', '11H', '7S', '6D', '5D'] Rank: 'High Card' Values: [13, 11, 7, 6, 5]
+Hand #88: Player One wins
+ Cards: ['9S', '9C', '8S', '6H', '5S'] Rank: 'One Pair' Values: [9, 8, 6, 5]
+ Cards: ['14C', '11D', '10D', '9H', '6C'] Rank: 'High Card' Values: [14, 11, 10, 9, 6]
+Hand #89: Player Two wins
+ Cards: ['13D', '10S', '8S', '7D', '6D'] Rank: 'High Card' Values: [13, 10, 8, 7, 6]
+ Cards: ['14C', '7H', '7C', '5S', '5D'] Rank: 'Two Pairs' Values: [5, 7, 14]
+Hand #90: Player Two wins
+ Cards: ['14H', '12C', '11C', '10C', '4C'] Rank: 'High Card' Values: [14, 12, 11, 10, 4]
+ Cards: ['10S', '8C', '7D', '2H', '2C'] Rank: 'One Pair' Values: [2, 10, 8, 7]
+Hand #91: Player One wins
+ Cards: ['13D', '13C', '7D', '6S', '3D'] Rank: 'One Pair' Values: [13, 7, 6, 3]
+ Cards: ['8S', '5S', '5C', '3H', '2S'] Rank: 'One Pair' Values: [5, 8, 3, 2]
+Hand #92: Player Two wins
+ Cards: ['8S', '8H', '6H', '5D', '4C'] Rank: 'One Pair' Values: [8, 6, 5, 4]
+ Cards: ['13C', '13D', '7C', '5S', '3H'] Rank: 'One Pair' Values: [13, 7, 5, 3]
+Hand #93: Player Two wins
+ Cards: ['11H', '8C', '6C', '3D', '3C'] Rank: 'One Pair' Values: [3, 11, 8, 6]
+ Cards: ['13C', '10D', '7H', '7C', '4C'] Rank: 'One Pair' Values: [7, 13, 10, 4]
+Hand #94: Player Two wins
+ Cards: ['13C', '12S', '11C', '10S', '6H'] Rank: 'High Card' Values: [13, 12, 11, 10, 6]
+ Cards: ['13S', '10D', '9S', '8H', '8C'] Rank: 'One Pair' Values: [8, 13, 10, 9]
+Hand #95: Player Two wins
+ Cards: ['12H', '9C', '7D', '6C', '5S'] Rank: 'High Card' Values: [12, 9, 7, 6, 5]
+ Cards: ['14H', '13S', '13C', '9S', '2C'] Rank: 'One Pair' Values: [13, 14, 9, 2]
+Hand #96: Player One wins
+ Cards: ['10D', '9C', '8H', '4D', '4S'] Rank: 'One Pair' Values: [4, 10, 9, 8]
+ Cards: ['14S', '10H', '9D', '7D', '3S'] Rank: 'High Card' Values: [14, 10, 9, 7, 3]
+Hand #97: Player Two wins
+ Cards: ['7D', '6S', '6H', '5D', '3C'] Rank: 'One Pair' Values: [6, 7, 5, 3]
+ Cards: ['13D', '9D', '9C', '5C', '2C'] Rank: 'One Pair' Values: [9, 13, 5, 2]
+Hand #98: Player Two wins
+ Cards: ['14D', '13C', '3D', '3H', '2H'] Rank: 'One Pair' Values: [3, 14, 13, 2]
+ Cards: ['12D', '12S', '11C', '8D', '4S'] Rank: 'One Pair' Values: [12, 11, 8, 4]
+Hand #99: Player Two wins
+ Cards: ['14D', '9C', '8C', '7C', '3H'] Rank: 'High Card' Values: [14, 9, 8, 7, 3]
+ Cards: ['14S', '11C', '11S', '9D', '5D'] Rank: 'One Pair' Values: [11, 14, 9, 5]
+Hand #100: Player Two wins
+ Cards: ['9H', '7H', '6S', '5D', '5C'] Rank: 'One Pair' Values: [5, 9, 7, 6]
+ Cards: ['12C', '12D', '11C', '9S', '6C'] Rank: 'One Pair' Values: [12, 11, 9, 6]
+Hand #101: Player One wins
+ Cards: ['12S', '11C', '11H', '6S', '2C'] Rank: 'One Pair' Values: [11, 12, 6, 2]
+ Cards: ['12C', '10C', '9C', '4S', '3D'] Rank: 'High Card' Values: [12, 10, 9, 4, 3]
+Hand #102: Player Two wins
+ Cards: ['8D', '5S', '4H', '4D', '3D'] Rank: 'One Pair' Values: [4, 8, 5, 3]
+ Cards: ['13C', '11S', '2S', '2H', '2C'] Rank: 'Three of a Kind' Values: [2, 13, 11]
+Hand #103: Player Two wins
+ Cards: ['13D', '10D', '10H', '4D', '3S'] Rank: 'One Pair' Values: [10, 13, 4, 3]
+ Cards: ['14C', '13S', '11H', '11S', '7H'] Rank: 'One Pair' Values: [11, 14, 13, 7]
+Hand #104: Player Two wins
+ Cards: ['9S', '8C', '8S', '7S', '2D'] Rank: 'One Pair' Values: [8, 9, 7, 2]
+ Cards: ['14D', '14S', '9D', '7D', '5C'] Rank: 'One Pair' Values: [14, 9, 7, 5]
+Hand #105: Player Two wins
+ Cards: ['10H', '8C', '7H', '6C', '2S'] Rank: 'High Card' Values: [10, 8, 7, 6, 2]
+ Cards: ['14C', '8H', '4C', '3H', '3S'] Rank: 'One Pair' Values: [3, 14, 8, 4]
+Hand #106: Player One wins
+ Cards: ['13D', '11C', '11D', '8H', '5H'] Rank: 'One Pair' Values: [11, 13, 8, 5]
+ Cards: ['11H', '10D', '5C', '4H', '2D'] Rank: 'High Card' Values: [11, 10, 5, 4, 2]
+Hand #107: Player Two wins
+ Cards: ['14S', '13S', '12H', '7H', '3D'] Rank: 'High Card' Values: [14, 13, 12, 7, 3]
+ Cards: ['11D', '8S', '6D', '5S', '5H'] Rank: 'One Pair' Values: [5, 11, 8, 6]
+Hand #108: Player Two wins
+ Cards: ['12S', '11C', '10C', '9S', '6S'] Rank: 'High Card' Values: [12, 11, 10, 9, 6]
+ Cards: ['10H', '9C', '8C', '5C', '5D'] Rank: 'One Pair' Values: [5, 10, 9, 8]
+Hand #109: Player Two wins
+ Cards: ['11H', '9H', '5H', '3S', '2S'] Rank: 'High Card' Values: [11, 9, 5, 3, 2]
+ Cards: ['14S', '13S', '7S', '6S', '2C'] Rank: 'High Card' Values: [14, 13, 7, 6, 2]
+Hand #110: Player One wins
+ Cards: ['12D', '12S', '11C', '10C', '8C'] Rank: 'One Pair' Values: [12, 11, 10, 8]
+ Cards: ['14C', '13H', '12C', '6C', '4H'] Rank: 'High Card' Values: [14, 13, 12, 6, 4]
+Hand #111: Player Two wins
+ Cards: ['11H', '10C', '7D', '5H', '4H'] Rank: 'High Card' Values: [11, 10, 7, 5, 4]
+ Cards: ['13S', '11C', '8D', '4D', '2H'] Rank: 'High Card' Values: [13, 11, 8, 4, 2]
+Hand #112: Player One wins
+ Cards: ['13H', '13D', '9C', '9H', '5S'] Rank: 'Two Pairs' Values: [9, 13, 5]
+ Cards: ['10S', '7D', '5C', '3D', '2D'] Rank: 'High Card' Values: [10, 7, 5, 3, 2]
+Hand #113: Player One wins
+ Cards: ['14S', '10C', '8C', '5H', '4D'] Rank: 'High Card' Values: [14, 10, 8, 5, 4]
+ Cards: ['10S', '9D', '8D', '3H', '2C'] Rank: 'High Card' Values: [10, 9, 8, 3, 2]
+Hand #114: Player Two wins
+ Cards: ['11D', '9H', '8D', '6H', '2D'] Rank: 'High Card' Values: [11, 9, 8, 6, 2]
+ Cards: ['6C', '6D', '5H', '5S', '4S'] Rank: 'Two Pairs' Values: [5, 6, 4]
+Hand #115: Player Two wins
+ Cards: ['14D', '11C', '9C', '7D', '6H'] Rank: 'High Card' Values: [14, 11, 9, 7, 6]
+ Cards: ['11S', '9S', '9H', '6D', '3C'] Rank: 'One Pair' Values: [9, 11, 6, 3]
+Hand #116: Player Two wins
+ Cards: ['14D', '12S', '11H', '10C', '4C'] Rank: 'High Card' Values: [14, 12, 11, 10, 4]
+ Cards: ['14H', '9S', '9C', '7C', '5D'] Rank: 'One Pair' Values: [9, 14, 7, 5]
+Hand #117: Player Two wins
+ Cards: ['13D', '10H', '8S', '6H', '2H'] Rank: 'High Card' Values: [13, 10, 8, 6, 2]
+ Cards: ['14S', '13S', '12D', '9D', '9H'] Rank: 'One Pair' Values: [9, 14, 13, 12]
+Hand #118: Player Two wins
+ Cards: ['8H', '8D', '6C', '5H', '4H'] Rank: 'One Pair' Values: [8, 6, 5, 4]
+ Cards: ['14H', '14S', '14D', '8S', '5S'] Rank: 'Three of a Kind' Values: [14, 8, 5]
+Hand #119: Player Two wins
+ Cards: ['12S', '10D', '5D', '4S', '2H'] Rank: 'High Card' Values: [12, 10, 5, 4, 2]
+ Cards: ['14C', '13S', '11C', '5H', '3H'] Rank: 'High Card' Values: [14, 13, 11, 5, 3]
+Hand #120: Player Two wins
+ Cards: ['14C', '13D', '12D', '9C', '7D'] Rank: 'High Card' Values: [14, 13, 12, 9, 7]
+ Cards: ['12H', '6D', '6H', '5H', '5S'] Rank: 'Two Pairs' Values: [5, 6, 12]
+Hand #121: Player One wins
+ Cards: ['14H', '13C', '12H', '7D', '2H'] Rank: 'High Card' Values: [14, 13, 12, 7, 2]
+ Cards: ['13S', '12S', '11D', '7S', '3H'] Rank: 'High Card' Values: [13, 12, 11, 7, 3]
+Hand #122: Player One wins
+ Cards: ['13S', '8S', '6C', '6D', '3H'] Rank: 'One Pair' Values: [6, 13, 8, 3]
+ Cards: ['12D', '10C', '8H', '5D', '5C'] Rank: 'One Pair' Values: [5, 12, 10, 8]
+Hand #123: Player One wins
+ Cards: ['9H', '9D', '6S', '4D', '4S'] Rank: 'Two Pairs' Values: [9, 4, 6]
+ Cards: ['13H', '12C', '11D', '6C', '4H'] Rank: 'High Card' Values: [13, 12, 11, 6, 4]
+Hand #124: Player Two wins
+ Cards: ['12H', '10D', '6H', '4S', '2D'] Rank: 'High Card' Values: [12, 10, 6, 4, 2]
+ Cards: ['13D', '12D', '11H', '8C', '3C'] Rank: 'High Card' Values: [13, 12, 11, 8, 3]
+Hand #125: Player Two wins
+ Cards: ['12D', '9D', '7C', '6H', '4S'] Rank: 'High Card' Values: [12, 9, 7, 6, 4]
+ Cards: ['14S', '14H', '14D', '6S', '3C'] Rank: 'Three of a Kind' Values: [14, 6, 3]
+Hand #126: Player Two wins
+ Cards: ['13C', '10H', '8D', '6H', '2C'] Rank: 'High Card' Values: [13, 10, 8, 6, 2]
+ Cards: ['14H', '8S', '6D', '5C', '5D'] Rank: 'One Pair' Values: [5, 14, 8, 6]
+Hand #127: Player One wins
+ Cards: ['14D', '11C', '10D', '10S', '7C'] Rank: 'One Pair' Values: [10, 14, 11, 7]
+ Cards: ['13C', '12D', '9H', '7H', '3C'] Rank: 'High Card' Values: [13, 12, 9, 7, 3]
+Hand #128: Player One wins
+ Cards: ['8H', '5D', '5S', '4D', '4H'] Rank: 'Two Pairs' Values: [4, 5, 8]
+ Cards: ['13D', '11D', '7D', '3H', '2D'] Rank: 'High Card' Values: [13, 11, 7, 3, 2]
+Hand #129: Player Two wins
+ Cards: ['12S', '11H', '10D', '6H', '4S'] Rank: 'High Card' Values: [12, 11, 10, 6, 4]
+ Cards: ['13D', '8S', '8H', '7D', '5C'] Rank: 'One Pair' Values: [8, 13, 7, 5]
+Hand #130: Player One wins
+ Cards: ['14C', '14S', '10D', '8C', '3D'] Rank: 'One Pair' Values: [14, 10, 8, 3]
+ Cards: ['13H', '11D', '7H', '6C', '5D'] Rank: 'High Card' Values: [13, 11, 7, 6, 5]
+Hand #131: Player Two wins
+ Cards: ['13S', '12H', '9D', '7C', '6D'] Rank: 'High Card' Values: [13, 12, 9, 7, 6]
+ Cards: ['14S', '13D', '13C', '11D', '10C'] Rank: 'One Pair' Values: [13, 14, 11, 10]
+Hand #132: Player Two wins
+ Cards: ['11H', '8S', '7S', '7D', '5S'] Rank: 'One Pair' Values: [7, 11, 8, 5]
+ Cards: ['14S', '14D', '3D', '2D', '2H'] Rank: 'Two Pairs' Values: [2, 14, 3]
+Hand #133: Player Two wins
+ Cards: ['14S', '12D', '5D', '3C', '2H'] Rank: 'High Card' Values: [14, 12, 5, 3, 2]
+ Cards: ['13C', '9H', '9S', '6H', '2C'] Rank: 'One Pair' Values: [9, 13, 6, 2]
+Hand #134: Player Two wins
+ Cards: ['11H', '10H', '9D', '5D', '4C'] Rank: 'High Card' Values: [11, 10, 9, 5, 4]
+ Cards: ['10C', '9H', '8D', '8H', '3H'] Rank: 'One Pair' Values: [8, 10, 9, 3]
+Hand #135: Player One wins
+ Cards: ['13D', '10D', '6H', '2C', '2H'] Rank: 'One Pair' Values: [2, 13, 10, 6]
+ Cards: ['11S', '9D', '8C', '6C', '2D'] Rank: 'High Card' Values: [11, 9, 8, 6, 2]
+Hand #136: Player One wins
+ Cards: ['14S', '13D', '7S', '7C', '3C'] Rank: 'One Pair' Values: [7, 14, 13, 3]
+ Cards: ['14D', '12H', '10S', '8C', '2S'] Rank: 'High Card' Values: [14, 12, 10, 8, 2]
+Hand #137: Player Two wins
+ Cards: ['12S', '11S', '8H', '6C', '4C'] Rank: 'High Card' Values: [12, 11, 8, 6, 4]
+ Cards: ['14D', '12C', '10D', '10S', '9S'] Rank: 'One Pair' Values: [10, 14, 12, 9]
+Hand #138: Player One wins
+ Cards: ['10S', '10C', '8C', '7C', '2H'] Rank: 'One Pair' Values: [10, 8, 7, 2]
+ Cards: ['11C', '9H', '6D', '3C', '2D'] Rank: 'High Card' Values: [11, 9, 6, 3, 2]
+Hand #139: Player Two wins
+ Cards: ['13S', '11H', '10C', '8D', '2H'] Rank: 'High Card' Values: [13, 11, 10, 8, 2]
+ Cards: ['10D', '10H', '8H', '6D', '3H'] Rank: 'One Pair' Values: [10, 8, 6, 3]
+Hand #140: Player One wins
+ Cards: ['12C', '10D', '9D', '9H', '5D'] Rank: 'One Pair' Values: [9, 12, 10, 5]
+ Cards: ['13C', '10S', '8H', '8C', '6C'] Rank: 'One Pair' Values: [8, 13, 10, 6]
+Hand #141: Player Two wins
+ Cards: ['14H', '8C', '4D', '3D', '2H'] Rank: 'High Card' Values: [14, 8, 4, 3, 2]
+ Cards: ['13C', '10H', '10C', '8H', '7D'] Rank: 'One Pair' Values: [10, 13, 8, 7]
+Hand #142: Player Two wins
+ Cards: ['10S', '8C', '6S', '5C', '2D'] Rank: 'High Card' Values: [10, 8, 6, 5, 2]
+ Cards: ['14H', '13H', '13C', '6H', '5H'] Rank: 'One Pair' Values: [13, 14, 6, 5]
+Hand #143: Player Two wins
+ Cards: ['14H', '10C', '5S', '5D', '4C'] Rank: 'One Pair' Values: [5, 14, 10, 4]
+ Cards: ['11D', '8D', '8C', '6H', '6C'] Rank: 'Two Pairs' Values: [8, 6, 11]
+Hand #144: Player Two wins
+ Cards: ['13C', '12D', '8H', '3D', '2D'] Rank: 'High Card' Values: [13, 12, 8, 3, 2]
+ Cards: ['14D', '11C', '9H', '4H', '2S'] Rank: 'High Card' Values: [14, 11, 9, 4, 2]
+Hand #145: Player One wins
+ Cards: ['13D', '11S', '10D', '7D', '6S'] Rank: 'High Card' Values: [13, 11, 10, 7, 6]
+ Cards: ['12S', '8C', '4H', '3S', '2S'] Rank: 'High Card' Values: [12, 8, 4, 3, 2]
+Hand #146: Player Two wins
+ Cards: ['11H', '10S', '9H', '4C', '3S'] Rank: 'High Card' Values: [11, 10, 9, 4, 3]
+ Cards: ['12C', '9S', '9C', '5S', '4H'] Rank: 'One Pair' Values: [9, 12, 5, 4]
+Hand #147: Player One wins
+ Cards: ['13D', '11S', '9H', '9S', '2C'] Rank: 'One Pair' Values: [9, 13, 11, 2]
+ Cards: ['14C', '11C', '10S', '5D', '3H'] Rank: 'High Card' Values: [14, 11, 10, 5, 3]
+Hand #148: Player One wins
+ Cards: ['14S', '14D', '5D', '5H', '2H'] Rank: 'Two Pairs' Values: [5, 14, 2]
+ Cards: ['11C', '11S', '10D', '7S', '4C'] Rank: 'One Pair' Values: [11, 10, 7, 4]
+Hand #149: Player Two wins
+ Cards: ['8H', '7D', '4S', '3D', '2D'] Rank: 'High Card' Values: [8, 7, 4, 3, 2]
+ Cards: ['14D', '13D', '10S', '9C', '2C'] Rank: 'High Card' Values: [14, 13, 10, 9, 2]
+Hand #150: Player One wins
+ Cards: ['12D', '11H', '11S', '7H', '5H'] Rank: 'One Pair' Values: [11, 12, 7, 5]
+ Cards: ['14C', '10H', '8H', '4C', '3D'] Rank: 'High Card' Values: [14, 10, 8, 4, 3]
+Hand #151: Player Two wins
+ Cards: ['13H', '13C', '12D', '6D', '5C'] Rank: 'One Pair' Values: [13, 12, 6, 5]
+ Cards: ['14D', '14C', '7C', '4H', '2D'] Rank: 'One Pair' Values: [14, 7, 4, 2]
+Hand #152: Player Two wins
+ Cards: ['12D', '10C', '9D', '8S', '3D'] Rank: 'High Card' Values: [12, 10, 9, 8, 3]
+ Cards: ['14H', '11C', '11D', '4H', '2C'] Rank: 'One Pair' Values: [11, 14, 4, 2]
+Hand #153: Player Two wins
+ Cards: ['10D', '10C', '8S', '6C', '5S'] Rank: 'One Pair' Values: [10, 8, 6, 5]
+ Cards: ['14H', '14S', '14C', '5D', '2C'] Rank: 'Three of a Kind' Values: [14, 5, 2]
+Hand #154: Player Two wins
+ Cards: ['14S', '10H', '7S', '6C', '3D'] Rank: 'High Card' Values: [14, 10, 7, 6, 3]
+ Cards: ['14H', '7H', '7D', '4C', '4H'] Rank: 'Two Pairs' Values: [4, 7, 14]
+Hand #155: Player Two wins
+ Cards: ['13S', '7S', '6H', '5C', '2H'] Rank: 'High Card' Values: [13, 7, 6, 5, 2]
+ Cards: ['7H', '5H', '4H', '3D', '3C'] Rank: 'One Pair' Values: [3, 7, 5, 4]
+Hand #156: Player Two wins
+ Cards: ['14C', '12H', '9S', '7S', '3C'] Rank: 'High Card' Values: [14, 12, 9, 7, 3]
+ Cards: ['6S', '3D', '3S', '3H', '2H'] Rank: 'Three of a Kind' Values: [3, 6, 2]
+Hand #157: Player Two wins
+ Cards: ['14S', '6H', '3H', '2D', '2C'] Rank: 'One Pair' Values: [2, 14, 6, 3]
+ Cards: ['11S', '10C', '9C', '6S', '6C'] Rank: 'One Pair' Values: [6, 11, 10, 9]
+Hand #158: Player One wins
+ Cards: ['14C', '13D', '12H', '12D', '6D'] Rank: 'One Pair' Values: [12, 14, 13, 6]
+ Cards: ['13H', '10S', '8C', '6H', '2C'] Rank: 'High Card' Values: [13, 10, 8, 6, 2]
+Hand #159: Player Two wins
+ Cards: ['9H', '8H', '7D', '5D', '3S'] Rank: 'High Card' Values: [9, 8, 7, 5, 3]
+ Cards: ['12C', '9S', '5H', '4S', '3H'] Rank: 'High Card' Values: [12, 9, 5, 4, 3]
+Hand #160: Player Two wins
+ Cards: ['9D', '7H', '6H', '3C', '2D'] Rank: 'High Card' Values: [9, 7, 6, 3, 2]
+ Cards: ['8S', '5H', '4D', '4S', '3S'] Rank: 'One Pair' Values: [4, 8, 5, 3]
+Hand #161: Player One wins
+ Cards: ['13D', '10C', '9S', '7S', '4S'] Rank: 'High Card' Values: [13, 10, 9, 7, 4]
+ Cards: ['12C', '8S', '7H', '3S', '2H'] Rank: 'High Card' Values: [12, 8, 7, 3, 2]
+Hand #162: Player Two wins
+ Cards: ['10C', '8C', '6C', '3D', '3H'] Rank: 'One Pair' Values: [3, 10, 8, 6]
+ Cards: ['13S', '13D', '6H', '4D', '2H'] Rank: 'One Pair' Values: [13, 6, 4, 2]
+Hand #163: Player Two wins
+ Cards: ['13C', '11S', '9S', '3D', '3H'] Rank: 'One Pair' Values: [3, 13, 11, 9]
+ Cards: ['8H', '8S', '6C', '4S', '2D'] Rank: 'One Pair' Values: [8, 6, 4, 2]
+Hand #164: Player One wins
+ Cards: ['12S', '12D', '10C', '6H', '6C'] Rank: 'Two Pairs' Values: [12, 6, 10]
+ Cards: ['9H', '7D', '7C', '5H', '4D'] Rank: 'One Pair' Values: [7, 9, 5, 4]
+Hand #165: Player Two wins
+ Cards: ['10D', '9D', '8D', '6S', '6C'] Rank: 'One Pair' Values: [6, 10, 9, 8]
+ Cards: ['11S', '10C', '10S', '8H', '5D'] Rank: 'One Pair' Values: [10, 11, 8, 5]
+Hand #166: Player Two wins
+ Cards: ['13C', '11D', '10C', '9H', '4H'] Rank: 'High Card' Values: [13, 11, 10, 9, 4]
+ Cards: ['14S', '8H', '6S', '5H', '2C'] Rank: 'High Card' Values: [14, 8, 6, 5, 2]
+Hand #167: Player One wins
+ Cards: ['11S', '9C', '9D', '6S', '5C'] Rank: 'One Pair' Values: [9, 11, 6, 5]
+ Cards: ['13C', '11D', '8H', '6D', '4C'] Rank: 'High Card' Values: [13, 11, 8, 6, 4]
+Hand #168: Player One wins
+ Cards: ['8D', '8S', '7C', '6C', '4D'] Rank: 'One Pair' Values: [8, 7, 6, 4]
+ Cards: ['13C', '8H', '7H', '6H', '5C'] Rank: 'High Card' Values: [13, 8, 7, 6, 5]
+Hand #169: Player Two wins
+ Cards: ['13S', '11C', '10C', '6D', '3D'] Rank: 'High Card' Values: [13, 11, 10, 6, 3]
+ Cards: ['9S', '9C', '7S', '6H', '2C'] Rank: 'One Pair' Values: [9, 7, 6, 2]
+Hand #170: Player Two wins
+ Cards: ['13D', '10S', '6C', '5H', '3S'] Rank: 'High Card' Values: [13, 10, 6, 5, 3]
+ Cards: ['13H', '9H', '9S', '7D', '6H'] Rank: 'One Pair' Values: [9, 13, 7, 6]
+Hand #171: Player Two wins
+ Cards: ['12D', '10S', '6H', '4C', '3D'] Rank: 'High Card' Values: [12, 10, 6, 4, 3]
+ Cards: ['14C', '13D', '5C', '3S', '2H'] Rank: 'High Card' Values: [14, 13, 5, 3, 2]
+Hand #172: Player One wins
+ Cards: ['14S', '11S', '9S', '7C', '4C'] Rank: 'High Card' Values: [14, 11, 9, 7, 4]
+ Cards: ['13S', '11C', '10S', '9H', '7H'] Rank: 'High Card' Values: [13, 11, 10, 9, 7]
+Hand #173: Player Two wins
+ Cards: ['11D', '8C', '6H', '4H', '3H'] Rank: 'High Card' Values: [11, 8, 6, 4, 3]
+ Cards: ['14D', '13S', '9S', '5S', '4S'] Rank: 'High Card' Values: [14, 13, 9, 5, 4]
+Hand #174: Player One wins
+ Cards: ['14S', '7D', '4C', '3D', '2C'] Rank: 'High Card' Values: [14, 7, 4, 3, 2]
+ Cards: ['13C', '12S', '9C', '6C', '2S'] Rank: 'High Card' Values: [13, 12, 9, 6, 2]
+Hand #175: Player One wins
+ Cards: ['14C', '8S', '5H', '3D', '2S'] Rank: 'High Card' Values: [14, 8, 5, 3, 2]
+ Cards: ['10D', '9D', '6S', '4D', '3S'] Rank: 'High Card' Values: [10, 9, 6, 4, 3]
+Hand #176: Player One wins
+ Cards: ['12D', '10H', '10S', '7S', '3D'] Rank: 'One Pair' Values: [10, 12, 7, 3]
+ Cards: ['14C', '12C', '7H', '6C', '5D'] Rank: 'High Card' Values: [14, 12, 7, 6, 5]
+Hand #177: Player One wins
+ Cards: ['14D', '12D', '12S', '10C', '9C'] Rank: 'One Pair' Values: [12, 14, 10, 9]
+ Cards: ['13D', '8D', '5C', '3D', '3C'] Rank: 'One Pair' Values: [3, 13, 8, 5]
+Hand #178: Player Two wins
+ Cards: ['14S', '9D', '8H', '7C', '3S'] Rank: 'High Card' Values: [14, 9, 8, 7, 3]
+ Cards: ['13C', '11D', '8S', '8D', '2D'] Rank: 'One Pair' Values: [8, 13, 11, 2]
+Hand #179: Player Two wins
+ Cards: ['14C', '12H', '11S', '10H', '4C'] Rank: 'High Card' Values: [14, 12, 11, 10, 4]
+ Cards: ['13H', '9C', '8D', '7D', '7S'] Rank: 'One Pair' Values: [7, 13, 9, 8]
+Hand #180: Player Two wins
+ Cards: ['11H', '9D', '8D', '4C', '2C'] Rank: 'High Card' Values: [11, 9, 8, 4, 2]
+ Cards: ['13D', '12D', '10S', '4H', '2S'] Rank: 'High Card' Values: [13, 12, 10, 4, 2]
+Hand #181: Player Two wins
+ Cards: ['11H', '6D', '5D', '4D', '2D'] Rank: 'High Card' Values: [11, 6, 5, 4, 2]
+ Cards: ['13H', '10C', '8S', '3S', '3H'] Rank: 'One Pair' Values: [3, 13, 10, 8]
+Hand #182: Player Two wins
+ Cards: ['14D', '12S', '8C', '4D', '2C'] Rank: 'High Card' Values: [14, 12, 8, 4, 2]
+ Cards: ['14H', '13D', '11H', '11D', '5C'] Rank: 'One Pair' Values: [11, 14, 13, 5]
+Hand #183: Player One wins
+ Cards: ['11H', '6C', '5C', '5H', '2H'] Rank: 'One Pair' Values: [5, 11, 6, 2]
+ Cards: ['13S', '10C', '7C', '4H', '3H'] Rank: 'High Card' Values: [13, 10, 7, 4, 3]
+Hand #184: Player Two wins
+ Cards: ['12C', '11H', '5D', '4C', '3C'] Rank: 'High Card' Values: [12, 11, 5, 4, 3]
+ Cards: ['13H', '12D', '10C', '9C', '8D'] Rank: 'High Card' Values: [13, 12, 10, 9, 8]
+Hand #185: Player Two wins
+ Cards: ['12H', '11S', '9C', '7H', '3H'] Rank: 'High Card' Values: [12, 11, 9, 7, 3]
+ Cards: ['14S', '11C', '9H', '7C', '5H'] Rank: 'High Card' Values: [14, 11, 9, 7, 5]
+Hand #186: Player Two wins
+ Cards: ['12D', '5S', '4S', '3C', '2D'] Rank: 'High Card' Values: [12, 5, 4, 3, 2]
+ Cards: ['13C', '6S', '6C', '5C', '4C'] Rank: 'One Pair' Values: [6, 13, 5, 4]
+Hand #187: Player Two wins
+ Cards: ['13H', '10S', '8S', '5D', '2D'] Rank: 'High Card' Values: [13, 10, 8, 5, 2]
+ Cards: ['14S', '9C', '9S', '7C', '4C'] Rank: 'One Pair' Values: [9, 14, 7, 4]
+Hand #188: Player Two wins
+ Cards: ['14H', '8C', '8D', '7C', '5S'] Rank: 'One Pair' Values: [8, 14, 7, 5]
+ Cards: ['13D', '12H', '12S', '11H', '2C'] Rank: 'One Pair' Values: [12, 13, 11, 2]
+Hand #189: Player One wins
+ Cards: ['14H', '14C', '9D', '8C', '2H'] Rank: 'One Pair' Values: [14, 9, 8, 2]
+ Cards: ['12C', '8H', '7H', '5S', '2C'] Rank: 'High Card' Values: [12, 8, 7, 5, 2]
+Hand #190: Player One wins
+ Cards: ['12D', '12S', '12C', '9H', '5S'] Rank: 'Three of a Kind' Values: [12, 9, 5]
+ Cards: ['11C', '10H', '9C', '5H', '4H'] Rank: 'High Card' Values: [11, 10, 9, 5, 4]
+Hand #191: Player One wins
+ Cards: ['6C', '6S', '5H', '3H', '3S'] Rank: 'Two Pairs' Values: [3, 6, 5]
+ Cards: ['14C', '13S', '8D', '7S', '6H'] Rank: 'High Card' Values: [14, 13, 8, 7, 6]
+Hand #192: Player Two wins
+ Cards: ['14C', '12H', '8C', '7H', '4S'] Rank: 'High Card' Values: [14, 12, 8, 7, 4]
+ Cards: ['13C', '10C', '6C', '3D', '3S'] Rank: 'One Pair' Values: [3, 13, 10, 6]
+Hand #193: Player Two wins
+ Cards: ['14C', '11S', '10H', '9D', '3D'] Rank: 'High Card' Values: [14, 11, 10, 9, 3]
+ Cards: ['10C', '8S', '5H', '3H', '3S'] Rank: 'One Pair' Values: [3, 10, 8, 5]
+Hand #194: Player Two wins
+ Cards: ['13H', '13S', '12D', '11S', '9S'] Rank: 'One Pair' Values: [13, 12, 11, 9]
+ Cards: ['14H', '14C', '12C', '8D', '3C'] Rank: 'One Pair' Values: [14, 12, 8, 3]
+Hand #195: Player Two wins
+ Cards: ['13H', '9S', '6C', '5H', '3S'] Rank: 'High Card' Values: [13, 9, 6, 5, 3]
+ Cards: ['14S', '12D', '11H', '8C', '2D'] Rank: 'High Card' Values: [14, 12, 11, 8, 2]
+Hand #196: Player Two wins
+ Cards: ['7S', '7H', '6C', '5S', '4D'] Rank: 'One Pair' Values: [7, 6, 5, 4]
+ Cards: ['11C', '11H', '9H', '6S', '4H'] Rank: 'One Pair' Values: [11, 9, 6, 4]
+Hand #197: Player One wins
+ Cards: ['14H', '14D', '9S', '6H', '5S'] Rank: 'One Pair' Values: [14, 9, 6, 5]
+ Cards: ['10H', '9D', '8C', '3S', '2H'] Rank: 'High Card' Values: [10, 9, 8, 3, 2]
+Hand #198: Player Two wins
+ Cards: ['12C', '9H', '8D', '7C', '4C'] Rank: 'High Card' Values: [12, 9, 8, 7, 4]
+ Cards: ['14D', '13C', '9C', '5S', '4S'] Rank: 'High Card' Values: [14, 13, 9, 5, 4]
+Hand #199: Player One wins
+ Cards: ['10C', '9D', '6H', '4D', '4C'] Rank: 'One Pair' Values: [4, 10, 9, 6]
+ Cards: ['14S', '11H', '5D', '3S', '2S'] Rank: 'High Card' Values: [14, 11, 5, 3, 2]
+Hand #200: Player Two wins
+ Cards: ['13H', '7C', '6C', '5C', '2H'] Rank: 'High Card' Values: [13, 7, 6, 5, 2]
+ Cards: ['14D', '12S', '11D', '10H', '8S'] Rank: 'High Card' Values: [14, 12, 11, 10, 8]
+Hand #201: Player One wins
+ Cards: ['14H', '14S', '7S', '4S', '3S'] Rank: 'One Pair' Values: [14, 7, 4, 3]
+ Cards: ['14D', '13C', '11S', '10H', '2S'] Rank: 'High Card' Values: [14, 13, 11, 10, 2]
+Hand #202: Player Two wins
+ Cards: ['13C', '11S', '8C', '7D', '2S'] Rank: 'High Card' Values: [13, 11, 8, 7, 2]
+ Cards: ['10S', '9C', '9D', '5C', '5H'] Rank: 'Two Pairs' Values: [9, 5, 10]
+Hand #203: Player Two wins
+ Cards: ['11H', '10D', '9S', '7S', '4D'] Rank: 'High Card' Values: [11, 10, 9, 7, 4]
+ Cards: ['13H', '11S', '6H', '5D', '2C'] Rank: 'High Card' Values: [13, 11, 6, 5, 2]
+Hand #204: Player One wins
+ Cards: ['11D', '11S', '11C', '10H', '2D'] Rank: 'Three of a Kind' Values: [11, 10, 2]
+ Cards: ['14C', '12D', '8C', '5H', '3D'] Rank: 'High Card' Values: [14, 12, 8, 5, 3]
+Hand #205: Player One wins
+ Cards: ['13H', '9D', '7S', '5S', '5D'] Rank: 'One Pair' Values: [5, 13, 9, 7]
+ Cards: ['10D', '6H', '4S', '3C', '2D'] Rank: 'High Card' Values: [10, 6, 4, 3, 2]
+Hand #206: Player Two wins
+ Cards: ['14C', '8D', '5D', '4S', '4D'] Rank: 'One Pair' Values: [4, 14, 8, 5]
+ Cards: ['14D', '14S', '14H', '9C', '7C'] Rank: 'Three of a Kind' Values: [14, 9, 7]
+Hand #207: Player Two wins
+ Cards: ['13S', '10H', '10S', '6S', '2C'] Rank: 'One Pair' Values: [10, 13, 6, 2]
+ Cards: ['14H', '14S', '12C', '4S', '3C'] Rank: 'One Pair' Values: [14, 12, 4, 3]
+Hand #208: Player Two wins
+ Cards: ['11C', '8C', '5C', '3S', '2H'] Rank: 'High Card' Values: [11, 8, 5, 3, 2]
+ Cards: ['13H', '11H', '7C', '3H', '3C'] Rank: 'One Pair' Values: [3, 13, 11, 7]
+Hand #209: Player Two wins
+ Cards: ['11C', '7S', '6H', '5S', '3H'] Rank: 'High Card' Values: [11, 7, 6, 5, 3]
+ Cards: ['13C', '7H', '4C', '4D', '2S'] Rank: 'One Pair' Values: [4, 13, 7, 2]
+Hand #210: Player Two wins
+ Cards: ['9S', '8S', '7C', '4D', '4H'] Rank: 'One Pair' Values: [4, 9, 8, 7]
+ Cards: ['14D', '11C', '10C', '6S', '6C'] Rank: 'One Pair' Values: [6, 14, 11, 10]
+Hand #211: Player Two wins
+ Cards: ['13H', '12S', '10C', '4C', '3S'] Rank: 'High Card' Values: [13, 12, 10, 4, 3]
+ Cards: ['14C', '10S', '8H', '8S', '3C'] Rank: 'One Pair' Values: [8, 14, 10, 3]
+Hand #212: Player One wins
+ Cards: ['12D', '12S', '10H', '10S', '3C'] Rank: 'Two Pairs' Values: [10, 12, 3]
+ Cards: ['14H', '11C', '10D', '7H', '7D'] Rank: 'One Pair' Values: [7, 14, 11, 10]
+Hand #213: Player Two wins
+ Cards: ['12C', '11D', '10D', '9S', '4D'] Rank: 'High Card' Values: [12, 11, 10, 9, 4]
+ Cards: ['14D', '14C', '10S', '7S', '7D'] Rank: 'Two Pairs' Values: [14, 7, 10]
+Hand #214: Player One wins
+ Cards: ['14H', '7H', '7C', '6D', '4S'] Rank: 'One Pair' Values: [7, 14, 6, 4]
+ Cards: ['13S', '11C', '10D', '9D', '2H'] Rank: 'High Card' Values: [13, 11, 10, 9, 2]
+Hand #215: Player Two wins
+ Cards: ['14H', '11D', '7C', '6D', '4H'] Rank: 'High Card' Values: [14, 11, 7, 6, 4]
+ Cards: ['12S', '10S', '5C', '2H', '2C'] Rank: 'One Pair' Values: [2, 12, 10, 5]
+Hand #216: Player Two wins
+ Cards: ['13C', '10C', '9S', '8C', '4C'] Rank: 'High Card' Values: [13, 10, 9, 8, 4]
+ Cards: ['14H', '11S', '11C', '6S', '3C'] Rank: 'One Pair' Values: [11, 14, 6, 3]
+Hand #217: Player Two wins
+ Cards: ['14S', '12C', '7D', '5S', '3D'] Rank: 'High Card' Values: [14, 12, 7, 5, 3]
+ Cards: ['13H', '11C', '11D', '10D', '9D'] Rank: 'One Pair' Values: [11, 13, 10, 9]
+Hand #218: Player Two wins
+ Cards: ['14H', '10H', '6H', '3C', '2S'] Rank: 'High Card' Values: [14, 10, 6, 3, 2]
+ Cards: ['14C', '8H', '7S', '5H', '5C'] Rank: 'One Pair' Values: [5, 14, 8, 7]
+Hand #219: Player One wins
+ Cards: ['14C', '12C', '12D', '2D', '2S'] Rank: 'Two Pairs' Values: [2, 12, 14]
+ Cards: ['12S', '11D', '8H', '6S', '3S'] Rank: 'High Card' Values: [12, 11, 8, 6, 3]
+Hand #220: Player Two wins
+ Cards: ['13C', '11S', '9D', '4H', '3C'] Rank: 'High Card' Values: [13, 11, 9, 4, 3]
+ Cards: ['14S', '8S', '8C', '6H', '3S'] Rank: 'One Pair' Values: [8, 14, 6, 3]
+Hand #221: Player Two wins
+ Cards: ['13C', '11D', '7H', '7D', '2H'] Rank: 'One Pair' Values: [7, 13, 11, 2]
+ Cards: ['12H', '12S', '11C', '5S', '3H'] Rank: 'One Pair' Values: [12, 11, 5, 3]
+Hand #222: Player Two wins
+ Cards: ['10D', '9H', '8H', '7S', '3S'] Rank: 'High Card' Values: [10, 9, 8, 7, 3]
+ Cards: ['14C', '14H', '7C', '6C', '5C'] Rank: 'One Pair' Values: [14, 7, 6, 5]
+Hand #223: Player One wins
+ Cards: ['14H', '11D', '10D', '9H', '8D'] Rank: 'High Card' Values: [14, 11, 10, 9, 8]
+ Cards: ['12S', '9C', '8S', '7D', '3S'] Rank: 'High Card' Values: [12, 9, 8, 7, 3]
+Hand #224: Player Two wins
+ Cards: ['14H', '13C', '12H', '11D', '3C'] Rank: 'High Card' Values: [14, 13, 12, 11, 3]
+ Cards: ['13S', '10D', '5S', '5D', '4S'] Rank: 'One Pair' Values: [5, 13, 10, 4]
+Hand #225: Player Two wins
+ Cards: ['11H', '10H', '9H', '7H', '6S'] Rank: 'High Card' Values: [11, 10, 9, 7, 6]
+ Cards: ['14D', '7C', '5C', '4C', '2D'] Rank: 'High Card' Values: [14, 7, 5, 4, 2]
+Hand #226: Player Two wins
+ Cards: ['13D', '10C', '9D', '7C', '5S'] Rank: 'High Card' Values: [13, 10, 9, 7, 5]
+ Cards: ['10H', '6S', '6C', '5D', '2S'] Rank: 'One Pair' Values: [6, 10, 5, 2]
+Hand #227: Player Two wins
+ Cards: ['13C', '9H', '8D', '7H', '5H'] Rank: 'High Card' Values: [13, 9, 8, 7, 5]
+ Cards: ['14S', '12C', '7C', '4H', '3D'] Rank: 'High Card' Values: [14, 12, 7, 4, 3]
+Hand #228: Player Two wins
+ Cards: ['12C', '10D', '8S', '6S', '4S'] Rank: 'High Card' Values: [12, 10, 8, 6, 4]
+ Cards: ['12S', '12D', '10H', '5C', '2S'] Rank: 'One Pair' Values: [12, 10, 5, 2]
+Hand #229: Player Two wins
+ Cards: ['12C', '10H', '9H', '8S', '5H'] Rank: 'High Card' Values: [12, 10, 9, 8, 5]
+ Cards: ['13C', '7D', '7C', '6S', '5C'] Rank: 'One Pair' Values: [7, 13, 6, 5]
+Hand #230: Player One wins
+ Cards: ['14H', '13D', '13H', '7H', '4D'] Rank: 'One Pair' Values: [13, 14, 7, 4]
+ Cards: ['13C', '12H', '5C', '4S', '2D'] Rank: 'High Card' Values: [13, 12, 5, 4, 2]
+Hand #231: Player Two wins
+ Cards: ['14S', '11C', '10D', '6S', '2C'] Rank: 'High Card' Values: [14, 11, 10, 6, 2]
+ Cards: ['8C', '6C', '5S', '4D', '4H'] Rank: 'One Pair' Values: [4, 8, 6, 5]
+Hand #232: Player Two wins
+ Cards: ['11C', '11D', '10C', '6S', '5S'] Rank: 'One Pair' Values: [11, 10, 6, 5]
+ Cards: ['14S', '14D', '9D', '8D', '3S'] Rank: 'One Pair' Values: [14, 9, 8, 3]
+Hand #233: Player One wins
+ Cards: ['10C', '6D', '6H', '5D', '5S'] Rank: 'Two Pairs' Values: [5, 6, 10]
+ Cards: ['12S', '12D', '9D', '7D', '3D'] Rank: 'One Pair' Values: [12, 9, 7, 3]
+Hand #234: Player Two wins
+ Cards: ['8S', '7S', '6C', '4S', '3S'] Rank: 'High Card' Values: [8, 7, 6, 4, 3]
+ Cards: ['14D', '13S', '7D', '7C', '2D'] Rank: 'One Pair' Values: [7, 14, 13, 2]
+Hand #235: Player One wins
+ Cards: ['14C', '13C', '12H', '12D', '11C'] Rank: 'One Pair' Values: [12, 14, 13, 11]
+ Cards: ['12S', '8D', '7H', '7D', '5D'] Rank: 'One Pair' Values: [7, 12, 8, 5]
+Hand #236: Player One wins
+ Cards: ['14H', '11S', '8S', '5H', '3D'] Rank: 'High Card' Values: [14, 11, 8, 5, 3]
+ Cards: ['11H', '10D', '6C', '4S', '3H'] Rank: 'High Card' Values: [11, 10, 6, 4, 3]
+Hand #237: Player One wins
+ Cards: ['14S', '12S', '9H', '7D', '4S'] Rank: 'High Card' Values: [14, 12, 9, 7, 4]
+ Cards: ['13S', '11S', '10C', '6D', '5C'] Rank: 'High Card' Values: [13, 11, 10, 6, 5]
+Hand #238: Player Two wins
+ Cards: ['10C', '6H', '5C', '4D', '2D'] Rank: 'High Card' Values: [10, 6, 5, 4, 2]
+ Cards: ['12H', '9H', '8S', '6C', '3D'] Rank: 'High Card' Values: [12, 9, 8, 6, 3]
+Hand #239: Player Two wins
+ Cards: ['10C', '10H', '7H', '6D', '5S'] Rank: 'One Pair' Values: [10, 7, 6, 5]
+ Cards: ['13S', '13D', '11D', '9C', '5C'] Rank: 'One Pair' Values: [13, 11, 9, 5]
+Hand #240: Player Two wins
+ Cards: ['12H', '10D', '8D', '6S', '4S'] Rank: 'High Card' Values: [12, 10, 8, 6, 4]
+ Cards: ['13C', '10C', '8S', '6C', '5C'] Rank: 'High Card' Values: [13, 10, 8, 6, 5]
+Hand #241: Player One wins
+ Cards: ['14C', '13S', '5S', '4S', '3D'] Rank: 'High Card' Values: [14, 13, 5, 4, 3]
+ Cards: ['12D', '10H', '7D', '4C', '2S'] Rank: 'High Card' Values: [12, 10, 7, 4, 2]
+Hand #242: Player One wins
+ Cards: ['10S', '9S', '8H', '7S', '6S'] Rank: 'Straight' Values: [10, 9, 8, 7, 6]
+ Cards: ['14H', '12H', '8C', '7H', '3C'] Rank: 'High Card' Values: [14, 12, 8, 7, 3]
+Hand #243: Player Two wins
+ Cards: ['12C', '11S', '10S', '8C', '4C'] Rank: 'High Card' Values: [12, 11, 10, 8, 4]
+ Cards: ['11H', '7D', '7S', '5D', '3D'] Rank: 'One Pair' Values: [7, 11, 5, 3]
+Hand #244: Player One wins
+ Cards: ['14C', '12C', '9D', '8S', '7S'] Rank: 'High Card' Values: [14, 12, 9, 8, 7]
+ Cards: ['13C', '11H', '7C', '6D', '2H'] Rank: 'High Card' Values: [13, 11, 7, 6, 2]
+Hand #245: Player Two wins
+ Cards: ['13D', '11S', '6S', '4S', '3C'] Rank: 'High Card' Values: [13, 11, 6, 4, 3]
+ Cards: ['14H', '13S', '12C', '7C', '5H'] Rank: 'High Card' Values: [14, 13, 12, 7, 5]
+Hand #246: Player Two wins
+ Cards: ['13S', '12S', '11D', '6S', '4H'] Rank: 'High Card' Values: [13, 12, 11, 6, 4]
+ Cards: ['14S', '13C', '10C', '8H', '6H'] Rank: 'High Card' Values: [14, 13, 10, 8, 6]
+Hand #247: Player One wins
+ Cards: ['13H', '10C', '10D', '7C', '6S'] Rank: 'One Pair' Values: [10, 13, 7, 6]
+ Cards: ['14H', '11C', '7D', '5C', '3S'] Rank: 'High Card' Values: [14, 11, 7, 5, 3]
+Hand #248: Player One wins
+ Cards: ['10C', '10H', '4C', '4H', '3H'] Rank: 'Two Pairs' Values: [10, 4, 3]
+ Cards: ['12H', '9C', '7H', '6S', '6D'] Rank: 'One Pair' Values: [6, 12, 9, 7]
+Hand #249: Player Two wins
+ Cards: ['11S', '8C', '7D', '5H', '4S'] Rank: 'High Card' Values: [11, 8, 7, 5, 4]
+ Cards: ['13C', '12H', '8S', '4D', '3D'] Rank: 'High Card' Values: [13, 12, 8, 4, 3]
+Hand #250: Player One wins
+ Cards: ['14D', '7H', '6S', '3H', '3S'] Rank: 'One Pair' Values: [3, 14, 7, 6]
+ Cards: ['12C', '11S', '8S', '7S', '4S'] Rank: 'High Card' Values: [12, 11, 8, 7, 4]
+Hand #251: Player Two wins
+ Cards: ['13H', '11D', '10H', '6H', '3S'] Rank: 'High Card' Values: [13, 11, 10, 6, 3]
+ Cards: ['12S', '12D', '9C', '6C', '2D'] Rank: 'One Pair' Values: [12, 9, 6, 2]
+Hand #252: Player One wins
+ Cards: ['13C', '12H', '5H', '4S', '4D'] Rank: 'One Pair' Values: [4, 13, 12, 5]
+ Cards: ['10H', '8D', '7D', '6D', '5S'] Rank: 'High Card' Values: [10, 8, 7, 6, 5]
+Hand #253: Player Two wins
+ Cards: ['14D', '13D', '10D', '7H', '6S'] Rank: 'High Card' Values: [14, 13, 10, 7, 6]
+ Cards: ['13H', '13C', '11C', '9H', '5S'] Rank: 'One Pair' Values: [13, 11, 9, 5]
+Hand #254: Player Two wins
+ Cards: ['14S', '12C', '10S', '4S', '3H'] Rank: 'High Card' Values: [14, 12, 10, 4, 3]
+ Cards: ['13S', '13C', '12D', '9C', '7S'] Rank: 'One Pair' Values: [13, 12, 9, 7]
+Hand #255: Player One wins
+ Cards: ['12C', '10S', '10H', '6S', '6C'] Rank: 'Two Pairs' Values: [10, 6, 12]
+ Cards: ['13D', '10C', '9D', '5C', '5D'] Rank: 'One Pair' Values: [5, 13, 10, 9]
+Hand #256: Player Two wins
+ Cards: ['13D', '11S', '4H', '4C', '3S'] Rank: 'One Pair' Values: [4, 13, 11, 3]
+ Cards: ['12D', '11C', '9S', '9D', '6D'] Rank: 'One Pair' Values: [9, 12, 11, 6]
+Hand #257: Player Two wins
+ Cards: ['11S', '11H', '8S', '6D', '4H'] Rank: 'One Pair' Values: [11, 8, 6, 4]
+ Cards: ['13S', '13H', '6H', '6S', '6C'] Rank: 'Full House' Values: [6, 13]
+Hand #258: Player Two wins
+ Cards: ['14C', '10C', '9S', '7D', '5D'] Rank: 'High Card' Values: [14, 10, 9, 7, 5]
+ Cards: ['14S', '13H', '12D', '6S', '6H'] Rank: 'One Pair' Values: [6, 14, 13, 12]
+Hand #259: Player Two wins
+ Cards: ['14S', '12H', '8D', '7H', '6D'] Rank: 'High Card' Values: [14, 12, 8, 7, 6]
+ Cards: ['13H', '10H', '5C', '5H', '2S'] Rank: 'One Pair' Values: [5, 13, 10, 2]
+Hand #260: Player Two wins
+ Cards: ['12C', '10C', '7C', '4C', '3D'] Rank: 'High Card' Values: [12, 10, 7, 4, 3]
+ Cards: ['13H', '11S', '8C', '4S', '2D'] Rank: 'High Card' Values: [13, 11, 8, 4, 2]
+Hand #261: Player Two wins
+ Cards: ['9C', '7S', '6H', '5D', '5H'] Rank: 'One Pair' Values: [5, 9, 7, 6]
+ Cards: ['11H', '10H', '9H', '8S', '7H'] Rank: 'Straight' Values: [11, 10, 9, 8, 7]
+Hand #262: Player Two wins
+ Cards: ['14S', '13H', '12D', '11S', '2S'] Rank: 'High Card' Values: [14, 13, 12, 11, 2]
+ Cards: ['14C', '8H', '8D', '8S', '4S'] Rank: 'Three of a Kind' Values: [8, 14, 4]
+Hand #263: Player Two wins
+ Cards: ['13D', '10D', '8C', '4C', '3H'] Rank: 'High Card' Values: [13, 10, 8, 4, 3]
+ Cards: ['12S', '11C', '11D', '5C', '2D'] Rank: 'One Pair' Values: [11, 12, 5, 2]
+Hand #264: Player Two wins
+ Cards: ['10S', '7D', '6C', '5D', '2C'] Rank: 'High Card' Values: [10, 7, 6, 5, 2]
+ Cards: ['14H', '13S', '12S', '3C', '2H'] Rank: 'High Card' Values: [14, 13, 12, 3, 2]
+Hand #265: Player One wins
+ Cards: ['11H', '9C', '7C', '7D', '4S'] Rank: 'One Pair' Values: [7, 11, 9, 4]
+ Cards: ['12D', '9D', '8H', '6C', '5C'] Rank: 'High Card' Values: [12, 9, 8, 6, 5]
+Hand #266: Player Two wins
+ Cards: ['10D', '9C', '7S', '6D', '2S'] Rank: 'High Card' Values: [10, 9, 7, 6, 2]
+ Cards: ['13H', '12S', '12H', '9S', '5C'] Rank: 'One Pair' Values: [12, 13, 9, 5]
+Hand #267: Player One wins
+ Cards: ['12H', '11C', '11H', '9C', '6S'] Rank: 'One Pair' Values: [11, 12, 9, 6]
+ Cards: ['13H', '11S', '8D', '7S', '2H'] Rank: 'High Card' Values: [13, 11, 8, 7, 2]
+Hand #268: Player Two wins
+ Cards: ['13C', '10H', '8D', '5H', '4D'] Rank: 'High Card' Values: [13, 10, 8, 5, 4]
+ Cards: ['12S', '6S', '4S', '3S', '3D'] Rank: 'One Pair' Values: [3, 12, 6, 4]
+Hand #269: Player Two wins
+ Cards: ['11D', '10D', '7C', '4C', '2D'] Rank: 'High Card' Values: [11, 10, 7, 4, 2]
+ Cards: ['14H', '11C', '10H', '7S', '6D'] Rank: 'High Card' Values: [14, 11, 10, 7, 6]
+Hand #270: Player Two wins
+ Cards: ['12S', '10H', '9D', '7S', '4C'] Rank: 'High Card' Values: [12, 10, 9, 7, 4]
+ Cards: ['14D', '10S', '6H', '4D', '3H'] Rank: 'High Card' Values: [14, 10, 6, 4, 3]
+Hand #271: Player One wins
+ Cards: ['11D', '7D', '3H', '3D', '2D'] Rank: 'One Pair' Values: [3, 11, 7, 2]
+ Cards: ['14S', '12C', '9C', '8S', '2S'] Rank: 'High Card' Values: [14, 12, 9, 8, 2]
+Hand #272: Player One wins
+ Cards: ['9H', '9C', '7S', '4H', '2C'] Rank: 'One Pair' Values: [9, 7, 4, 2]
+ Cards: ['13D', '11H', '6H', '5C', '5D'] Rank: 'One Pair' Values: [5, 13, 11, 6]
+Hand #273: Player Two wins
+ Cards: ['11C', '10C', '9H', '8H', '3C'] Rank: 'High Card' Values: [11, 10, 9, 8, 3]
+ Cards: ['14D', '13S', '13C', '9S', '8D'] Rank: 'One Pair' Values: [13, 14, 9, 8]
+Hand #274: Player One wins
+ Cards: ['12S', '12H', '11D', '10S', '5H'] Rank: 'One Pair' Values: [12, 11, 10, 5]
+ Cards: ['14H', '13H', '12C', '8D', '5D'] Rank: 'High Card' Values: [14, 13, 12, 8, 5]
+Hand #275: Player Two wins
+ Cards: ['14S', '8S', '6S', '5D', '4C'] Rank: 'High Card' Values: [14, 8, 6, 5, 4]
+ Cards: ['14H', '12C', '12D', '10H', '7H'] Rank: 'One Pair' Values: [12, 14, 10, 7]
+Hand #276: Player Two wins
+ Cards: ['7D', '6S', '4H', '4S', '3H'] Rank: 'One Pair' Values: [4, 7, 6, 3]
+ Cards: ['14S', '11S', '9H', '9D', '8H'] Rank: 'One Pair' Values: [9, 14, 11, 8]
+Hand #277: Player Two wins
+ Cards: ['11D', '9D', '8C', '7D', '2C'] Rank: 'High Card' Values: [11, 9, 8, 7, 2]
+ Cards: ['13D', '11C', '9S', '5H', '5S'] Rank: 'One Pair' Values: [5, 13, 11, 9]
+Hand #278: Player Two wins
+ Cards: ['14H', '13D', '12D', '9C', '4S'] Rank: 'High Card' Values: [14, 13, 12, 9, 4]
+ Cards: ['14D', '14C', '10D', '9D', '7C'] Rank: 'One Pair' Values: [14, 10, 9, 7]
+Hand #279: Player One wins
+ Cards: ['9C', '8D', '6S', '4H', '4S'] Rank: 'One Pair' Values: [4, 9, 8, 6]
+ Cards: ['13S', '11H', '10C', '9D', '7C'] Rank: 'High Card' Values: [13, 11, 10, 9, 7]
+Hand #280: Player One wins
+ Cards: ['12H', '11C', '5S', '5H', '4S'] Rank: 'One Pair' Values: [5, 12, 11, 4]
+ Cards: ['14C', '11S', '9S', '2C', '2S'] Rank: 'One Pair' Values: [2, 14, 11, 9]
+Hand #281: Player One wins
+ Cards: ['14S', '14D', '12D', '8C', '5H'] Rank: 'One Pair' Values: [14, 12, 8, 5]
+ Cards: ['12C', '10D', '8S', '7D', '5C'] Rank: 'High Card' Values: [12, 10, 8, 7, 5]
+Hand #282: Player Two wins
+ Cards: ['13H', '11C', '8D', '5C', '4C'] Rank: 'High Card' Values: [13, 11, 8, 5, 4]
+ Cards: ['12S', '6H', '4D', '2H', '2C'] Rank: 'One Pair' Values: [2, 12, 6, 4]
+Hand #283: Player Two wins
+ Cards: ['13C', '10H', '4S', '3H', '2D'] Rank: 'High Card' Values: [13, 10, 4, 3, 2]
+ Cards: ['14C', '14D', '12D', '9D', '7H'] Rank: 'One Pair' Values: [14, 12, 9, 7]
+Hand #284: Player Two wins
+ Cards: ['14S', '13H', '12D', '10H', '8H'] Rank: 'High Card' Values: [14, 13, 12, 10, 8]
+ Cards: ['13C', '12H', '8D', '8C', '7S'] Rank: 'One Pair' Values: [8, 13, 12, 7]
+Hand #285: Player Two wins
+ Cards: ['13H', '11C', '8C', '7D', '6C'] Rank: 'High Card' Values: [13, 11, 8, 7, 6]
+ Cards: ['14D', '12S', '6S', '2H', '2D'] Rank: 'One Pair' Values: [2, 14, 12, 6]
+Hand #286: Player One wins
+ Cards: ['13H', '11C', '11S', '7D', '2D'] Rank: 'One Pair' Values: [11, 13, 7, 2]
+ Cards: ['14D', '12C', '5H', '5D', '4C'] Rank: 'One Pair' Values: [5, 14, 12, 4]
+Hand #287: Player One wins
+ Cards: ['14D', '10S', '10D', '4S', '3S'] Rank: 'One Pair' Values: [10, 14, 4, 3]
+ Cards: ['11H', '10H', '9H', '6S', '2D'] Rank: 'High Card' Values: [11, 10, 9, 6, 2]
+Hand #288: Player Two wins
+ Cards: ['12S', '9H', '4S', '2D', '2C'] Rank: 'One Pair' Values: [2, 12, 9, 4]
+ Cards: ['14S', '14C', '13H', '9D', '3D'] Rank: 'One Pair' Values: [14, 13, 9, 3]
+Hand #289: Player One wins
+ Cards: ['13H', '13D', '8H', '6S', '4S'] Rank: 'One Pair' Values: [13, 8, 6, 4]
+ Cards: ['12D', '12C', '10S', '9D', '7D'] Rank: 'One Pair' Values: [12, 10, 9, 7]
+Hand #290: Player One wins
+ Cards: ['14H', '14S', '13S', '11H', '5H'] Rank: 'One Pair' Values: [14, 13, 11, 5]
+ Cards: ['14D', '13H', '12C', '11C', '5S'] Rank: 'High Card' Values: [14, 13, 12, 11, 5]
+Hand #291: Player One wins
+ Cards: ['13S', '13D', '7D', '6D', '5D'] Rank: 'One Pair' Values: [13, 7, 6, 5]
+ Cards: ['11D', '7C', '4D', '3D', '3S'] Rank: 'One Pair' Values: [3, 11, 7, 4]
+Hand #292: Player Two wins
+ Cards: ['14C', '11S', '9C', '8D', '5H'] Rank: 'High Card' Values: [14, 11, 9, 8, 5]
+ Cards: ['10S', '4H', '4D', '3H', '2C'] Rank: 'One Pair' Values: [4, 10, 3, 2]
+Hand #293: Player One wins
+ Cards: ['13S', '13H', '9D', '7C', '6H'] Rank: 'One Pair' Values: [13, 9, 7, 6]
+ Cards: ['8S', '6S', '3D', '2S', '2H'] Rank: 'One Pair' Values: [2, 8, 6, 3]
+Hand #294: Player Two wins
+ Cards: ['14C', '11S', '7S', '6H', '3S'] Rank: 'High Card' Values: [14, 11, 7, 6, 3]
+ Cards: ['10D', '10H', '8H', '4H', '3H'] Rank: 'One Pair' Values: [10, 8, 4, 3]
+Hand #295: Player Two wins
+ Cards: ['13C', '12C', '10C', '9H', '5C'] Rank: 'High Card' Values: [13, 12, 10, 9, 5]
+ Cards: ['14C', '13S', '8S', '6H', '4H'] Rank: 'High Card' Values: [14, 13, 8, 6, 4]
+Hand #296: Player Two wins
+ Cards: ['12H', '11C', '10C', '7D', '4S'] Rank: 'High Card' Values: [12, 11, 10, 7, 4]
+ Cards: ['14C', '13H', '10S', '6D', '6C'] Rank: 'One Pair' Values: [6, 14, 13, 10]
+Hand #297: Player One wins
+ Cards: ['12H', '12S', '11H', '7D', '7C'] Rank: 'Two Pairs' Values: [12, 7, 11]
+ Cards: ['13S', '12D', '10H', '5D', '3H'] Rank: 'High Card' Values: [13, 12, 10, 5, 3]
+Hand #298: Player Two wins
+ Cards: ['11S', '8D', '5S', '4C', '3D'] Rank: 'High Card' Values: [11, 8, 5, 4, 3]
+ Cards: ['13S', '9C', '7H', '4H', '2C'] Rank: 'High Card' Values: [13, 9, 7, 4, 2]
+Hand #299: Player Two wins
+ Cards: ['10D', '8S', '5H', '4H', '2C'] Rank: 'High Card' Values: [10, 8, 5, 4, 2]
+ Cards: ['13C', '12D', '12C', '3S', '3H'] Rank: 'Two Pairs' Values: [3, 12, 13]
+Hand #300: Player Two wins
+ Cards: ['14D', '13D', '12C', '11S', '9C'] Rank: 'High Card' Values: [14, 13, 12, 11, 9]
+ Cards: ['10S', '9D', '7D', '7H', '5S'] Rank: 'One Pair' Values: [7, 10, 9, 5]
+Hand #301: Player Two wins
+ Cards: ['13H', '11C', '8C', '7C', '7S'] Rank: 'One Pair' Values: [7, 13, 11, 8]
+ Cards: ['12D', '10S', '10H', '6C', '2C'] Rank: 'One Pair' Values: [10, 12, 6, 2]
+Hand #302: Player Two wins
+ Cards: ['10H', '9D', '7S', '5S', '3C'] Rank: 'High Card' Values: [10, 9, 7, 5, 3]
+ Cards: ['12H', '9C', '8S', '5H', '2H'] Rank: 'High Card' Values: [12, 9, 8, 5, 2]
+Hand #303: Player Two wins
+ Cards: ['11S', '9H', '6H', '5D', '2S'] Rank: 'High Card' Values: [11, 9, 6, 5, 2]
+ Cards: ['13H', '7C', '5S', '3H', '2H'] Rank: 'High Card' Values: [13, 7, 5, 3, 2]
+Hand #304: Player Two wins
+ Cards: ['11D', '10C', '5D', '5S', '2C'] Rank: 'One Pair' Values: [5, 11, 10, 2]
+ Cards: ['8S', '6S', '6C', '3C', '2S'] Rank: 'One Pair' Values: [6, 8, 3, 2]
+Hand #305: Player One wins
+ Cards: ['13H', '8H', '4D', '4H', '2D'] Rank: 'One Pair' Values: [4, 13, 8, 2]
+ Cards: ['13S', '9H', '5C', '3H', '2S'] Rank: 'High Card' Values: [13, 9, 5, 3, 2]
+Hand #306: Player Two wins
+ Cards: ['10D', '8S', '7H', '3S', '2D'] Rank: 'High Card' Values: [10, 8, 7, 3, 2]
+ Cards: ['13C', '11D', '9C', '8D', '6H'] Rank: 'High Card' Values: [13, 11, 9, 8, 6]
+Hand #307: Player Two wins
+ Cards: ['12D', '11H', '9H', '7C', '6S'] Rank: 'High Card' Values: [12, 11, 9, 7, 6]
+ Cards: ['10H', '10D', '8S', '8H', '5H'] Rank: 'Two Pairs' Values: [8, 10, 5]
+Hand #308: Player One wins
+ Cards: ['12S', '10D', '10S', '7S', '7D'] Rank: 'Two Pairs' Values: [10, 7, 12]
+ Cards: ['13D', '11C', '7C', '3C', '2C'] Rank: 'High Card' Values: [13, 11, 7, 3, 2]
+Hand #309: Player Two wins
+ Cards: ['11D', '8S', '4H', '3C', '2D'] Rank: 'High Card' Values: [11, 8, 4, 3, 2]
+ Cards: ['14S', '14C', '10D', '4D', '2S'] Rank: 'One Pair' Values: [14, 10, 4, 2]
+Hand #310: Player One wins
+ Cards: ['14H', '13S', '6C', '4C', '4S'] Rank: 'One Pair' Values: [4, 14, 13, 6]
+ Cards: ['14S', '9H', '8C', '7D', '6H'] Rank: 'High Card' Values: [14, 9, 8, 7, 6]
+Hand #311: Player Two wins
+ Cards: ['12S', '9S', '5S', '3C', '2C'] Rank: 'High Card' Values: [12, 9, 5, 3, 2]
+ Cards: ['14C', '13D', '5D', '4D', '4S'] Rank: 'One Pair' Values: [4, 14, 13, 5]
+Hand #312: Player One wins
+ Cards: ['13H', '11S', '10S', '2D', '2C'] Rank: 'One Pair' Values: [2, 13, 11, 10]
+ Cards: ['14S', '13C', '12H', '8C', '5D'] Rank: 'High Card' Values: [14, 13, 12, 8, 5]
+Hand #313: Player Two wins
+ Cards: ['13D', '10H', '8S', '6C', '3H'] Rank: 'High Card' Values: [13, 10, 8, 6, 3]
+ Cards: ['14C', '13H', '9S', '7S', '6H'] Rank: 'High Card' Values: [14, 13, 9, 7, 6]
+Hand #314: Player Two wins
+ Cards: ['14H', '12S', '7S', '6H', '6C'] Rank: 'One Pair' Values: [6, 14, 12, 7]
+ Cards: ['5D', '5H', '4H', '2S', '2H'] Rank: 'Two Pairs' Values: [2, 5, 4]
+Hand #315: Player One wins
+ Cards: ['12D', '11C', '5H', '2C', '2S'] Rank: 'One Pair' Values: [2, 12, 11, 5]
+ Cards: ['14S', '12C', '11D', '7D', '6S'] Rank: 'High Card' Values: [14, 12, 11, 7, 6]
+Hand #316: Player Two wins
+ Cards: ['14S', '13D', '10C', '8H', '6C'] Rank: 'High Card' Values: [14, 13, 10, 8, 6]
+ Cards: ['11H', '9D', '9S', '7D', '2C'] Rank: 'One Pair' Values: [9, 11, 7, 2]
+Hand #317: Player Two wins
+ Cards: ['14H', '8S', '6C', '4C', '2H'] Rank: 'High Card' Values: [14, 8, 6, 4, 2]
+ Cards: ['10D', '10H', '10S', '7C', '3H'] Rank: 'Three of a Kind' Values: [10, 7, 3]
+Hand #318: Player Two wins
+ Cards: ['13D', '12H', '10S', '6C', '4S'] Rank: 'High Card' Values: [13, 12, 10, 6, 4]
+ Cards: ['14H', '9D', '9C', '8D', '7D'] Rank: 'One Pair' Values: [9, 14, 8, 7]
+Hand #319: Player One wins
+ Cards: ['12D', '12C', '11S', '6D', '5C'] Rank: 'One Pair' Values: [12, 11, 6, 5]
+ Cards: ['13D', '9C', '8C', '5D', '2H'] Rank: 'High Card' Values: [13, 9, 8, 5, 2]
+Hand #320: Player Two wins
+ Cards: ['14D', '12H', '11H', '6S', '3C'] Rank: 'High Card' Values: [14, 12, 11, 6, 3]
+ Cards: ['14H', '13C', '8S', '6D', '6H'] Rank: 'One Pair' Values: [6, 14, 13, 8]
+Hand #321: Player One wins
+ Cards: ['7C', '7S', '5S', '4C', '3D'] Rank: 'One Pair' Values: [7, 5, 4, 3]
+ Cards: ['11C', '6S', '5H', '3S', '3C'] Rank: 'One Pair' Values: [3, 11, 6, 5]
+Hand #322: Player One wins
+ Cards: ['12H', '7C', '5H', '3C', '3S'] Rank: 'One Pair' Values: [3, 12, 7, 5]
+ Cards: ['13D', '10S', '9C', '8C', '4C'] Rank: 'High Card' Values: [13, 10, 9, 8, 4]
+Hand #323: Player One wins
+ Cards: ['12D', '7S', '7H', '5H', '3S'] Rank: 'One Pair' Values: [7, 12, 5, 3]
+ Cards: ['13D', '12H', '11C', '8C', '7C'] Rank: 'High Card' Values: [13, 12, 11, 8, 7]
+Hand #324: Player One wins
+ Cards: ['13D', '13H', '4C', '3C', '2S'] Rank: 'One Pair' Values: [13, 4, 3, 2]
+ Cards: ['14C', '10S', '7C', '6S', '2C'] Rank: 'High Card' Values: [14, 10, 7, 6, 2]
+Hand #325: Player Two wins
+ Cards: ['13H', '6H', '4C', '3C', '2C'] Rank: 'High Card' Values: [13, 6, 4, 3, 2]
+ Cards: ['12D', '7S', '5H', '5S', '4D'] Rank: 'One Pair' Values: [5, 12, 7, 4]
+Hand #326: Player Two wins
+ Cards: ['12D', '10S', '8S', '7C', '4D'] Rank: 'High Card' Values: [12, 10, 8, 7, 4]
+ Cards: ['13S', '13D', '9D', '6H', '3C'] Rank: 'One Pair' Values: [13, 9, 6, 3]
+Hand #327: Player One wins
+ Cards: ['12S', '10S', '7S', '4D', '4C'] Rank: 'One Pair' Values: [4, 12, 10, 7]
+ Cards: ['12D', '10C', '9S', '8D', '3H'] Rank: 'High Card' Values: [12, 10, 9, 8, 3]
+Hand #328: Player Two wins
+ Cards: ['14C', '12H', '10S', '6S', '3C'] Rank: 'High Card' Values: [14, 12, 10, 6, 3]
+ Cards: ['12S', '9H', '9D', '8S', '6H'] Rank: 'One Pair' Values: [9, 12, 8, 6]
+Hand #329: Player Two wins
+ Cards: ['11S', '7S', '5D', '4S', '3S'] Rank: 'High Card' Values: [11, 7, 5, 4, 3]
+ Cards: ['12H', '10H', '6C', '6S', '2D'] Rank: 'One Pair' Values: [6, 12, 10, 2]
+Hand #330: Player One wins
+ Cards: ['14S', '11S', '5D', '4C', '4H'] Rank: 'One Pair' Values: [4, 14, 11, 5]
+ Cards: ['14C', '10S', '9C', '8S', '3D'] Rank: 'High Card' Values: [14, 10, 9, 8, 3]
+Hand #331: Player Two wins
+ Cards: ['9C', '7C', '6S', '5C', '3S'] Rank: 'High Card' Values: [9, 7, 6, 5, 3]
+ Cards: ['14D', '14S', '12S', '6H', '3C'] Rank: 'One Pair' Values: [14, 12, 6, 3]
+Hand #332: Player Two wins
+ Cards: ['9S', '8C', '7H', '6S', '3H'] Rank: 'High Card' Values: [9, 8, 7, 6, 3]
+ Cards: ['14S', '13H', '11D', '9H', '7C'] Rank: 'High Card' Values: [14, 13, 11, 9, 7]
+Hand #333: Player One wins
+ Cards: ['7S', '6C', '4D', '3D', '3H'] Rank: 'One Pair' Values: [3, 7, 6, 4]
+ Cards: ['14C', '10H', '9C', '7C', '2H'] Rank: 'High Card' Values: [14, 10, 9, 7, 2]
+Hand #334: Player Two wins
+ Cards: ['14C', '10C', '5S', '4H', '3H'] Rank: 'High Card' Values: [14, 10, 5, 4, 3]
+ Cards: ['10H', '9C', '9H', '9S', '8D'] Rank: 'Three of a Kind' Values: [9, 10, 8]
+Hand #335: Player Two wins
+ Cards: ['9H', '8D', '6C', '5H', '4D'] Rank: 'High Card' Values: [9, 8, 6, 5, 4]
+ Cards: ['12D', '6S', '5D', '3S', '2H'] Rank: 'High Card' Values: [12, 6, 5, 3, 2]
+Hand #336: Player One wins
+ Cards: ['12S', '11D', '5C', '4C', '4D'] Rank: 'One Pair' Values: [4, 12, 11, 5]
+ Cards: ['14C', '12H', '10H', '8C', '3H'] Rank: 'High Card' Values: [14, 12, 10, 8, 3]
+Hand #337: Player Two wins
+ Cards: ['14D', '12C', '7H', '5S', '3C'] Rank: 'High Card' Values: [14, 12, 7, 5, 3]
+ Cards: ['13S', '11D', '6D', '4C', '4H'] Rank: 'One Pair' Values: [4, 13, 11, 6]
+Hand #338: Player Two wins
+ Cards: ['14H', '13S', '12S', '9H', '3H'] Rank: 'High Card' Values: [14, 13, 12, 9, 3]
+ Cards: ['11S', '11H', '5H', '2S', '2H'] Rank: 'Two Pairs' Values: [2, 11, 5]
+Hand #339: Player One wins
+ Cards: ['10H', '10S', '6S', '5S', '2H'] Rank: 'One Pair' Values: [10, 6, 5, 2]
+ Cards: ['13S', '11S', '5H', '3S', '3C'] Rank: 'One Pair' Values: [3, 13, 11, 5]
+Hand #340: Player Two wins
+ Cards: ['13C', '9S', '7H', '3D', '2D'] Rank: 'High Card' Values: [13, 9, 7, 3, 2]
+ Cards: ['11H', '11S', '10D', '7D', '6D'] Rank: 'One Pair' Values: [11, 10, 7, 6]
+Hand #341: Player Two wins
+ Cards: ['14C', '11S', '8H', '8C', '2C'] Rank: 'One Pair' Values: [8, 14, 11, 2]
+ Cards: ['11H', '11C', '10H', '7S', '2D'] Rank: 'One Pair' Values: [11, 10, 7, 2]
+Hand #342: Player Two wins
+ Cards: ['9S', '8H', '5D', '3D', '2H'] Rank: 'High Card' Values: [9, 8, 5, 3, 2]
+ Cards: ['14H', '13D', '11C', '10C', '9C'] Rank: 'High Card' Values: [14, 13, 11, 10, 9]
+Hand #343: Player Two wins
+ Cards: ['12D', '11C', '9D', '6D', '2H'] Rank: 'High Card' Values: [12, 11, 9, 6, 2]
+ Cards: ['13H', '12H', '10S', '10H', '9S'] Rank: 'One Pair' Values: [10, 13, 12, 9]
+Hand #344: Player Two wins
+ Cards: ['11D', '8D', '5H', '4S', '2C'] Rank: 'High Card' Values: [11, 8, 5, 4, 2]
+ Cards: ['13C', '10H', '10C', '9C', '3H'] Rank: 'One Pair' Values: [10, 13, 9, 3]
+Hand #345: Player One wins
+ Cards: ['14S', '9H', '7D', '4D', '3D'] Rank: 'High Card' Values: [14, 9, 7, 4, 3]
+ Cards: ['13H', '10H', '7S', '3H', '2H'] Rank: 'High Card' Values: [13, 10, 7, 3, 2]
+Hand #346: Player Two wins
+ Cards: ['13S', '11S', '7S', '4H', '2S'] Rank: 'High Card' Values: [13, 11, 7, 4, 2]
+ Cards: ['12D', '10S', '8S', '8D', '2H'] Rank: 'One Pair' Values: [8, 12, 10, 2]
+Hand #347: Player Two wins
+ Cards: ['13S', '11H', '8H', '6H', '5S'] Rank: 'High Card' Values: [13, 11, 8, 6, 5]
+ Cards: ['14C', '12C', '6S', '3S', '2S'] Rank: 'High Card' Values: [14, 12, 6, 3, 2]
+Hand #348: Player One wins
+ Cards: ['14S', '14D', '12S', '11C', '8H'] Rank: 'One Pair' Values: [14, 12, 11, 8]
+ Cards: ['13H', '12D', '6C', '4C', '4D'] Rank: 'One Pair' Values: [4, 13, 12, 6]
+Hand #349: Player One wins
+ Cards: ['10S', '10D', '9S', '3D', '2S'] Rank: 'One Pair' Values: [10, 9, 3, 2]
+ Cards: ['13S', '12S', '8D', '6S', '5C'] Rank: 'High Card' Values: [13, 12, 8, 6, 5]
+Hand #350: Player Two wins
+ Cards: ['13C', '12C', '6D', '4S', '3C'] Rank: 'High Card' Values: [13, 12, 6, 4, 3]
+ Cards: ['14D', '13H', '12D', '11H', '10H'] Rank: 'Straight' Values: [14, 13, 12, 11, 10]
+Hand #351: Player Two wins
+ Cards: ['14H', '13S', '9H', '4D', '2S'] Rank: 'High Card' Values: [14, 13, 9, 4, 2]
+ Cards: ['12S', '11H', '11C', '8D', '7C'] Rank: 'One Pair' Values: [11, 12, 8, 7]
+Hand #352: Player Two wins
+ Cards: ['10H', '8H', '6C', '3C', '2D'] Rank: 'High Card' Values: [10, 8, 6, 3, 2]
+ Cards: ['13S', '12D', '12H', '3S', '2S'] Rank: 'One Pair' Values: [12, 13, 3, 2]
+Hand #353: Player Two wins
+ Cards: ['10S', '9S', '6H', '5D', '4C'] Rank: 'High Card' Values: [10, 9, 6, 5, 4]
+ Cards: ['12D', '11S', '11D', '10D', '9D'] Rank: 'One Pair' Values: [11, 12, 10, 9]
+Hand #354: Player One wins
+ Cards: ['13H', '13S', '8H', '8S', '5H'] Rank: 'Two Pairs' Values: [8, 13, 5]
+ Cards: ['14D', '13D', '10D', '7C', '4S'] Rank: 'High Card' Values: [14, 13, 10, 7, 4]
+Hand #355: Player Two wins
+ Cards: ['14S', '11C', '7C', '5S', '2C'] Rank: 'High Card' Values: [14, 11, 7, 5, 2]
+ Cards: ['9C', '8S', '7D', '6C', '5H'] Rank: 'Straight' Values: [9, 8, 7, 6, 5]
+Hand #356: Player Two wins
+ Cards: ['13H', '12D', '10S', '9S', '6S'] Rank: 'High Card' Values: [13, 12, 10, 9, 6]
+ Cards: ['13C', '12S', '12H', '5S', '3C'] Rank: 'One Pair' Values: [12, 13, 5, 3]
+Hand #357: Player Two wins
+ Cards: ['13D', '7D', '5C', '3H', '3C'] Rank: 'One Pair' Values: [3, 13, 7, 5]
+ Cards: ['14S', '11H', '11D', '7H', '6H'] Rank: 'One Pair' Values: [11, 14, 7, 6]
+Hand #358: Player One wins
+ Cards: ['13C', '9D', '9H', '8H', '5C'] Rank: 'One Pair' Values: [9, 13, 8, 5]
+ Cards: ['14D', '13S', '4S', '4D', '2S'] Rank: 'One Pair' Values: [4, 14, 13, 2]
+Hand #359: Player Two wins
+ Cards: ['12D', '11D', '8D', '3S', '2S'] Rank: 'High Card' Values: [12, 11, 8, 3, 2]
+ Cards: ['10S', '7C', '6S', '5S', '5H'] Rank: 'One Pair' Values: [5, 10, 7, 6]
+Hand #360: Player One wins
+ Cards: ['13C', '10D', '9S', '6D', '3S'] Rank: 'High Card' Values: [13, 10, 9, 6, 3]
+ Cards: ['12D', '11D', '8D', '6H', '5C'] Rank: 'High Card' Values: [12, 11, 8, 6, 5]
+Hand #361: Player One wins
+ Cards: ['13D', '10S', '9D', '8D', '5H'] Rank: 'High Card' Values: [13, 10, 9, 8, 5]
+ Cards: ['12C', '10D', '7D', '6H', '4C'] Rank: 'High Card' Values: [12, 10, 7, 6, 4]
+Hand #362: Player Two wins
+ Cards: ['14H', '11D', '9D', '6D', '4S'] Rank: 'High Card' Values: [14, 11, 9, 6, 4]
+ Cards: ['14S', '12D', '10D', '9S', '9H'] Rank: 'One Pair' Values: [9, 14, 12, 10]
+Hand #363: Player Two wins
+ Cards: ['9C', '6H', '5S', '2D', '2H'] Rank: 'One Pair' Values: [2, 9, 6, 5]
+ Cards: ['12C', '10D', '10C', '9S', '7D'] Rank: 'One Pair' Values: [10, 12, 9, 7]
+Hand #364: Player Two wins
+ Cards: ['13S', '10S', '3S', '2H', '2C'] Rank: 'One Pair' Values: [2, 13, 10, 3]
+ Cards: ['11S', '9C', '9D', '8S', '7D'] Rank: 'One Pair' Values: [9, 11, 8, 7]
+Hand #365: Player One wins
+ Cards: ['13C', '6D', '6C', '5D', '3C'] Rank: 'One Pair' Values: [6, 13, 5, 3]
+ Cards: ['14S', '12S', '8S', '7S', '6H'] Rank: 'High Card' Values: [14, 12, 8, 7, 6]
+Hand #366: Player Two wins
+ Cards: ['11H', '9S', '8D', '4C', '2H'] Rank: 'High Card' Values: [11, 9, 8, 4, 2]
+ Cards: ['14D', '13H', '10H', '9H', '8H'] Rank: 'High Card' Values: [14, 13, 10, 9, 8]
+Hand #367: Player One wins
+ Cards: ['14S', '12C', '11S', '5C', '2S'] Rank: 'High Card' Values: [14, 12, 11, 5, 2]
+ Cards: ['13D', '7H', '6H', '3H', '2C'] Rank: 'High Card' Values: [13, 7, 6, 3, 2]
+Hand #368: Player One wins
+ Cards: ['12D', '8H', '8D', '3S', '2S'] Rank: 'One Pair' Values: [8, 12, 3, 2]
+ Cards: ['14H', '10C', '6D', '5C', '2C'] Rank: 'High Card' Values: [14, 10, 6, 5, 2]
+Hand #369: Player One wins
+ Cards: ['11D', '11S', '10S', '8S', '3H'] Rank: 'One Pair' Values: [11, 10, 8, 3]
+ Cards: ['13C', '11C', '10D', '6H', '5D'] Rank: 'High Card' Values: [13, 11, 10, 6, 5]
+Hand #370: Player Two wins
+ Cards: ['12S', '10C', '6S', '5D', '3H'] Rank: 'High Card' Values: [12, 10, 6, 5, 3]
+ Cards: ['14H', '11C', '7C', '7D', '4H'] Rank: 'One Pair' Values: [7, 14, 11, 4]
+Hand #371: Player Two wins
+ Cards: ['9C', '8H', '7C', '5D', '2H'] Rank: 'High Card' Values: [9, 8, 7, 5, 2]
+ Cards: ['13H', '11H', '9H', '5S', '2C'] Rank: 'High Card' Values: [13, 11, 9, 5, 2]
+Hand #372: Player Two wins
+ Cards: ['10H', '9C', '7H', '6S', '3S'] Rank: 'High Card' Values: [10, 9, 7, 6, 3]
+ Cards: ['14C', '12C', '12D', '11D', '4C'] Rank: 'One Pair' Values: [12, 14, 11, 4]
+Hand #373: Player Two wins
+ Cards: ['13C', '9S', '7D', '5D', '2H'] Rank: 'High Card' Values: [13, 9, 7, 5, 2]
+ Cards: ['14S', '13H', '12S', '3S', '2D'] Rank: 'High Card' Values: [14, 13, 12, 3, 2]
+Hand #374: Player Two wins
+ Cards: ['7D', '5C', '4S', '2S', '2H'] Rank: 'One Pair' Values: [2, 7, 5, 4]
+ Cards: ['12H', '10D', '10H', '9S', '4D'] Rank: 'One Pair' Values: [10, 12, 9, 4]
+Hand #375: Player One wins
+ Cards: ['10S', '6D', '6H', '4H', '3S'] Rank: 'One Pair' Values: [6, 10, 4, 3]
+ Cards: ['13S', '9D', '8H', '5S', '2D'] Rank: 'High Card' Values: [13, 9, 8, 5, 2]
+Hand #376: Player Two wins
+ Cards: ['13S', '9H', '5C', '4H', '3S'] Rank: 'High Card' Values: [13, 9, 5, 4, 3]
+ Cards: ['13H', '11S', '6H', '6S', '5D'] Rank: 'One Pair' Values: [6, 13, 11, 5]
+Hand #377: Player Two wins
+ Cards: ['14S', '13C', '11C', '8C', '4C'] Rank: 'High Card' Values: [14, 13, 11, 8, 4]
+ Cards: ['14H', '13H', '12C', '12D', '10H'] Rank: 'One Pair' Values: [12, 14, 13, 10]
+Hand #378: Player One wins
+ Cards: ['13H', '9S', '6S', '5H', '2C'] Rank: 'High Card' Values: [13, 9, 6, 5, 2]
+ Cards: ['11C', '10C', '7H', '4D', '3C'] Rank: 'High Card' Values: [11, 10, 7, 4, 3]
+Hand #379: Player Two wins
+ Cards: ['11D', '8D', '6S', '5S', '4S'] Rank: 'High Card' Values: [11, 8, 6, 5, 4]
+ Cards: ['7H', '7S', '4D', '4C', '2H'] Rank: 'Two Pairs' Values: [4, 7, 2]
+Hand #380: Player Two wins
+ Cards: ['13H', '9H', '9C', '7H', '5D'] Rank: 'One Pair' Values: [9, 13, 7, 5]
+ Cards: ['10S', '10C', '7C', '7S', '5H'] Rank: 'Two Pairs' Values: [10, 7, 5]
+Hand #381: Player One wins
+ Cards: ['12C', '10S', '8D', '4C', '4S'] Rank: 'One Pair' Values: [4, 12, 10, 8]
+ Cards: ['14D', '11S', '9H', '7C', '3D'] Rank: 'High Card' Values: [14, 11, 9, 7, 3]
+Hand #382: Player One wins
+ Cards: ['12S', '8C', '5C', '5D', '3H'] Rank: 'One Pair' Values: [5, 12, 8, 3]
+ Cards: ['14H', '13C', '11S', '9D', '4S'] Rank: 'High Card' Values: [14, 13, 11, 9, 4]
+Hand #383: Player Two wins
+ Cards: ['12S', '11D', '10S', '10H', '8S'] Rank: 'One Pair' Values: [10, 12, 11, 8]
+ Cards: ['13H', '12D', '11H', '11S', '2D'] Rank: 'One Pair' Values: [11, 13, 12, 2]
+Hand #384: Player One wins
+ Cards: ['12C', '11D', '9H', '6S', '5D'] Rank: 'High Card' Values: [12, 11, 9, 6, 5]
+ Cards: ['10S', '9S', '8H', '3S', '2C'] Rank: 'High Card' Values: [10, 9, 8, 3, 2]
+Hand #385: Player Two wins
+ Cards: ['14D', '11C', '7H', '4C', '2S'] Rank: 'High Card' Values: [14, 11, 7, 4, 2]
+ Cards: ['6D', '5C', '4H', '3D', '2D'] Rank: 'Straight' Values: [6, 5, 4, 3, 2]
+Hand #386: Player Two wins
+ Cards: ['11S', '8C', '7S', '4H', '2C'] Rank: 'High Card' Values: [11, 8, 7, 4, 2]
+ Cards: ['14D', '12D', '10D', '9C', '3S'] Rank: 'High Card' Values: [14, 12, 10, 9, 3]
+Hand #387: Player Two wins
+ Cards: ['11D', '10S', '9H', '6H', '4C'] Rank: 'High Card' Values: [11, 10, 9, 6, 4]
+ Cards: ['14S', '12D', '7D', '6D', '3C'] Rank: 'High Card' Values: [14, 12, 7, 6, 3]
+Hand #388: Player Two wins
+ Cards: ['14S', '7C', '6S', '5D', '4C'] Rank: 'High Card' Values: [14, 7, 6, 5, 4]
+ Cards: ['12C', '11S', '5S', '5C', '4S'] Rank: 'One Pair' Values: [5, 12, 11, 4]
+Hand #389: Player Two wins
+ Cards: ['13D', '9S', '7C', '6S', '3C'] Rank: 'High Card' Values: [13, 9, 7, 6, 3]
+ Cards: ['12D', '11H', '11S', '7D', '5S'] Rank: 'One Pair' Values: [11, 12, 7, 5]
+Hand #390: Player Two wins
+ Cards: ['11H', '8S', '7S', '4S', '2C'] Rank: 'High Card' Values: [11, 8, 7, 4, 2]
+ Cards: ['14D', '12H', '7H', '5D', '3D'] Rank: 'High Card' Values: [14, 12, 7, 5, 3]
+Hand #391: Player Two wins
+ Cards: ['10D', '8D', '6H', '4H', '2H'] Rank: 'High Card' Values: [10, 8, 6, 4, 2]
+ Cards: ['14D', '13H', '7C', '5D', '2D'] Rank: 'High Card' Values: [14, 13, 7, 5, 2]
+Hand #392: Player Two wins
+ Cards: ['12D', '10S', '5H', '3S', '2C'] Rank: 'High Card' Values: [12, 10, 5, 3, 2]
+ Cards: ['14H', '13H', '10D', '5C', '2S'] Rank: 'High Card' Values: [14, 13, 10, 5, 2]
+Hand #393: Player Two wins
+ Cards: ['14S', '13C', '8C', '5D', '4D'] Rank: 'High Card' Values: [14, 13, 8, 5, 4]
+ Cards: ['9H', '7C', '6C', '2H', '2S'] Rank: 'One Pair' Values: [2, 9, 7, 6]
+Hand #394: Player One wins
+ Cards: ['13D', '12C', '12S', '11S', '10S'] Rank: 'One Pair' Values: [12, 13, 11, 10]
+ Cards: ['14D', '13H', '11H', '5D', '2C'] Rank: 'High Card' Values: [14, 13, 11, 5, 2]
+Hand #395: Player Two wins
+ Cards: ['13C', '9H', '6C', '5H', '3S'] Rank: 'High Card' Values: [13, 9, 6, 5, 3]
+ Cards: ['14D', '7D', '7S', '3H', '2H'] Rank: 'One Pair' Values: [7, 14, 3, 2]
+Hand #396: Player Two wins
+ Cards: ['13D', '11S', '11H', '8S', '7S'] Rank: 'One Pair' Values: [11, 13, 8, 7]
+ Cards: ['9H', '7D', '7C', '2S', '2H'] Rank: 'Two Pairs' Values: [2, 7, 9]
+Hand #397: Player Two wins
+ Cards: ['12C', '9H', '8D', '6S', '2D'] Rank: 'High Card' Values: [12, 9, 8, 6, 2]
+ Cards: ['14D', '14S', '8H', '6C', '5H'] Rank: 'One Pair' Values: [14, 8, 6, 5]
+Hand #398: Player One wins
+ Cards: ['7H', '7D', '6C', '6D', '2S'] Rank: 'Two Pairs' Values: [6, 7, 2]
+ Cards: ['11C', '9D', '8C', '5D', '3C'] Rank: 'High Card' Values: [11, 9, 8, 5, 3]
+Hand #399: Player Two wins
+ Cards: ['11D', '9C', '7C', '7H', '2H'] Rank: 'One Pair' Values: [7, 11, 9, 2]
+ Cards: ['14D', '13D', '13H', '4S', '3S'] Rank: 'One Pair' Values: [13, 14, 4, 3]
+Hand #400: Player Two wins
+ Cards: ['14S', '12H', '11D', '9H', '4D'] Rank: 'High Card' Values: [14, 12, 11, 9, 4]
+ Cards: ['13S', '13D', '13H', '10S', '5H'] Rank: 'Three of a Kind' Values: [13, 10, 5]
+Hand #401: Player Two wins
+ Cards: ['8H', '5S', '4C', '3S', '3D'] Rank: 'One Pair' Values: [3, 8, 5, 4]
+ Cards: ['14D', '13C', '10D', '7D', '7S'] Rank: 'One Pair' Values: [7, 14, 13, 10]
+Hand #402: Player One wins
+ Cards: ['11S', '11C', '8S', '8H', '5S'] Rank: 'Two Pairs' Values: [8, 11, 5]
+ Cards: ['13C', '10H', '9C', '5D', '4D'] Rank: 'High Card' Values: [13, 10, 9, 5, 4]
+Hand #403: Player Two wins
+ Cards: ['12D', '9C', '7C', '5S', '2C'] Rank: 'High Card' Values: [12, 9, 7, 5, 2]
+ Cards: ['13H', '12H', '11S', '8D', '5H'] Rank: 'High Card' Values: [13, 12, 11, 8, 5]
+Hand #404: Player One wins
+ Cards: ['14D', '13S', '10D', '3D', '2S'] Rank: 'High Card' Values: [14, 13, 10, 3, 2]
+ Cards: ['13C', '10C', '7S', '5D', '3C'] Rank: 'High Card' Values: [13, 10, 7, 5, 3]
+Hand #405: Player Two wins
+ Cards: ['14D', '12S', '6C', '4C', '2S'] Rank: 'High Card' Values: [14, 12, 6, 4, 2]
+ Cards: ['12D', '12H', '10H', '9S', '5C'] Rank: 'One Pair' Values: [12, 10, 9, 5]
+Hand #406: Player Two wins
+ Cards: ['14D', '12S', '8C', '2D', '2S'] Rank: 'One Pair' Values: [2, 14, 12, 8]
+ Cards: ['13C', '13S', '11D', '11C', '6C'] Rank: 'Two Pairs' Values: [11, 13, 6]
+Hand #407: Player Two wins
+ Cards: ['11S', '8D', '5D', '4D', '2H'] Rank: 'High Card' Values: [11, 8, 5, 4, 2]
+ Cards: ['12D', '12H', '10S', '7S', '7D'] Rank: 'Two Pairs' Values: [12, 7, 10]
+Hand #408: Player Two wins
+ Cards: ['8C', '8S', '7H', '6S', '3S'] Rank: 'One Pair' Values: [8, 7, 6, 3]
+ Cards: ['12S', '9D', '9S', '8H', '6C'] Rank: 'One Pair' Values: [9, 12, 8, 6]
+Hand #409: Player Two wins
+ Cards: ['12D', '10C', '5C', '4S', '2S'] Rank: 'High Card' Values: [12, 10, 5, 4, 2]
+ Cards: ['12S', '10H', '6D', '6S', '4D'] Rank: 'One Pair' Values: [6, 12, 10, 4]
+Hand #410: Player Two wins
+ Cards: ['9D', '8D', '6H', '5C', '3S'] Rank: 'High Card' Values: [9, 8, 6, 5, 3]
+ Cards: ['10C', '10D', '7D', '7C', '4C'] Rank: 'Two Pairs' Values: [10, 7, 4]
+Hand #411: Player One wins
+ Cards: ['14H', '14S', '7H', '6S', '5S'] Rank: 'One Pair' Values: [14, 7, 6, 5]
+ Cards: ['14C', '13D', '5H', '4C', '3H'] Rank: 'High Card' Values: [14, 13, 5, 4, 3]
+Hand #412: Player One wins
+ Cards: ['14H', '13S', '12S', '8D', '8S'] Rank: 'One Pair' Values: [8, 14, 13, 12]
+ Cards: ['14D', '7D', '6H', '5D', '2C'] Rank: 'High Card' Values: [14, 7, 6, 5, 2]
+Hand #413: Player One wins
+ Cards: ['12S', '9H', '9S', '6H', '2H'] Rank: 'One Pair' Values: [9, 12, 6, 2]
+ Cards: ['13D', '9C', '8S', '5D', '2D'] Rank: 'High Card' Values: [13, 9, 8, 5, 2]
+Hand #414: Player Two wins
+ Cards: ['12C', '11H', '10S', '7D', '5S'] Rank: 'High Card' Values: [12, 11, 10, 7, 5]
+ Cards: ['14C', '10H', '9S', '9H', '7S'] Rank: 'One Pair' Values: [9, 14, 10, 7]
+Hand #415: Player One wins
+ Cards: ['13C', '7H', '6S', '4D', '3H'] Rank: 'High Card' Values: [13, 7, 6, 4, 3]
+ Cards: ['12D', '10S', '6D', '5C', '4S'] Rank: 'High Card' Values: [12, 10, 6, 5, 4]
+Hand #416: Player Two wins
+ Cards: ['12D', '10D', '7C', '3H', '2S'] Rank: 'High Card' Values: [12, 10, 7, 3, 2]
+ Cards: ['11H', '9D', '7S', '7H', '4H'] Rank: 'One Pair' Values: [7, 11, 9, 4]
+Hand #417: Player Two wins
+ Cards: ['13S', '10C', '5H', '4H', '3D'] Rank: 'High Card' Values: [13, 10, 5, 4, 3]
+ Cards: ['14S', '7D', '6D', '2S', '2D'] Rank: 'One Pair' Values: [2, 14, 7, 6]
+Hand #418: Player Two wins
+ Cards: ['10D', '8H', '7H', '3C', '3H'] Rank: 'One Pair' Values: [3, 10, 8, 7]
+ Cards: ['14D', '13C', '13H', '10H', '9C'] Rank: 'One Pair' Values: [13, 14, 10, 9]
+Hand #419: Player One wins
+ Cards: ['10C', '9S', '9D', '4C', '2C'] Rank: 'One Pair' Values: [9, 10, 4, 2]
+ Cards: ['11D', '9C', '5C', '3C', '2H'] Rank: 'High Card' Values: [11, 9, 5, 3, 2]
+Hand #420: Player Two wins
+ Cards: ['14C', '14D', '10S', '5D', '3H'] Rank: 'One Pair' Values: [14, 10, 5, 3]
+ Cards: ['12C', '8D', '8C', '6H', '6S'] Rank: 'Two Pairs' Values: [8, 6, 12]
+Hand #421: Player Two wins
+ Cards: ['11D', '10S', '7H', '3S', '2S'] Rank: 'High Card' Values: [11, 10, 7, 3, 2]
+ Cards: ['12H', '8S', '8D', '5S', '4C'] Rank: 'One Pair' Values: [8, 12, 5, 4]
+Hand #422: Player Two wins
+ Cards: ['14C', '13H', '6C', '4S', '3C'] Rank: 'High Card' Values: [14, 13, 6, 4, 3]
+ Cards: ['8S', '7C', '3D', '2D', '2H'] Rank: 'One Pair' Values: [2, 8, 7, 3]
+Hand #423: Player One wins
+ Cards: ['10H', '8S', '6C', '4H', '2H'] Rank: 'High Card' Values: [10, 8, 6, 4, 2]
+ Cards: ['9S', '8H', '7S', '4S', '3H'] Rank: 'High Card' Values: [9, 8, 7, 4, 3]
+Hand #424: Player One wins
+ Cards: ['9C', '7C', '5C', '4C', '2C'] Rank: 'Flush' Values: [9, 7, 5, 4, 2]
+ Cards: ['14S', '13D', '12H', '5D', '4D'] Rank: 'High Card' Values: [14, 13, 12, 5, 4]
+Hand #425: Player Two wins
+ Cards: ['14S', '10S', '9H', '7D', '4H'] Rank: 'High Card' Values: [14, 10, 9, 7, 4]
+ Cards: ['9S', '8D', '8C', '5D', '2H'] Rank: 'One Pair' Values: [8, 9, 5, 2]
+Hand #426: Player One wins
+ Cards: ['14C', '14D', '13D', '12C', '2H'] Rank: 'One Pair' Values: [14, 13, 12, 2]
+ Cards: ['14S', '9S', '7S', '3S', '2D'] Rank: 'High Card' Values: [14, 9, 7, 3, 2]
+Hand #427: Player Two wins
+ Cards: ['12C', '10C', '8H', '6D', '2H'] Rank: 'High Card' Values: [12, 10, 8, 6, 2]
+ Cards: ['13H', '12D', '12S', '5D', '3C'] Rank: 'One Pair' Values: [12, 13, 5, 3]
+Hand #428: Player Two wins
+ Cards: ['12S', '11D', '10H', '4C', '2S'] Rank: 'High Card' Values: [12, 11, 10, 4, 2]
+ Cards: ['14D', '14S', '7H', '5S', '3S'] Rank: 'One Pair' Values: [14, 7, 5, 3]
+Hand #429: Player Two wins
+ Cards: ['11S', '7H', '6C', '3D', '3S'] Rank: 'One Pair' Values: [3, 11, 7, 6]
+ Cards: ['14S', '14C', '12S', '9S', '6D'] Rank: 'One Pair' Values: [14, 12, 9, 6]
+Hand #430: Player Two wins
+ Cards: ['14S', '10S', '10C', '9C', '8C'] Rank: 'One Pair' Values: [10, 14, 9, 8]
+ Cards: ['9D', '8S', '8D', '6H', '6C'] Rank: 'Two Pairs' Values: [8, 6, 9]
+Hand #431: Player Two wins
+ Cards: ['13C', '11D', '9C', '7C', '4D'] Rank: 'High Card' Values: [13, 11, 9, 7, 4]
+ Cards: ['14S', '13S', '8C', '6D', '3S'] Rank: 'High Card' Values: [14, 13, 8, 6, 3]
+Hand #432: Player One wins
+ Cards: ['10C', '10S', '8D', '6S', '3H'] Rank: 'One Pair' Values: [10, 8, 6, 3]
+ Cards: ['14S', '13C', '9S', '7C', '3S'] Rank: 'High Card' Values: [14, 13, 9, 7, 3]
+Hand #433: Player One wins
+ Cards: ['12C', '8C', '8S', '4H', '4S'] Rank: 'Two Pairs' Values: [8, 4, 12]
+ Cards: ['14H', '14C', '10C', '6C', '3S'] Rank: 'One Pair' Values: [14, 10, 6, 3]
+Hand #434: Player Two wins
+ Cards: ['14S', '7D', '5C', '4D', '2H'] Rank: 'High Card' Values: [14, 7, 5, 4, 2]
+ Cards: ['14D', '12C', '10S', '10C', '6S'] Rank: 'One Pair' Values: [10, 14, 12, 6]
+Hand #435: Player One wins
+ Cards: ['12D', '12C', '10H', '8S', '4S'] Rank: 'One Pair' Values: [12, 10, 8, 4]
+ Cards: ['14H', '11H', '10S', '4H', '3D'] Rank: 'High Card' Values: [14, 11, 10, 4, 3]
+Hand #436: Player Two wins
+ Cards: ['9S', '5C', '3H', '2D', '2C'] Rank: 'One Pair' Values: [2, 9, 5, 3]
+ Cards: ['12D', '12H', '9D', '7D', '3C'] Rank: 'One Pair' Values: [12, 9, 7, 3]
+Hand #437: Player One wins
+ Cards: ['13C', '13D', '9H', '7S', '6C'] Rank: 'One Pair' Values: [13, 9, 7, 6]
+ Cards: ['14S', '10C', '4D', '3C', '2D'] Rank: 'High Card' Values: [14, 10, 4, 3, 2]
+Hand #438: Player Two wins
+ Cards: ['13S', '11S', '9D', '4D', '3D'] Rank: 'High Card' Values: [13, 11, 9, 4, 3]
+ Cards: ['12C', '10H', '7D', '3H', '3C'] Rank: 'One Pair' Values: [3, 12, 10, 7]
+Hand #439: Player Two wins
+ Cards: ['9D', '8D', '5S', '3H', '2H'] Rank: 'High Card' Values: [9, 8, 5, 3, 2]
+ Cards: ['10H', '8C', '4C', '4H', '3C'] Rank: 'One Pair' Values: [4, 10, 8, 3]
+Hand #440: Player One wins
+ Cards: ['11C', '11D', '10H', '6S', '4S'] Rank: 'One Pair' Values: [11, 10, 6, 4]
+ Cards: ['6C', '4D', '4C', '3D', '2D'] Rank: 'One Pair' Values: [4, 6, 3, 2]
+Hand #441: Player Two wins
+ Cards: ['14C', '10S', '4H', '3S', '2D'] Rank: 'High Card' Values: [14, 10, 4, 3, 2]
+ Cards: ['11H', '6S', '6H', '2C', '2H'] Rank: 'Two Pairs' Values: [2, 6, 11]
+Hand #442: Player One wins
+ Cards: ['14D', '14H', '10D', '10C', '8S'] Rank: 'Two Pairs' Values: [10, 14, 8]
+ Cards: ['14C', '11H', '9S', '7S', '6S'] Rank: 'High Card' Values: [14, 11, 9, 7, 6]
+Hand #443: Player Two wins
+ Cards: ['13C', '11D', '8D', '6C', '4S'] Rank: 'High Card' Values: [13, 11, 8, 6, 4]
+ Cards: ['14H', '12H', '9H', '7H', '5S'] Rank: 'High Card' Values: [14, 12, 9, 7, 5]
+Hand #444: Player Two wins
+ Cards: ['13D', '11H', '10S', '8D', '5C'] Rank: 'High Card' Values: [13, 11, 10, 8, 5]
+ Cards: ['14D', '14S', '11S', '5H', '3H'] Rank: 'One Pair' Values: [14, 11, 5, 3]
+Hand #445: Player Two wins
+ Cards: ['8C', '6C', '4H', '3D', '2D'] Rank: 'High Card' Values: [8, 6, 4, 3, 2]
+ Cards: ['14D', '8S', '7S', '5D', '5C'] Rank: 'One Pair' Values: [5, 14, 8, 7]
+Hand #446: Player Two wins
+ Cards: ['10D', '9C', '7S', '5D', '4S'] Rank: 'High Card' Values: [10, 9, 7, 5, 4]
+ Cards: ['8C', '8S', '6C', '5H', '4C'] Rank: 'One Pair' Values: [8, 6, 5, 4]
+Hand #447: Player Two wins
+ Cards: ['14S', '12H', '11S', '9C', '5C'] Rank: 'High Card' Values: [14, 12, 11, 9, 5]
+ Cards: ['12S', '12C', '11C', '7C', '3D'] Rank: 'One Pair' Values: [12, 11, 7, 3]
+Hand #448: Player One wins
+ Cards: ['13H', '12S', '11C', '11H', '9C'] Rank: 'One Pair' Values: [11, 13, 12, 9]
+ Cards: ['14D', '12C', '10S', '3D', '2C'] Rank: 'High Card' Values: [14, 12, 10, 3, 2]
+Hand #449: Player One wins
+ Cards: ['14C', '11H', '9S', '5D', '5C'] Rank: 'One Pair' Values: [5, 14, 11, 9]
+ Cards: ['13S', '11D', '10S', '8C', '4C'] Rank: 'High Card' Values: [13, 11, 10, 8, 4]
+Hand #450: Player Two wins
+ Cards: ['14S', '13C', '13H', '9H', '2D'] Rank: 'One Pair' Values: [13, 14, 9, 2]
+ Cards: ['6H', '5S', '4D', '3D', '2C'] Rank: 'Straight' Values: [6, 5, 4, 3, 2]
+Hand #451: Player Two wins
+ Cards: ['14H', '11C', '10H', '8S', '2D'] Rank: 'High Card' Values: [14, 11, 10, 8, 2]
+ Cards: ['12H', '8C', '7S', '3D', '3S'] Rank: 'One Pair' Values: [3, 12, 8, 7]
+Hand #452: Player Two wins
+ Cards: ['14S', '12D', '11C', '8H', '4H'] Rank: 'High Card' Values: [14, 12, 11, 8, 4]
+ Cards: ['13H', '13S', '9S', '6D', '3C'] Rank: 'One Pair' Values: [13, 9, 6, 3]
+Hand #453: Player Two wins
+ Cards: ['12H', '9S', '9C', '7D', '4S'] Rank: 'One Pair' Values: [9, 12, 7, 4]
+ Cards: ['14C', '13H', '13D', '7H', '4D'] Rank: 'One Pair' Values: [13, 14, 7, 4]
+Hand #454: Player One wins
+ Cards: ['14H', '14D', '10H', '9C', '6D'] Rank: 'One Pair' Values: [14, 10, 9, 6]
+ Cards: ['13D', '13S', '12H', '9S', '4H'] Rank: 'One Pair' Values: [13, 12, 9, 4]
+Hand #455: Player One wins
+ Cards: ['12D', '12S', '9C', '7C', '6H'] Rank: 'One Pair' Values: [12, 9, 7, 6]
+ Cards: ['11H', '9D', '6D', '6S', '5S'] Rank: 'One Pair' Values: [6, 11, 9, 5]
+Hand #456: Player Two wins
+ Cards: ['14H', '12D', '8D', '5H', '2H'] Rank: 'High Card' Values: [14, 12, 8, 5, 2]
+ Cards: ['13S', '13H', '11C', '5S', '4H'] Rank: 'One Pair' Values: [13, 11, 5, 4]
+Hand #457: Player Two wins
+ Cards: ['11S', '9C', '8D', '5C', '2S'] Rank: 'High Card' Values: [11, 9, 8, 5, 2]
+ Cards: ['14S', '14H', '13C', '8C', '3D'] Rank: 'One Pair' Values: [14, 13, 8, 3]
+Hand #458: Player Two wins
+ Cards: ['12S', '11D', '9S', '8H', '2H'] Rank: 'High Card' Values: [12, 11, 9, 8, 2]
+ Cards: ['10H', '8C', '5S', '5C', '4C'] Rank: 'One Pair' Values: [5, 10, 8, 4]
+Hand #459: Player One wins
+ Cards: ['12C', '12S', '8C', '2S', '2C'] Rank: 'Two Pairs' Values: [2, 12, 8]
+ Cards: ['13S', '13H', '9C', '4C', '3S'] Rank: 'One Pair' Values: [13, 9, 4, 3]
+Hand #460: Player One wins
+ Cards: ['14H', '14D', '8S', '5D', '2D'] Rank: 'One Pair' Values: [14, 8, 5, 2]
+ Cards: ['13S', '11S', '10D', '8C', '2C'] Rank: 'High Card' Values: [13, 11, 10, 8, 2]
+Hand #461: Player Two wins
+ Cards: ['12C', '10C', '8H', '5S', '5H'] Rank: 'One Pair' Values: [5, 12, 10, 8]
+ Cards: ['11D', '9H', '9S', '6H', '4H'] Rank: 'One Pair' Values: [9, 11, 6, 4]
+Hand #462: Player Two wins
+ Cards: ['14H', '11H', '9H', '4H', '3C'] Rank: 'High Card' Values: [14, 11, 9, 4, 3]
+ Cards: ['14C', '8D', '4S', '4C', '2H'] Rank: 'One Pair' Values: [4, 14, 8, 2]
+Hand #463: Player Two wins
+ Cards: ['10H', '8S', '7D', '6D', '4D'] Rank: 'High Card' Values: [10, 8, 7, 6, 4]
+ Cards: ['12D', '12S', '10C', '7S', '7C'] Rank: 'Two Pairs' Values: [12, 7, 10]
+Hand #464: Player Two wins
+ Cards: ['13H', '11D', '6D', '5H', '2D'] Rank: 'High Card' Values: [13, 11, 6, 5, 2]
+ Cards: ['12D', '11S', '11H', '4H', '4S'] Rank: 'Two Pairs' Values: [4, 11, 12]
+Hand #465: Player Two wins
+ Cards: ['11H', '9C', '7S', '4S', '3S'] Rank: 'High Card' Values: [11, 9, 7, 4, 3]
+ Cards: ['12C', '10S', '10C', '8C', '4H'] Rank: 'One Pair' Values: [10, 12, 8, 4]
+Hand #466: Player One wins
+ Cards: ['12H', '12S', '11H', '9D', '4D'] Rank: 'One Pair' Values: [12, 11, 9, 4]
+ Cards: ['7C', '6C', '3S', '2C', '2D'] Rank: 'One Pair' Values: [2, 7, 6, 3]
+Hand #467: Player One wins
+ Cards: ['11D', '9S', '5C', '5H', '4H'] Rank: 'One Pair' Values: [5, 11, 9, 4]
+ Cards: ['14H', '10S', '9D', '4C', '2D'] Rank: 'High Card' Values: [14, 10, 9, 4, 2]
+Hand #468: Player Two wins
+ Cards: ['13S', '11H', '10S', '5D', '2D'] Rank: 'High Card' Values: [13, 11, 10, 5, 2]
+ Cards: ['14H', '14S', '11S', '8D', '7H'] Rank: 'One Pair' Values: [14, 11, 8, 7]
+Hand #469: Player One wins
+ Cards: ['14H', '14D', '13S', '11S', '8C'] Rank: 'One Pair' Values: [14, 13, 11, 8]
+ Cards: ['10H', '8H', '6C', '5S', '2C'] Rank: 'High Card' Values: [10, 8, 6, 5, 2]
+Hand #470: Player One wins
+ Cards: ['14D', '14C', '13S', '5D', '2H'] Rank: 'One Pair' Values: [14, 13, 5, 2]
+ Cards: ['12C', '10S', '8H', '6H', '3D'] Rank: 'High Card' Values: [12, 10, 8, 6, 3]
+Hand #471: Player Two wins
+ Cards: ['10S', '9C', '6D', '5H', '4H'] Rank: 'High Card' Values: [10, 9, 6, 5, 4]
+ Cards: ['11S', '11H', '11D', '6S', '4C'] Rank: 'Three of a Kind' Values: [11, 6, 4]
+Hand #472: Player Two wins
+ Cards: ['12H', '11H', '6D', '4H', '2C'] Rank: 'High Card' Values: [12, 11, 6, 4, 2]
+ Cards: ['13C', '12S', '5D', '4C', '3C'] Rank: 'High Card' Values: [13, 12, 5, 4, 3]
+Hand #473: Player One wins
+ Cards: ['7H', '6H', '6C', '6S', '4H'] Rank: 'Three of a Kind' Values: [6, 7, 4]
+ Cards: ['13H', '12C', '8S', '8C', '2S'] Rank: 'One Pair' Values: [8, 13, 12, 2]
+Hand #474: Player Two wins
+ Cards: ['13S', '5D', '4H', '3H', '3D'] Rank: 'One Pair' Values: [3, 13, 5, 4]
+ Cards: ['14D', '10D', '10S', '4D', '3S'] Rank: 'One Pair' Values: [10, 14, 4, 3]
+Hand #475: Player One wins
+ Cards: ['8S', '7C', '7D', '5S', '2C'] Rank: 'One Pair' Values: [7, 8, 5, 2]
+ Cards: ['13S', '11S', '8C', '7S', '6C'] Rank: 'High Card' Values: [13, 11, 8, 7, 6]
+Hand #476: Player Two wins
+ Cards: ['7C', '5D', '5C', '3S', '2H'] Rank: 'One Pair' Values: [5, 7, 3, 2]
+ Cards: ['12D', '9C', '9H', '6D', '5H'] Rank: 'One Pair' Values: [9, 12, 6, 5]
+Hand #477: Player Two wins
+ Cards: ['13D', '11S', '9S', '8D', '2S'] Rank: 'High Card' Values: [13, 11, 9, 8, 2]
+ Cards: ['14C', '10D', '10S', '9D', '8C'] Rank: 'One Pair' Values: [10, 14, 9, 8]
+Hand #478: Player One wins
+ Cards: ['14C', '12D', '8C', '5H', '2S'] Rank: 'High Card' Values: [14, 12, 8, 5, 2]
+ Cards: ['13S', '9H', '7C', '4S', '3C'] Rank: 'High Card' Values: [13, 9, 7, 4, 3]
+Hand #479: Player Two wins
+ Cards: ['14S', '13H', '9C', '8S', '3H'] Rank: 'High Card' Values: [14, 13, 9, 8, 3]
+ Cards: ['14D', '12S', '11S', '4S', '4D'] Rank: 'One Pair' Values: [4, 14, 12, 11]
+Hand #480: Player One wins
+ Cards: ['14S', '14D', '10D', '4D', '2S'] Rank: 'One Pair' Values: [14, 10, 4, 2]
+ Cards: ['12S', '11C', '9H', '5H', '4C'] Rank: 'High Card' Values: [12, 11, 9, 5, 4]
+Hand #481: Player Two wins
+ Cards: ['10C', '7C', '5D', '4H', '2D'] Rank: 'High Card' Values: [10, 7, 5, 4, 2]
+ Cards: ['13C', '11S', '6C', '4S', '3S'] Rank: 'High Card' Values: [13, 11, 6, 4, 3]
+Hand #482: Player Two wins
+ Cards: ['14C', '9H', '5D', '4C', '2C'] Rank: 'High Card' Values: [14, 9, 5, 4, 2]
+ Cards: ['12S', '12H', '11D', '8S', '3D'] Rank: 'One Pair' Values: [12, 11, 8, 3]
+Hand #483: Player Two wins
+ Cards: ['12H', '8S', '6H', '3C', '2C'] Rank: 'High Card' Values: [12, 8, 6, 3, 2]
+ Cards: ['14C', '14H', '13D', '10C', '6D'] Rank: 'One Pair' Values: [14, 13, 10, 6]
+Hand #484: Player Two wins
+ Cards: ['12C', '12S', '6C', '4S', '3S'] Rank: 'One Pair' Values: [12, 6, 4, 3]
+ Cards: ['14C', '14D', '13H', '8D', '5C'] Rank: 'One Pair' Values: [14, 13, 8, 5]
+Hand #485: Player One wins
+ Cards: ['14C', '14S', '13H', '5S', '4C'] Rank: 'One Pair' Values: [14, 13, 5, 4]
+ Cards: ['12C', '9C', '8D', '5C', '2C'] Rank: 'High Card' Values: [12, 9, 8, 5, 2]
+Hand #486: Player Two wins
+ Cards: ['13H', '11D', '8H', '8D', '3C'] Rank: 'One Pair' Values: [8, 13, 11, 3]
+ Cards: ['12D', '12H', '9C', '9D', '5C'] Rank: 'Two Pairs' Values: [9, 12, 5]
+Hand #487: Player Two wins
+ Cards: ['10S', '8C', '7H', '4S', '2C'] Rank: 'High Card' Values: [10, 8, 7, 4, 2]
+ Cards: ['12H', '11C', '10D', '9C', '5H'] Rank: 'High Card' Values: [12, 11, 10, 9, 5]
+Hand #488: Player Two wins
+ Cards: ['11S', '10H', '7C', '4S', '2C'] Rank: 'High Card' Values: [11, 10, 7, 4, 2]
+ Cards: ['14S', '13S', '11D', '7S', '6C'] Rank: 'High Card' Values: [14, 13, 11, 7, 6]
+Hand #489: Player One wins
+ Cards: ['11H', '10C', '9H', '7C', '7H'] Rank: 'One Pair' Values: [7, 11, 10, 9]
+ Cards: ['6D', '5H', '5D', '4D', '3D'] Rank: 'One Pair' Values: [5, 6, 4, 3]
+Hand #490: Player One wins
+ Cards: ['12D', '11H', '9D', '2C', '2H'] Rank: 'One Pair' Values: [2, 12, 11, 9]
+ Cards: ['14D', '13S', '10D', '5S', '3D'] Rank: 'High Card' Values: [14, 13, 10, 5, 3]
+Hand #491: Player Two wins
+ Cards: ['12H', '11D', '10H', '4D', '3S'] Rank: 'High Card' Values: [12, 11, 10, 4, 3]
+ Cards: ['13S', '12S', '7D', '6S', '4H'] Rank: 'High Card' Values: [13, 12, 7, 6, 4]
+Hand #492: Player One wins
+ Cards: ['13S', '10C', '8D', '8H', '5S'] Rank: 'One Pair' Values: [8, 13, 10, 5]
+ Cards: ['14D', '11H', '4C', '2S', '2D'] Rank: 'One Pair' Values: [2, 14, 11, 4]
+Hand #493: Player Two wins
+ Cards: ['11H', '10C', '5S', '3S', '2D'] Rank: 'High Card' Values: [11, 10, 5, 3, 2]
+ Cards: ['13D', '12S', '9D', '9S', '4C'] Rank: 'One Pair' Values: [9, 13, 12, 4]
+Hand #494: Player One wins
+ Cards: ['14C', '14S', '13H', '9D', '3H'] Rank: 'One Pair' Values: [14, 13, 9, 3]
+ Cards: ['13C', '12D', '9H', '6C', '6S'] Rank: 'One Pair' Values: [6, 13, 12, 9]
+Hand #495: Player One wins
+ Cards: ['9H', '7S', '7D', '5C', '3D'] Rank: 'One Pair' Values: [7, 9, 5, 3]
+ Cards: ['13C', '10D', '8H', '6S', '4H'] Rank: 'High Card' Values: [13, 10, 8, 6, 4]
+Hand #496: Player Two wins
+ Cards: ['12D', '10C', '8H', '7H', '3C'] Rank: 'High Card' Values: [12, 10, 8, 7, 3]
+ Cards: ['12H', '7S', '6S', '6C', '4D'] Rank: 'One Pair' Values: [6, 12, 7, 4]
+Hand #497: Player One wins
+ Cards: ['14D', '12D', '6D', '6C', '4C'] Rank: 'One Pair' Values: [6, 14, 12, 4]
+ Cards: ['13S', '10S', '9D', '7D', '5D'] Rank: 'High Card' Values: [13, 10, 9, 7, 5]
+Hand #498: Player One wins
+ Cards: ['11H', '11D', '9S', '7S', '2H'] Rank: 'One Pair' Values: [11, 9, 7, 2]
+ Cards: ['13H', '10S', '8D', '8H', '5D'] Rank: 'One Pair' Values: [8, 13, 10, 5]
+Hand #499: Player One wins
+ Cards: ['9S', '9D', '7D', '4C', '2D'] Rank: 'One Pair' Values: [9, 7, 4, 2]
+ Cards: ['14C', '12D', '6D', '6S', '5H'] Rank: 'One Pair' Values: [6, 14, 12, 5]
+Hand #500: Player One wins
+ Cards: ['12D', '11C', '11H', '7S', '6D'] Rank: 'One Pair' Values: [11, 12, 7, 6]
+ Cards: ['12S', '7D', '6S', '4C', '2H'] Rank: 'High Card' Values: [12, 7, 6, 4, 2]
+Hand #501: Player One wins
+ Cards: ['13D', '11H', '10D', '8C', '2H'] Rank: 'High Card' Values: [13, 11, 10, 8, 2]
+ Cards: ['12S', '11S', '7S', '5C', '2C'] Rank: 'High Card' Values: [12, 11, 7, 5, 2]
+Hand #502: Player Two wins
+ Cards: ['12D', '11H', '10C', '5H', '4H'] Rank: 'High Card' Values: [12, 11, 10, 5, 4]
+ Cards: ['13H', '8S', '5S', '5D', '3S'] Rank: 'One Pair' Values: [5, 13, 8, 3]
+Hand #503: Player Two wins
+ Cards: ['13S', '13H', '7C', '5D', '2C'] Rank: 'One Pair' Values: [13, 7, 5, 2]
+ Cards: ['11H', '11C', '9C', '6S', '6D'] Rank: 'Two Pairs' Values: [11, 6, 9]
+Hand #504: Player One wins
+ Cards: ['14H', '11D', '11S', '9C', '5H'] Rank: 'One Pair' Values: [11, 14, 9, 5]
+ Cards: ['13C', '6H', '5S', '4D', '2H'] Rank: 'High Card' Values: [13, 6, 5, 4, 2]
+Hand #505: Player Two wins
+ Cards: ['14S', '12C', '10H', '6H', '3C'] Rank: 'High Card' Values: [14, 12, 10, 6, 3]
+ Cards: ['10D', '9C', '8S', '8C', '7C'] Rank: 'One Pair' Values: [8, 10, 9, 7]
+Hand #506: Player One wins
+ Cards: ['13C', '13H', '12D', '9C', '2C'] Rank: 'One Pair' Values: [13, 12, 9, 2]
+ Cards: ['10S', '9H', '7S', '4D', '3C'] Rank: 'High Card' Values: [10, 9, 7, 4, 3]
+Hand #507: Player Two wins
+ Cards: ['12C', '10S', '9C', '8C', '2S'] Rank: 'High Card' Values: [12, 10, 9, 8, 2]
+ Cards: ['12D', '10D', '9S', '3S', '3C'] Rank: 'One Pair' Values: [3, 12, 10, 9]
+Hand #508: Player Two wins
+ Cards: ['14H', '11H', '10H', '9D', '4D'] Rank: 'High Card' Values: [14, 11, 10, 9, 4]
+ Cards: ['12H', '11D', '11S', '6S', '2S'] Rank: 'One Pair' Values: [11, 12, 6, 2]
+Hand #509: Player Two wins
+ Cards: ['13D', '12D', '9H', '7D', '6C'] Rank: 'High Card' Values: [13, 12, 9, 7, 6]
+ Cards: ['14H', '8H', '7H', '6S', '5D'] Rank: 'High Card' Values: [14, 8, 7, 6, 5]
+Hand #510: Player Two wins
+ Cards: ['8H', '5H', '4S', '3C', '2H'] Rank: 'High Card' Values: [8, 5, 4, 3, 2]
+ Cards: ['14C', '12S', '12H', '7S', '4H'] Rank: 'One Pair' Values: [12, 14, 7, 4]
+Hand #511: Player Two wins
+ Cards: ['12S', '9S', '7S', '4H', '3C'] Rank: 'High Card' Values: [12, 9, 7, 4, 3]
+ Cards: ['14H', '13S', '9D', '7C', '3S'] Rank: 'High Card' Values: [14, 13, 9, 7, 3]
+Hand #512: Player One wins
+ Cards: ['14D', '6S', '5S', '2H', '2D'] Rank: 'One Pair' Values: [2, 14, 6, 5]
+ Cards: ['10C', '8C', '5H', '4S', '3C'] Rank: 'High Card' Values: [10, 8, 5, 4, 3]
+Hand #513: Player Two wins
+ Cards: ['12H', '11S', '10S', '6S', '4D'] Rank: 'High Card' Values: [12, 11, 10, 6, 4]
+ Cards: ['14S', '13S', '11H', '8S', '6D'] Rank: 'High Card' Values: [14, 13, 11, 8, 6]
+Hand #514: Player Two wins
+ Cards: ['10D', '8S', '5H', '2C', '2S'] Rank: 'One Pair' Values: [2, 10, 8, 5]
+ Cards: ['14S', '13C', '10C', '10S', '6C'] Rank: 'One Pair' Values: [10, 14, 13, 6]
+Hand #515: Player Two wins
+ Cards: ['13C', '10S', '8H', '3H', '2H'] Rank: 'High Card' Values: [13, 10, 8, 3, 2]
+ Cards: ['10H', '10D', '7C', '5S', '4C'] Rank: 'One Pair' Values: [10, 7, 5, 4]
+Hand #516: Player Two wins
+ Cards: ['14D', '13D', '13H', '7H', '7S'] Rank: 'Two Pairs' Values: [13, 7, 14]
+ Cards: ['9C', '5D', '5H', '5S', '2D'] Rank: 'Three of a Kind' Values: [5, 9, 2]
+Hand #517: Player Two wins
+ Cards: ['14D', '9S', '8C', '7S', '3D'] Rank: 'High Card' Values: [14, 9, 8, 7, 3]
+ Cards: ['13D', '13S', '12C', '9C', '7C'] Rank: 'One Pair' Values: [13, 12, 9, 7]
+Hand #518: Player Two wins
+ Cards: ['12C', '9S', '8C', '4D', '3C'] Rank: 'High Card' Values: [12, 9, 8, 4, 3]
+ Cards: ['14S', '12D', '6C', '5C', '2C'] Rank: 'High Card' Values: [14, 12, 6, 5, 2]
+Hand #519: Player Two wins
+ Cards: ['13C', '11D', '8S', '7S', '2H'] Rank: 'High Card' Values: [13, 11, 8, 7, 2]
+ Cards: ['14C', '8D', '5C', '4D', '2S'] Rank: 'High Card' Values: [14, 8, 5, 4, 2]
+Hand #520: Player Two wins
+ Cards: ['12H', '10C', '9D', '3D', '2S'] Rank: 'High Card' Values: [12, 10, 9, 3, 2]
+ Cards: ['13S', '10D', '9H', '3S', '3C'] Rank: 'One Pair' Values: [3, 13, 10, 9]
+Hand #521: Player Two wins
+ Cards: ['14C', '13D', '7H', '6S', '2C'] Rank: 'High Card' Values: [14, 13, 7, 6, 2]
+ Cards: ['8C', '6C', '6H', '5H', '3S'] Rank: 'One Pair' Values: [6, 8, 5, 3]
+Hand #522: Player Two wins
+ Cards: ['13H', '12H', '10C', '8S', '6S'] Rank: 'High Card' Values: [13, 12, 10, 8, 6]
+ Cards: ['10H', '10S', '5D', '4H', '4D'] Rank: 'Two Pairs' Values: [10, 4, 5]
+Hand #523: Player Two wins
+ Cards: ['11S', '8C', '6H', '4H', '2C'] Rank: 'High Card' Values: [11, 8, 6, 4, 2]
+ Cards: ['14C', '12D', '7D', '3D', '2H'] Rank: 'High Card' Values: [14, 12, 7, 3, 2]
+Hand #524: Player Two wins
+ Cards: ['13C', '12S', '6S', '5S', '2D'] Rank: 'High Card' Values: [13, 12, 6, 5, 2]
+ Cards: ['11H', '10D', '4H', '4C', '3H'] Rank: 'One Pair' Values: [4, 11, 10, 3]
+Hand #525: Player One wins
+ Cards: ['13H', '8H', '7S', '7H', '5H'] Rank: 'One Pair' Values: [7, 13, 8, 5]
+ Cards: ['13D', '12S', '10H', '7D', '6H'] Rank: 'High Card' Values: [13, 12, 10, 7, 6]
+Hand #526: Player One wins
+ Cards: ['14D', '13D', '13H', '7C', '5H'] Rank: 'One Pair' Values: [13, 14, 7, 5]
+ Cards: ['10D', '6D', '6C', '5S', '3C'] Rank: 'One Pair' Values: [6, 10, 5, 3]
+Hand #527: Player Two wins
+ Cards: ['11D', '9C', '8C', '7C', '5H'] Rank: 'High Card' Values: [11, 9, 8, 7, 5]
+ Cards: ['13C', '13H', '7H', '3S', '2H'] Rank: 'One Pair' Values: [13, 7, 3, 2]
+Hand #528: Player One wins
+ Cards: ['14D', '8S', '7S', '4H', '4D'] Rank: 'One Pair' Values: [4, 14, 8, 7]
+ Cards: ['12S', '10H', '7H', '5S', '3D'] Rank: 'High Card' Values: [12, 10, 7, 5, 3]
+Hand #529: Player One wins
+ Cards: ['13S', '13D', '10C', '9S', '8D'] Rank: 'One Pair' Values: [13, 10, 9, 8]
+ Cards: ['14D', '11D', '6D', '5C', '2S'] Rank: 'High Card' Values: [14, 11, 6, 5, 2]
+Hand #530: Player Two wins
+ Cards: ['12D', '8H', '7H', '6C', '2H'] Rank: 'High Card' Values: [12, 8, 7, 6, 2]
+ Cards: ['10C', '9D', '9S', '7C', '6H'] Rank: 'One Pair' Values: [9, 10, 7, 6]
+Hand #531: Player Two wins
+ Cards: ['8D', '7C', '6D', '6C', '4C'] Rank: 'One Pair' Values: [6, 8, 7, 4]
+ Cards: ['13H', '11S', '11H', '10H', '3C'] Rank: 'One Pair' Values: [11, 13, 10, 3]
+Hand #532: Player Two wins
+ Cards: ['11S', '9H', '8S', '5S', '3S'] Rank: 'High Card' Values: [11, 9, 8, 5, 3]
+ Cards: ['14S', '14D', '13D', '8H', '7S'] Rank: 'One Pair' Values: [14, 13, 8, 7]
+Hand #533: Player Two wins
+ Cards: ['13C', '11H', '7C', '5H', '2C'] Rank: 'High Card' Values: [13, 11, 7, 5, 2]
+ Cards: ['14S', '14D', '11S', '9C', '9S'] Rank: 'Two Pairs' Values: [9, 14, 11]
+Hand #534: Player One wins
+ Cards: ['14D', '14C', '12D', '6S', '2C'] Rank: 'One Pair' Values: [14, 12, 6, 2]
+ Cards: ['13S', '13D', '10H', '7C', '3H'] Rank: 'One Pair' Values: [13, 10, 7, 3]
+Hand #535: Player Two wins
+ Cards: ['11D', '9D', '8H', '4H', '4C'] Rank: 'One Pair' Values: [4, 11, 9, 8]
+ Cards: ['13H', '13C', '10S', '8C', '7S'] Rank: 'One Pair' Values: [13, 10, 8, 7]
+Hand #536: Player Two wins
+ Cards: ['7S', '6H', '5S', '3S', '2H'] Rank: 'High Card' Values: [7, 6, 5, 3, 2]
+ Cards: ['14D', '13S', '7D', '6D', '5C'] Rank: 'High Card' Values: [14, 13, 7, 6, 5]
+Hand #537: Player Two wins
+ Cards: ['12S', '9H', '8C', '7H', '5S'] Rank: 'High Card' Values: [12, 9, 8, 7, 5]
+ Cards: ['10D', '7S', '7D', '6C', '2H'] Rank: 'One Pair' Values: [7, 10, 6, 2]
+Hand #538: Player One wins
+ Cards: ['14C', '12S', '10D', '9D', '5S'] Rank: 'High Card' Values: [14, 12, 10, 9, 5]
+ Cards: ['13C', '10C', '4D', '3D', '2D'] Rank: 'High Card' Values: [13, 10, 4, 3, 2]
+Hand #539: Player Two wins
+ Cards: ['12D', '11D', '10D', '7D', '2H'] Rank: 'High Card' Values: [12, 11, 10, 7, 2]
+ Cards: ['13C', '7H', '5D', '4C', '3D'] Rank: 'High Card' Values: [13, 7, 5, 4, 3]
+Hand #540: Player Two wins
+ Cards: ['13D', '12H', '8S', '4C', '3H'] Rank: 'High Card' Values: [13, 12, 8, 4, 3]
+ Cards: ['12C', '10C', '9H', '5S', '5H'] Rank: 'One Pair' Values: [5, 12, 10, 9]
+Hand #541: Player One wins
+ Cards: ['12D', '10H', '10S', '9C', '5H'] Rank: 'One Pair' Values: [10, 12, 9, 5]
+ Cards: ['14H', '12H', '9H', '5C', '2C'] Rank: 'High Card' Values: [14, 12, 9, 5, 2]
+Hand #542: Player Two wins
+ Cards: ['14C', '6S', '6C', '4D', '3C'] Rank: 'One Pair' Values: [6, 14, 4, 3]
+ Cards: ['10D', '10H', '3D', '2C', '2H'] Rank: 'Two Pairs' Values: [10, 2, 3]
+Hand #543: Player Two wins
+ Cards: ['14C', '12C', '9C', '5D', '4D'] Rank: 'High Card' Values: [14, 12, 9, 5, 4]
+ Cards: ['14D', '13C', '8D', '8C', '6D'] Rank: 'One Pair' Values: [8, 14, 13, 6]
+Hand #544: Player Two wins
+ Cards: ['14D', '14C', '8D', '4H', '3C'] Rank: 'One Pair' Values: [14, 8, 4, 3]
+ Cards: ['11C', '10D', '9S', '8H', '7S'] Rank: 'Straight' Values: [11, 10, 9, 8, 7]
+Hand #545: Player Two wins
+ Cards: ['12H', '11S', '9H', '4H', '2D'] Rank: 'High Card' Values: [12, 11, 9, 4, 2]
+ Cards: ['13D', '13S', '10H', '10D', '10C'] Rank: 'Full House' Values: [10, 13]
+Hand #546: Player Two wins
+ Cards: ['10H', '9S', '8D', '6S', '5S'] Rank: 'High Card' Values: [10, 9, 8, 6, 5]
+ Cards: ['14S', '13H', '8S', '5H', '5C'] Rank: 'One Pair' Values: [5, 14, 13, 8]
+Hand #547: Player Two wins
+ Cards: ['11D', '9S', '6S', '5S', '2S'] Rank: 'High Card' Values: [11, 9, 6, 5, 2]
+ Cards: ['9D', '8S', '7S', '7H', '5D'] Rank: 'One Pair' Values: [7, 9, 8, 5]
+Hand #548: Player Two wins
+ Cards: ['14D', '9D', '8C', '5D', '4C'] Rank: 'High Card' Values: [14, 9, 8, 5, 4]
+ Cards: ['13D', '10S', '10C', '7D', '2C'] Rank: 'One Pair' Values: [10, 13, 7, 2]
+Hand #549: Player Two wins
+ Cards: ['13C', '12S', '8S', '5C', '4D'] Rank: 'High Card' Values: [13, 12, 8, 5, 4]
+ Cards: ['13H', '13D', '11D', '8D', '4S'] Rank: 'One Pair' Values: [13, 11, 8, 4]
+Hand #550: Player One wins
+ Cards: ['14S', '14D', '12H', '7D', '5C'] Rank: 'One Pair' Values: [14, 12, 7, 5]
+ Cards: ['10C', '9S', '7H', '7C', '2H'] Rank: 'One Pair' Values: [7, 10, 9, 2]
+Hand #551: Player Two wins
+ Cards: ['13H', '11D', '8S', '7S', '2S'] Rank: 'High Card' Values: [13, 11, 8, 7, 2]
+ Cards: ['14D', '12C', '6C', '6D', '5D'] Rank: 'One Pair' Values: [6, 14, 12, 5]
+Hand #552: Player Two wins
+ Cards: ['9H', '8C', '8H', '6H', '3S'] Rank: 'One Pair' Values: [8, 9, 6, 3]
+ Cards: ['14H', '11S', '10C', '10D', '4H'] Rank: 'One Pair' Values: [10, 14, 11, 4]
+Hand #553: Player One wins
+ Cards: ['10S', '7H', '4D', '2C', '2D'] Rank: 'One Pair' Values: [2, 10, 7, 4]
+ Cards: ['12C', '10H', '9C', '7C', '5D'] Rank: 'High Card' Values: [12, 10, 9, 7, 5]
+Hand #554: Player Two wins
+ Cards: ['12C', '10S', '8H', '6C', '5D'] Rank: 'High Card' Values: [12, 10, 8, 6, 5]
+ Cards: ['11H', '9H', '5C', '5H', '4S'] Rank: 'One Pair' Values: [5, 11, 9, 4]
+Hand #555: Player Two wins
+ Cards: ['14S', '12C', '11S', '7H', '2D'] Rank: 'High Card' Values: [14, 12, 11, 7, 2]
+ Cards: ['8S', '8D', '4C', '4H', '2H'] Rank: 'Two Pairs' Values: [8, 4, 2]
+Hand #556: Player One wins
+ Cards: ['14C', '13D', '11S', '6S', '3D'] Rank: 'High Card' Values: [14, 13, 11, 6, 3]
+ Cards: ['13C', '10H', '7H', '4S', '3C'] Rank: 'High Card' Values: [13, 10, 7, 4, 3]
+Hand #557: Player Two wins
+ Cards: ['13H', '12H', '12S', '6S', '5S'] Rank: 'One Pair' Values: [12, 13, 6, 5]
+ Cards: ['12D', '4H', '3C', '3S', '3H'] Rank: 'Three of a Kind' Values: [3, 12, 4]
+Hand #558: Player One wins
+ Cards: ['14S', '13H', '8C', '7H', '4H'] Rank: 'High Card' Values: [14, 13, 8, 7, 4]
+ Cards: ['10S', '9C', '6S', '5S', '3D'] Rank: 'High Card' Values: [10, 9, 6, 5, 3]
+Hand #559: Player Two wins
+ Cards: ['12D', '9C', '7C', '5S', '3H'] Rank: 'High Card' Values: [12, 9, 7, 5, 3]
+ Cards: ['14D', '14C', '5H', '3D', '2C'] Rank: 'One Pair' Values: [14, 5, 3, 2]
+Hand #560: Player One wins
+ Cards: ['11H', '10D', '10S', '4C', '2D'] Rank: 'One Pair' Values: [10, 11, 4, 2]
+ Cards: ['14D', '13H', '7S', '3H', '3S'] Rank: 'One Pair' Values: [3, 14, 13, 7]
+Hand #561: Player One wins
+ Cards: ['14S', '6S', '5H', '4C', '4D'] Rank: 'One Pair' Values: [4, 14, 6, 5]
+ Cards: ['13D', '11C', '6H', '3C', '2D'] Rank: 'High Card' Values: [13, 11, 6, 3, 2]
+Hand #562: Player Two wins
+ Cards: ['10H', '8C', '6S', '3H', '2D'] Rank: 'High Card' Values: [10, 8, 6, 3, 2]
+ Cards: ['14H', '14D', '12H', '5H', '4S'] Rank: 'One Pair' Values: [14, 12, 5, 4]
+Hand #563: Player One wins
+ Cards: ['13C', '9H', '7C', '7H', '2S'] Rank: 'One Pair' Values: [7, 13, 9, 2]
+ Cards: ['11C', '6D', '5C', '5S', '3H'] Rank: 'One Pair' Values: [5, 11, 6, 3]
+Hand #564: Player One wins
+ Cards: ['12D', '10C', '9C', '4H', '3C'] Rank: 'High Card' Values: [12, 10, 9, 4, 3]
+ Cards: ['11H', '10D', '9H', '6D', '5S'] Rank: 'High Card' Values: [11, 10, 9, 6, 5]
+Hand #565: Player One wins
+ Cards: ['7C', '6S', '6C', '5C', '5D'] Rank: 'Two Pairs' Values: [5, 6, 7]
+ Cards: ['14H', '9H', '7H', '6H', '4S'] Rank: 'High Card' Values: [14, 9, 7, 6, 4]
+Hand #566: Player One wins
+ Cards: ['14D', '13C', '7D', '2H', '2C'] Rank: 'One Pair' Values: [2, 14, 13, 7]
+ Cards: ['9S', '7H', '4C', '3S', '2S'] Rank: 'High Card' Values: [9, 7, 4, 3, 2]
+Hand #567: Player Two wins
+ Cards: ['10H', '8S', '6S', '4C', '3S'] Rank: 'High Card' Values: [10, 8, 6, 4, 3]
+ Cards: ['14D', '14S', '13S', '11H', '10D'] Rank: 'One Pair' Values: [14, 13, 11, 10]
+Hand #568: Player One wins
+ Cards: ['14D', '10D', '5C', '4S', '4D'] Rank: 'One Pair' Values: [4, 14, 10, 5]
+ Cards: ['10C', '9C', '7D', '6S', '5D'] Rank: 'High Card' Values: [10, 9, 7, 6, 5]
+Hand #569: Player One wins
+ Cards: ['8H', '5S', '4D', '4S', '3S'] Rank: 'One Pair' Values: [4, 8, 5, 3]
+ Cards: ['14C', '6H', '5C', '3H', '3D'] Rank: 'One Pair' Values: [3, 14, 6, 5]
+Hand #570: Player One wins
+ Cards: ['14C', '12S', '9H', '4S', '3C'] Rank: 'High Card' Values: [14, 12, 9, 4, 3]
+ Cards: ['12H', '9D', '8S', '5H', '4D'] Rank: 'High Card' Values: [12, 9, 8, 5, 4]
+Hand #571: Player One wins
+ Cards: ['14C', '11C', '10S', '6C', '5H'] Rank: 'High Card' Values: [14, 11, 10, 6, 5]
+ Cards: ['12D', '11D', '9C', '8C', '7C'] Rank: 'High Card' Values: [12, 11, 9, 8, 7]
+Hand #572: Player Two wins
+ Cards: ['11D', '9C', '8S', '8H', '2D'] Rank: 'One Pair' Values: [8, 11, 9, 2]
+ Cards: ['12C', '12H', '8D', '6H', '3C'] Rank: 'One Pair' Values: [12, 8, 6, 3]
+Hand #573: Player Two wins
+ Cards: ['13S', '11S', '6H', '5H', '2H'] Rank: 'High Card' Values: [13, 11, 6, 5, 2]
+ Cards: ['12H', '12S', '7C', '6D', '3H'] Rank: 'One Pair' Values: [12, 7, 6, 3]
+Hand #574: Player Two wins
+ Cards: ['12C', '10C', '7H', '4S', '3H'] Rank: 'High Card' Values: [12, 10, 7, 4, 3]
+ Cards: ['13H', '11S', '8C', '3S', '2H'] Rank: 'High Card' Values: [13, 11, 8, 3, 2]
+Hand #575: Player Two wins
+ Cards: ['14H', '9H', '8H', '5S', '4C'] Rank: 'High Card' Values: [14, 9, 8, 5, 4]
+ Cards: ['14C', '11D', '11C', '7S', '3H'] Rank: 'One Pair' Values: [11, 14, 7, 3]
+Hand #576: Player One wins
+ Cards: ['6C', '5S', '4C', '3C', '2D'] Rank: 'Straight' Values: [6, 5, 4, 3, 2]
+ Cards: ['12S', '11D', '4S', '3S', '3D'] Rank: 'One Pair' Values: [3, 12, 11, 4]
+Hand #577: Player Two wins
+ Cards: ['14H', '13S', '10C', '5H', '2D'] Rank: 'High Card' Values: [14, 13, 10, 5, 2]
+ Cards: ['14D', '8C', '7H', '6D', '6H'] Rank: 'One Pair' Values: [6, 14, 8, 7]
+Hand #578: Player Two wins
+ Cards: ['11D', '7S', '7C', '6C', '3C'] Rank: 'One Pair' Values: [7, 11, 6, 3]
+ Cards: ['14H', '13S', '13H', '8H', '6D'] Rank: 'One Pair' Values: [13, 14, 8, 6]
+Hand #579: Player One wins
+ Cards: ['14H', '8H', '8S', '7D', '3H'] Rank: 'One Pair' Values: [8, 14, 7, 3]
+ Cards: ['12S', '9D', '7H', '5H', '2D'] Rank: 'High Card' Values: [12, 9, 7, 5, 2]
+Hand #580: Player Two wins
+ Cards: ['14C', '11D', '8S', '7S', '4H'] Rank: 'High Card' Values: [14, 11, 8, 7, 4]
+ Cards: ['14S', '13S', '12H', '9S', '9D'] Rank: 'One Pair' Values: [9, 14, 13, 12]
+Hand #581: Player Two wins
+ Cards: ['11H', '8S', '7S', '5S', '2C'] Rank: 'High Card' Values: [11, 8, 7, 5, 2]
+ Cards: ['14H', '13D', '12S', '11C', '4C'] Rank: 'High Card' Values: [14, 13, 12, 11, 4]
+Hand #582: Player Two wins
+ Cards: ['14H', '9H', '8D', '4H', '2S'] Rank: 'High Card' Values: [14, 9, 8, 4, 2]
+ Cards: ['12H', '11D', '10S', '10D', '6H'] Rank: 'One Pair' Values: [10, 12, 11, 6]
+Hand #583: Player Two wins
+ Cards: ['12S', '11C', '6D', '4H', '3H'] Rank: 'High Card' Values: [12, 11, 6, 4, 3]
+ Cards: ['9C', '9D', '8S', '8D', '7S'] Rank: 'Two Pairs' Values: [8, 9, 7]
+Hand #584: Player Two wins
+ Cards: ['10D', '9S', '5H', '4S', '4C'] Rank: 'One Pair' Values: [4, 10, 9, 5]
+ Cards: ['8C', '8D', '7H', '3H', '3D'] Rank: 'Two Pairs' Values: [8, 3, 7]
+Hand #585: Player One wins
+ Cards: ['13H', '12S', '3S', '2C', '2S'] Rank: 'One Pair' Values: [2, 13, 12, 3]
+ Cards: ['12D', '10D', '7S', '4S', '3C'] Rank: 'High Card' Values: [12, 10, 7, 4, 3]
+Hand #586: Player Two wins
+ Cards: ['13H', '10D', '7C', '5S', '4D'] Rank: 'High Card' Values: [13, 10, 7, 5, 4]
+ Cards: ['14C', '14S', '7H', '6C', '4C'] Rank: 'One Pair' Values: [14, 7, 6, 4]
+Hand #587: Player Two wins
+ Cards: ['11D', '9H', '6D', '5H', '2S'] Rank: 'High Card' Values: [11, 9, 6, 5, 2]
+ Cards: ['12S', '10D', '8S', '2C', '2H'] Rank: 'One Pair' Values: [2, 12, 10, 8]
+Hand #588: Player Two wins
+ Cards: ['10S', '9H', '7S', '6H', '2S'] Rank: 'High Card' Values: [10, 9, 7, 6, 2]
+ Cards: ['11C', '5D', '5S', '4H', '4C'] Rank: 'Two Pairs' Values: [4, 5, 11]
+Hand #589: Player Two wins
+ Cards: ['7D', '5H', '4H', '3S', '2C'] Rank: 'High Card' Values: [7, 5, 4, 3, 2]
+ Cards: ['12H', '11C', '11S', '8H', '6D'] Rank: 'One Pair' Values: [11, 12, 8, 6]
+Hand #590: Player One wins
+ Cards: ['12H', '12D', '7C', '4C', '3S'] Rank: 'One Pair' Values: [12, 7, 4, 3]
+ Cards: ['14D', '10H', '10S', '8S', '5S'] Rank: 'One Pair' Values: [10, 14, 8, 5]
+Hand #591: Player One wins
+ Cards: ['11C', '10C', '10D', '9H', '2S'] Rank: 'One Pair' Values: [10, 11, 9, 2]
+ Cards: ['12H', '10H', '7D', '3S', '3D'] Rank: 'One Pair' Values: [3, 12, 10, 7]
+Hand #592: Player Two wins
+ Cards: ['11H', '8S', '7D', '5C', '4C'] Rank: 'High Card' Values: [11, 8, 7, 5, 4]
+ Cards: ['13C', '8H', '6S', '3S', '3H'] Rank: 'One Pair' Values: [3, 13, 8, 6]
+Hand #593: Player Two wins
+ Cards: ['13H', '12H', '11C', '10C', '3H'] Rank: 'High Card' Values: [13, 12, 11, 10, 3]
+ Cards: ['14C', '10H', '6H', '5H', '2C'] Rank: 'High Card' Values: [14, 10, 6, 5, 2]
+Hand #594: Player Two wins
+ Cards: ['14S', '12S', '9D', '2H', '2C'] Rank: 'One Pair' Values: [2, 14, 12, 9]
+ Cards: ['8C', '8S', '6S', '6C', '2S'] Rank: 'Two Pairs' Values: [8, 6, 2]
+Hand #595: Player Two wins
+ Cards: ['12C', '10H', '9H', '7D', '4H'] Rank: 'High Card' Values: [12, 10, 9, 7, 4]
+ Cards: ['14C', '13D', '12S', '7S', '3C'] Rank: 'High Card' Values: [14, 13, 12, 7, 3]
+Hand #596: Player Two wins
+ Cards: ['11H', '8H', '6S', '5S', '4D'] Rank: 'High Card' Values: [11, 8, 6, 5, 4]
+ Cards: ['14S', '13S', '12C', '9S', '3S'] Rank: 'High Card' Values: [14, 13, 12, 9, 3]
+Hand #597: Player Two wins
+ Cards: ['11D', '10C', '7S', '6S', '2D'] Rank: 'High Card' Values: [11, 10, 7, 6, 2]
+ Cards: ['13C', '13D', '9H', '7D', '3H'] Rank: 'One Pair' Values: [13, 9, 7, 3]
+Hand #598: Player One wins
+ Cards: ['13H', '7C', '4D', '4S', '2H'] Rank: 'One Pair' Values: [4, 13, 7, 2]
+ Cards: ['13C', '12D', '11S', '7D', '3H'] Rank: 'High Card' Values: [13, 12, 11, 7, 3]
+Hand #599: Player One wins
+ Cards: ['14S', '11C', '9D', '4C', '3C'] Rank: 'High Card' Values: [14, 11, 9, 4, 3]
+ Cards: ['12D', '11S', '8H', '6C', '4D'] Rank: 'High Card' Values: [12, 11, 8, 6, 4]
+Hand #600: Player Two wins
+ Cards: ['14H', '11S', '6C', '4C', '3S'] Rank: 'High Card' Values: [14, 11, 6, 4, 3]
+ Cards: ['11H', '9C', '9H', '6D', '3D'] Rank: 'One Pair' Values: [9, 11, 6, 3]
+Hand #601: Player Two wins
+ Cards: ['9H', '8C', '7H', '5S', '2D'] Rank: 'High Card' Values: [9, 8, 7, 5, 2]
+ Cards: ['13S', '10C', '9C', '6H', '2S'] Rank: 'High Card' Values: [13, 10, 9, 6, 2]
+Hand #602: Player One wins
+ Cards: ['14D', '8C', '7H', '6C', '6H'] Rank: 'One Pair' Values: [6, 14, 8, 7]
+ Cards: ['14S', '13H', '10H', '5D', '3D'] Rank: 'High Card' Values: [14, 13, 10, 5, 3]
+Hand #603: Player One wins
+ Cards: ['13S', '10S', '8C', '8S', '3S'] Rank: 'One Pair' Values: [8, 13, 10, 3]
+ Cards: ['9S', '6C', '5S', '4D', '4H'] Rank: 'One Pair' Values: [4, 9, 6, 5]
+Hand #604: Player One wins
+ Cards: ['9H', '7D', '5C', '4S', '4H'] Rank: 'One Pair' Values: [4, 9, 7, 5]
+ Cards: ['13C', '11H', '9D', '2D', '2H'] Rank: 'One Pair' Values: [2, 13, 11, 9]
+Hand #605: Player One wins
+ Cards: ['11S', '10C', '9D', '9H', '5C'] Rank: 'One Pair' Values: [9, 11, 10, 5]
+ Cards: ['13H', '11C', '7S', '6S', '5H'] Rank: 'High Card' Values: [13, 11, 7, 6, 5]
+Hand #606: Player Two wins
+ Cards: ['11C', '9H', '8H', '7C', '4D'] Rank: 'High Card' Values: [11, 9, 8, 7, 4]
+ Cards: ['13H', '11D', '10D', '10C', '2H'] Rank: 'One Pair' Values: [10, 13, 11, 2]
+Hand #607: Player Two wins
+ Cards: ['13H', '8H', '6C', '2H', '2C'] Rank: 'One Pair' Values: [2, 13, 8, 6]
+ Cards: ['12S', '12H', '9D', '6H', '5H'] Rank: 'One Pair' Values: [12, 9, 6, 5]
+Hand #608: Player Two wins
+ Cards: ['14C', '12D', '7D', '3D', '2S'] Rank: 'High Card' Values: [14, 12, 7, 3, 2]
+ Cards: ['11C', '11D', '11H', '8D', '2D'] Rank: 'Three of a Kind' Values: [11, 8, 2]
+Hand #609: Player One wins
+ Cards: ['11C', '7H', '2H', '2D', '2C'] Rank: 'Three of a Kind' Values: [2, 11, 7]
+ Cards: ['13D', '10D', '8D', '4H', '3C'] Rank: 'High Card' Values: [13, 10, 8, 4, 3]
+Hand #610: Player Two wins
+ Cards: ['10S', '8D', '6D', '4H', '3S'] Rank: 'High Card' Values: [10, 8, 6, 4, 3]
+ Cards: ['10D', '10H', '6H', '3H', '3D'] Rank: 'Two Pairs' Values: [10, 3, 6]
+Hand #611: Player One wins
+ Cards: ['14C', '12H', '11H', '11C', '3S'] Rank: 'One Pair' Values: [11, 14, 12, 3]
+ Cards: ['12C', '9H', '8S', '7H', '2C'] Rank: 'High Card' Values: [12, 9, 8, 7, 2]
+Hand #612: Player Two wins
+ Cards: ['12S', '10D', '8S', '7H', '4S'] Rank: 'High Card' Values: [12, 10, 8, 7, 4]
+ Cards: ['9C', '5D', '4D', '2S', '2H'] Rank: 'One Pair' Values: [2, 9, 5, 4]
+Hand #613: Player Two wins
+ Cards: ['12C', '10S', '3D', '3H', '2S'] Rank: 'One Pair' Values: [3, 12, 10, 2]
+ Cards: ['13C', '13S', '11C', '8H', '6H'] Rank: 'One Pair' Values: [13, 11, 8, 6]
+Hand #614: Player Two wins
+ Cards: ['11D', '10C', '8C', '7D', '5D'] Rank: 'High Card' Values: [11, 10, 8, 7, 5]
+ Cards: ['14C', '9S', '8D', '6C', '3D'] Rank: 'High Card' Values: [14, 9, 8, 6, 3]
+Hand #615: Player Two wins
+ Cards: ['11H', '8H', '6H', '6C', '5D'] Rank: 'One Pair' Values: [6, 11, 8, 5]
+ Cards: ['14D', '8D', '8S', '4H', '2C'] Rank: 'One Pair' Values: [8, 14, 4, 2]
+Hand #616: Player Two wins
+ Cards: ['9D', '4H', '3S', '2D', '2C'] Rank: 'One Pair' Values: [2, 9, 4, 3]
+ Cards: ['14S', '10S', '10C', '5D', '3C'] Rank: 'One Pair' Values: [10, 14, 5, 3]
+Hand #617: Player Two wins
+ Cards: ['13S', '12S', '10H', '5H', '4D'] Rank: 'High Card' Values: [13, 12, 10, 5, 4]
+ Cards: ['14D', '6C', '4S', '3D', '2H'] Rank: 'High Card' Values: [14, 6, 4, 3, 2]
+Hand #618: Player Two wins
+ Cards: ['13C', '6H', '5C', '5S', '2C'] Rank: 'One Pair' Values: [5, 13, 6, 2]
+ Cards: ['9H', '9S', '4D', '3C', '2D'] Rank: 'One Pair' Values: [9, 4, 3, 2]
+Hand #619: Player Two wins
+ Cards: ['12H', '11D', '10H', '4C', '3H'] Rank: 'High Card' Values: [12, 11, 10, 4, 3]
+ Cards: ['14H', '14C', '9H', '8S', '5S'] Rank: 'One Pair' Values: [14, 9, 8, 5]
+Hand #620: Player Two wins
+ Cards: ['10D', '9S', '7D', '6S', '2H'] Rank: 'High Card' Values: [10, 9, 7, 6, 2]
+ Cards: ['12S', '9C', '8H', '4H', '4C'] Rank: 'One Pair' Values: [4, 12, 9, 8]
+Hand #621: Player Two wins
+ Cards: ['8C', '6H', '5D', '4H', '3C'] Rank: 'High Card' Values: [8, 6, 5, 4, 3]
+ Cards: ['13C', '12D', '12S', '9C', '6S'] Rank: 'One Pair' Values: [12, 13, 9, 6]
+Hand #622: Player Two wins
+ Cards: ['13D', '10C', '9H', '3S', '2D'] Rank: 'High Card' Values: [13, 10, 9, 3, 2]
+ Cards: ['11S', '8C', '6S', '4H', '4S'] Rank: 'One Pair' Values: [4, 11, 8, 6]
+Hand #623: Player Two wins
+ Cards: ['12S', '8S', '6H', '4C', '2S'] Rank: 'High Card' Values: [12, 8, 6, 4, 2]
+ Cards: ['13H', '10H', '8C', '5D', '3H'] Rank: 'High Card' Values: [13, 10, 8, 5, 3]
+Hand #624: Player One wins
+ Cards: ['13H', '7S', '5S', '3S', '2C'] Rank: 'High Card' Values: [13, 7, 5, 3, 2]
+ Cards: ['12D', '9D', '8D', '7H', '6C'] Rank: 'High Card' Values: [12, 9, 8, 7, 6]
+Hand #625: Player One wins
+ Cards: ['14C', '13S', '13H', '8H', '2D'] Rank: 'One Pair' Values: [13, 14, 8, 2]
+ Cards: ['13C', '11S', '10S', '7H', '6C'] Rank: 'High Card' Values: [13, 11, 10, 7, 6]
+Hand #626: Player Two wins
+ Cards: ['13S', '12C', '10D', '9C', '5C'] Rank: 'High Card' Values: [13, 12, 10, 9, 5]
+ Cards: ['14H', '9S', '7C', '6C', '5H'] Rank: 'High Card' Values: [14, 9, 7, 6, 5]
+Hand #627: Player Two wins
+ Cards: ['6S', '5D', '4D', '4H', '3H'] Rank: 'One Pair' Values: [4, 6, 5, 3]
+ Cards: ['14H', '12D', '10D', '7C', '7S'] Rank: 'One Pair' Values: [7, 14, 12, 10]
+Hand #628: Player Two wins
+ Cards: ['12C', '10C', '7D', '6S', '2H'] Rank: 'High Card' Values: [12, 10, 7, 6, 2]
+ Cards: ['14H', '10S', '9D', '7S', '3H'] Rank: 'High Card' Values: [14, 10, 9, 7, 3]
+Hand #629: Player Two wins
+ Cards: ['13S', '12D', '10H', '9S', '5H'] Rank: 'High Card' Values: [13, 12, 10, 9, 5]
+ Cards: ['10D', '8C', '7S', '7C', '6H'] Rank: 'One Pair' Values: [7, 10, 8, 6]
+Hand #630: Player Two wins
+ Cards: ['12C', '10H', '5C', '4D', '2D'] Rank: 'High Card' Values: [12, 10, 5, 4, 2]
+ Cards: ['14H', '11D', '9C', '7D', '4H'] Rank: 'High Card' Values: [14, 11, 9, 7, 4]
+Hand #631: Player Two wins
+ Cards: ['14H', '8D', '6H', '4H', '3H'] Rank: 'High Card' Values: [14, 8, 6, 4, 3]
+ Cards: ['12C', '12H', '9H', '2H', '2C'] Rank: 'Two Pairs' Values: [2, 12, 9]
+Hand #632: Player Two wins
+ Cards: ['14D', '10S', '6H', '4C', '2D'] Rank: 'High Card' Values: [14, 10, 6, 4, 2]
+ Cards: ['12S', '10H', '10D', '7S', '4H'] Rank: 'One Pair' Values: [10, 12, 7, 4]
+Hand #633: Player One wins
+ Cards: ['13D', '12S', '3C', '3H', '2H'] Rank: 'One Pair' Values: [3, 13, 12, 2]
+ Cards: ['12C', '11D', '10C', '8H', '5D'] Rank: 'High Card' Values: [12, 11, 10, 8, 5]
+Hand #634: Player One wins
+ Cards: ['13S', '12D', '11C', '10H', '9S'] Rank: 'Straight' Values: [13, 12, 11, 10, 9]
+ Cards: ['13D', '9C', '8D', '8C', '2D'] Rank: 'One Pair' Values: [8, 13, 9, 2]
+Hand #635: Player Two wins
+ Cards: ['13D', '12D', '6D', '4D', '3C'] Rank: 'High Card' Values: [13, 12, 6, 4, 3]
+ Cards: ['14H', '14D', '12C', '8D', '8S'] Rank: 'Two Pairs' Values: [8, 14, 12]
+Hand #636: Player Two wins
+ Cards: ['9D', '8H', '3S', '3H', '2S'] Rank: 'One Pair' Values: [3, 9, 8, 2]
+ Cards: ['13S', '13C', '7C', '6H', '4C'] Rank: 'One Pair' Values: [13, 7, 6, 4]
+Hand #637: Player Two wins
+ Cards: ['10H', '9S', '7D', '5C', '3D'] Rank: 'High Card' Values: [10, 9, 7, 5, 3]
+ Cards: ['14C', '7S', '6H', '4D', '2C'] Rank: 'High Card' Values: [14, 7, 6, 4, 2]
+Hand #638: Player Two wins
+ Cards: ['11D', '5C', '4D', '3D', '2D'] Rank: 'High Card' Values: [11, 5, 4, 3, 2]
+ Cards: ['13H', '9H', '6D', '5H', '4C'] Rank: 'High Card' Values: [13, 9, 6, 5, 4]
+Hand #639: Player Two wins
+ Cards: ['14S', '10D', '7H', '6C', '2H'] Rank: 'High Card' Values: [14, 10, 7, 6, 2]
+ Cards: ['13S', '12D', '4C', '4S', '3D'] Rank: 'One Pair' Values: [4, 13, 12, 3]
+Hand #640: Player One wins
+ Cards: ['14C', '11C', '11D', '7C', '3C'] Rank: 'One Pair' Values: [11, 14, 7, 3]
+ Cards: ['12C', '11S', '9S', '8H', '5D'] Rank: 'High Card' Values: [12, 11, 9, 8, 5]
+Hand #641: Player One wins
+ Cards: ['14S', '11D', '6S', '5S', '2H'] Rank: 'High Card' Values: [14, 11, 6, 5, 2]
+ Cards: ['11H', '8C', '7D', '5H', '3D'] Rank: 'High Card' Values: [11, 8, 7, 5, 3]
+Hand #642: Player One wins
+ Cards: ['10C', '9S', '8D', '8S', '5S'] Rank: 'One Pair' Values: [8, 10, 9, 5]
+ Cards: ['14S', '11C', '7S', '5H', '3H'] Rank: 'High Card' Values: [14, 11, 7, 5, 3]
+Hand #643: Player Two wins
+ Cards: ['10D', '7D', '5C', '4H', '3D'] Rank: 'High Card' Values: [10, 7, 5, 4, 3]
+ Cards: ['11S', '8D', '7H', '5D', '4D'] Rank: 'High Card' Values: [11, 8, 7, 5, 4]
+Hand #644: Player Two wins
+ Cards: ['13S', '12S', '10D', '9C', '2S'] Rank: 'High Card' Values: [13, 12, 10, 9, 2]
+ Cards: ['14S', '8S', '5C', '4H', '2H'] Rank: 'High Card' Values: [14, 8, 5, 4, 2]
+Hand #645: Player Two wins
+ Cards: ['10H', '7S', '7D', '4H', '3H'] Rank: 'One Pair' Values: [7, 10, 4, 3]
+ Cards: ['13D', '13C', '11D', '5D', '2S'] Rank: 'One Pair' Values: [13, 11, 5, 2]
+Hand #646: Player One wins
+ Cards: ['11D', '8H', '7H', '4S', '4C'] Rank: 'One Pair' Values: [4, 11, 8, 7]
+ Cards: ['12H', '11S', '6H', '5S', '4H'] Rank: 'High Card' Values: [12, 11, 6, 5, 4]
+Hand #647: Player Two wins
+ Cards: ['12S', '8C', '5S', '3H', '2C'] Rank: 'High Card' Values: [12, 8, 5, 3, 2]
+ Cards: ['14D', '12C', '12D', '6C', '2S'] Rank: 'One Pair' Values: [12, 14, 6, 2]
+Hand #648: Player Two wins
+ Cards: ['11D', '10C', '8C', '4H', '3D'] Rank: 'High Card' Values: [11, 10, 8, 4, 3]
+ Cards: ['14D', '14C', '5S', '2H', '2S'] Rank: 'Two Pairs' Values: [2, 14, 5]
+Hand #649: Player Two wins
+ Cards: ['14D', '11S', '5D', '2C', '2D'] Rank: 'One Pair' Values: [2, 14, 11, 5]
+ Cards: ['11H', '9D', '4C', '4S', '3D'] Rank: 'One Pair' Values: [4, 11, 9, 3]
+Hand #650: Player One wins
+ Cards: ['8D', '7S', '6H', '5H', '5D'] Rank: 'One Pair' Values: [5, 8, 7, 6]
+ Cards: ['13S', '11D', '10D', '9D', '4D'] Rank: 'High Card' Values: [13, 11, 10, 9, 4]
+Hand #651: Player Two wins
+ Cards: ['14S', '9C', '6D', '3D', '2S'] Rank: 'High Card' Values: [14, 9, 6, 3, 2]
+ Cards: ['11D', '8H', '7D', '5S', '5C'] Rank: 'One Pair' Values: [5, 11, 8, 7]
+Hand #652: Player Two wins
+ Cards: ['8S', '7C', '6S', '5H', '3S'] Rank: 'High Card' Values: [8, 7, 6, 5, 3]
+ Cards: ['14D', '11D', '10C', '7H', '7S'] Rank: 'One Pair' Values: [7, 14, 11, 10]
+Hand #653: Player One wins
+ Cards: ['14C', '10S', '9D', '4D', '2S'] Rank: 'High Card' Values: [14, 10, 9, 4, 2]
+ Cards: ['12D', '11D', '8D', '6C', '3H'] Rank: 'High Card' Values: [12, 11, 8, 6, 3]
+Hand #654: Player Two wins
+ Cards: ['14C', '13H', '9S', '3C', '2C'] Rank: 'High Card' Values: [14, 13, 9, 3, 2]
+ Cards: ['8D', '6H', '5H', '5D', '3D'] Rank: 'One Pair' Values: [5, 8, 6, 3]
+Hand #655: Player Two wins
+ Cards: ['14S', '13S', '6S', '3D', '2D'] Rank: 'High Card' Values: [14, 13, 6, 3, 2]
+ Cards: ['13H', '7C', '7H', '4C', '2S'] Rank: 'One Pair' Values: [7, 13, 4, 2]
+Hand #656: Player One wins
+ Cards: ['14C', '11C', '5C', '3S', '2H'] Rank: 'High Card' Values: [14, 11, 5, 3, 2]
+ Cards: ['12H', '7S', '5H', '4D', '2D'] Rank: 'High Card' Values: [12, 7, 5, 4, 2]
+Hand #657: Player Two wins
+ Cards: ['14S', '11D', '10S', '8C', '6H'] Rank: 'High Card' Values: [14, 11, 10, 8, 6]
+ Cards: ['11C', '8S', '5S', '5D', '2C'] Rank: 'One Pair' Values: [5, 11, 8, 2]
+Hand #658: Player One wins
+ Cards: ['12H', '12C', '7S', '7H', '6C'] Rank: 'Two Pairs' Values: [12, 7, 6]
+ Cards: ['11D', '8H', '7C', '2D', '2S'] Rank: 'One Pair' Values: [2, 11, 8, 7]
+Hand #659: Player One wins
+ Cards: ['12D', '11C', '2C', '2S', '2H'] Rank: 'Three of a Kind' Values: [2, 12, 11]
+ Cards: ['11D', '11H', '9C', '5D', '2D'] Rank: 'One Pair' Values: [11, 9, 5, 2]
+Hand #660: Player One wins
+ Cards: ['9C', '8S', '7C', '7D', '5C'] Rank: 'One Pair' Values: [7, 9, 8, 5]
+ Cards: ['11H', '9S', '8D', '6D', '6C'] Rank: 'One Pair' Values: [6, 11, 9, 8]
+Hand #661: Player Two wins
+ Cards: ['14D', '6S', '5H', '3S', '2C'] Rank: 'High Card' Values: [14, 6, 5, 3, 2]
+ Cards: ['13S', '13H', '9D', '7S', '4C'] Rank: 'One Pair' Values: [13, 9, 7, 4]
+Hand #662: Player Two wins
+ Cards: ['10H', '7H', '6C', '5C', '2C'] Rank: 'High Card' Values: [10, 7, 6, 5, 2]
+ Cards: ['14H', '12C', '9D', '8D', '3S'] Rank: 'High Card' Values: [14, 12, 9, 8, 3]
+Hand #663: Player One wins
+ Cards: ['13C', '10C', '6H', '5S', '5H'] Rank: 'One Pair' Values: [5, 13, 10, 6]
+ Cards: ['14H', '10H', '8S', '6D', '3C'] Rank: 'High Card' Values: [14, 10, 8, 6, 3]
+Hand #664: Player One wins
+ Cards: ['14D', '13D', '10D', '9C', '4H'] Rank: 'High Card' Values: [14, 13, 10, 9, 4]
+ Cards: ['9S', '7D', '6H', '5D', '4S'] Rank: 'High Card' Values: [9, 7, 6, 5, 4]
+Hand #665: Player Two wins
+ Cards: ['14S', '7H', '6D', '5C', '5H'] Rank: 'One Pair' Values: [5, 14, 7, 6]
+ Cards: ['13D', '13H', '9D', '4C', '4H'] Rank: 'Two Pairs' Values: [4, 13, 9]
+Hand #666: Player Two wins
+ Cards: ['11D', '6C', '5C', '3C', '2S'] Rank: 'High Card' Values: [11, 6, 5, 3, 2]
+ Cards: ['12S', '9D', '7D', '3H', '2H'] Rank: 'High Card' Values: [12, 9, 7, 3, 2]
+Hand #667: Player Two wins
+ Cards: ['14C', '11S', '7S', '6S', '2S'] Rank: 'High Card' Values: [14, 11, 7, 6, 2]
+ Cards: ['14D', '12D', '12S', '6H', '5C'] Rank: 'One Pair' Values: [12, 14, 6, 5]
+Hand #668: Player One wins
+ Cards: ['12C', '10H', '10C', '7H', '5H'] Rank: 'One Pair' Values: [10, 12, 7, 5]
+ Cards: ['13C', '7C', '6D', '3S', '3D'] Rank: 'One Pair' Values: [3, 13, 7, 6]
+Hand #669: Player Two wins
+ Cards: ['12C', '9S', '8H', '4H', '3D'] Rank: 'High Card' Values: [12, 9, 8, 4, 3]
+ Cards: ['13S', '11C', '5C', '3S', '2C'] Rank: 'High Card' Values: [13, 11, 5, 3, 2]
+Hand #670: Player Two wins
+ Cards: ['8S', '6S', '6H', '4S', '2C'] Rank: 'One Pair' Values: [6, 8, 4, 2]
+ Cards: ['11S', '9H', '3S', '3D', '3H'] Rank: 'Three of a Kind' Values: [3, 11, 9]
+Hand #671: Player One wins
+ Cards: ['8C', '8H', '4S', '4D', '2D'] Rank: 'Two Pairs' Values: [8, 4, 2]
+ Cards: ['14H', '10S', '9H', '9D', '7D'] Rank: 'One Pair' Values: [9, 14, 10, 7]
+Hand #672: Player One wins
+ Cards: ['9S', '9H', '8D', '4C', '2C'] Rank: 'One Pair' Values: [9, 8, 4, 2]
+ Cards: ['14S', '7D', '6D', '5S', '3D'] Rank: 'High Card' Values: [14, 7, 6, 5, 3]
+Hand #673: Player Two wins
+ Cards: ['8C', '7H', '6S', '4C', '3H'] Rank: 'High Card' Values: [8, 7, 6, 4, 3]
+ Cards: ['14H', '11C', '9D', '9C', '5H'] Rank: 'One Pair' Values: [9, 14, 11, 5]
+Hand #674: Player Two wins
+ Cards: ['11D', '8C', '7C', '5S', '2S'] Rank: 'High Card' Values: [11, 8, 7, 5, 2]
+ Cards: ['7D', '6S', '4D', '3S', '3D'] Rank: 'One Pair' Values: [3, 7, 6, 4]
+Hand #675: Player Two wins
+ Cards: ['13C', '7D', '5D', '4S', '3C'] Rank: 'High Card' Values: [13, 7, 5, 4, 3]
+ Cards: ['11D', '7H', '4H', '3D', '3H'] Rank: 'One Pair' Values: [3, 11, 7, 4]
+Hand #676: Player One wins
+ Cards: ['10H', '9C', '9H', '4H', '4D'] Rank: 'Two Pairs' Values: [9, 4, 10]
+ Cards: ['12D', '9S', '8S', '7S', '6D'] Rank: 'High Card' Values: [12, 9, 8, 7, 6]
+Hand #677: Player One wins
+ Cards: ['14C', '14D', '8S', '4S', '2H'] Rank: 'One Pair' Values: [14, 8, 4, 2]
+ Cards: ['14H', '10C', '8C', '7D', '2C'] Rank: 'High Card' Values: [14, 10, 8, 7, 2]
+Hand #678: Player Two wins
+ Cards: ['14D', '13S', '10S', '9H', '3C'] Rank: 'High Card' Values: [14, 13, 10, 9, 3]
+ Cards: ['11D', '10C', '8C', '8H', '3D'] Rank: 'One Pair' Values: [8, 11, 10, 3]
+Hand #679: Player Two wins
+ Cards: ['12C', '8D', '7D', '3C', '2C'] Rank: 'High Card' Values: [12, 8, 7, 3, 2]
+ Cards: ['11D', '9H', '9C', '7C', '6C'] Rank: 'One Pair' Values: [9, 11, 7, 6]
+Hand #680: Player One wins
+ Cards: ['14H', '11S', '11H', '6S', '5D'] Rank: 'One Pair' Values: [11, 14, 6, 5]
+ Cards: ['14S', '12C', '11D', '10D', '2C'] Rank: 'High Card' Values: [14, 12, 11, 10, 2]
+Hand #681: Player Two wins
+ Cards: ['13D', '9H', '5D', '2H', '2D'] Rank: 'One Pair' Values: [2, 13, 9, 5]
+ Cards: ['14H', '10C', '10S', '7D', '3S'] Rank: 'One Pair' Values: [10, 14, 7, 3]
+Hand #682: Player One wins
+ Cards: ['14S', '14H', '10D', '8H', '5D'] Rank: 'One Pair' Values: [14, 10, 8, 5]
+ Cards: ['14C', '12C', '10C', '6S', '5H'] Rank: 'High Card' Values: [14, 12, 10, 6, 5]
+Hand #683: Player One wins
+ Cards: ['13S', '8D', '7H', '4S', '4D'] Rank: 'One Pair' Values: [4, 13, 8, 7]
+ Cards: ['10C', '9C', '6H', '3H', '2H'] Rank: 'High Card' Values: [10, 9, 6, 3, 2]
+Hand #684: Player One wins
+ Cards: ['13D', '12D', '12H', '4S', '3H'] Rank: 'One Pair' Values: [12, 13, 4, 3]
+ Cards: ['10D', '8H', '8C', '7S', '3D'] Rank: 'One Pair' Values: [8, 10, 7, 3]
+Hand #685: Player Two wins
+ Cards: ['14H', '11D', '11S', '10C', '8S'] Rank: 'One Pair' Values: [11, 14, 10, 8]
+ Cards: ['13H', '13S', '12S', '4D', '2D'] Rank: 'One Pair' Values: [13, 12, 4, 2]
+Hand #686: Player One wins
+ Cards: ['14D', '13D', '11C', '11S', '3C'] Rank: 'One Pair' Values: [11, 14, 13, 3]
+ Cards: ['13H', '10H', '9H', '4S', '2C'] Rank: 'High Card' Values: [13, 10, 9, 4, 2]
+Hand #687: Player Two wins
+ Cards: ['13S', '12C', '11S', '9S', '5S'] Rank: 'High Card' Values: [13, 12, 11, 9, 5]
+ Cards: ['14S', '12D', '11D', '7C', '2S'] Rank: 'High Card' Values: [14, 12, 11, 7, 2]
+Hand #688: Player Two wins
+ Cards: ['13C', '12S', '5S', '3S', '2D'] Rank: 'High Card' Values: [13, 12, 5, 3, 2]
+ Cards: ['14C', '13S', '9H', '8H', '5D'] Rank: 'High Card' Values: [14, 13, 9, 8, 5]
+Hand #689: Player Two wins
+ Cards: ['14D', '10C', '9C', '6H', '2C'] Rank: 'High Card' Values: [14, 10, 9, 6, 2]
+ Cards: ['11D', '7C', '6D', '6C', '5S'] Rank: 'One Pair' Values: [6, 11, 7, 5]
+Hand #690: Player One wins
+ Cards: ['13H', '12S', '12D', '10D', '2C'] Rank: 'One Pair' Values: [12, 13, 10, 2]
+ Cards: ['14H', '12C', '8S', '3H', '2S'] Rank: 'High Card' Values: [14, 12, 8, 3, 2]
+Hand #691: Player One wins
+ Cards: ['12H', '11H', '10C', '9D', '9H'] Rank: 'One Pair' Values: [9, 12, 11, 10]
+ Cards: ['11S', '7H', '5C', '3C', '2S'] Rank: 'High Card' Values: [11, 7, 5, 3, 2]
+Hand #692: Player One wins
+ Cards: ['6C', '4S', '3S', '3D', '2S'] Rank: 'One Pair' Values: [3, 6, 4, 2]
+ Cards: ['12D', '10H', '5D', '2D', '2C'] Rank: 'One Pair' Values: [2, 12, 10, 5]
+Hand #693: Player One wins
+ Cards: ['11C', '6H', '6D', '2D', '2S'] Rank: 'Two Pairs' Values: [2, 6, 11]
+ Cards: ['14S', '13H', '12H', '7H', '4H'] Rank: 'High Card' Values: [14, 13, 12, 7, 4]
+Hand #694: Player Two wins
+ Cards: ['14D', '13S', '10C', '6S', '5H'] Rank: 'High Card' Values: [14, 13, 10, 6, 5]
+ Cards: ['14C', '10S', '7C', '4S', '4H'] Rank: 'One Pair' Values: [4, 14, 10, 7]
+Hand #695: Player Two wins
+ Cards: ['14D', '12S', '8C', '4H', '3C'] Rank: 'High Card' Values: [14, 12, 8, 4, 3]
+ Cards: ['13S', '9D', '4D', '2H', '2D'] Rank: 'One Pair' Values: [2, 13, 9, 4]
+Hand #696: Player One wins
+ Cards: ['9D', '9C', '6C', '6D', '4S'] Rank: 'Two Pairs' Values: [9, 6, 4]
+ Cards: ['14C', '13D', '8D', '7H', '3H'] Rank: 'High Card' Values: [14, 13, 8, 7, 3]
+Hand #697: Player One wins
+ Cards: ['14H', '11C', '11D', '10S', '6C'] Rank: 'One Pair' Values: [11, 14, 10, 6]
+ Cards: ['14D', '12D', '6D', '5D', '3S'] Rank: 'High Card' Values: [14, 12, 6, 5, 3]
+Hand #698: Player One wins
+ Cards: ['11C', '11H', '11D', '7S', '3S'] Rank: 'Three of a Kind' Values: [11, 7, 3]
+ Cards: ['12C', '11S', '8S', '4S', '3H'] Rank: 'High Card' Values: [12, 11, 8, 4, 3]
+Hand #699: Player Two wins
+ Cards: ['14D', '11D', '10H', '5C', '2C'] Rank: 'High Card' Values: [14, 11, 10, 5, 2]
+ Cards: ['11S', '9S', '7H', '7S', '2H'] Rank: 'One Pair' Values: [7, 11, 9, 2]
+Hand #700: Player Two wins
+ Cards: ['12C', '11H', '8D', '4D', '3S'] Rank: 'High Card' Values: [12, 11, 8, 4, 3]
+ Cards: ['14S', '13C', '11D', '6H', '2C'] Rank: 'High Card' Values: [14, 13, 11, 6, 2]
+Hand #701: Player One wins
+ Cards: ['14C', '13D', '5H', '5S', '2C'] Rank: 'One Pair' Values: [5, 14, 13, 2]
+ Cards: ['14H', '12D', '11H', '7H', '2D'] Rank: 'High Card' Values: [14, 12, 11, 7, 2]
+Hand #702: Player One wins
+ Cards: ['12H', '11C', '10C', '8D', '8S'] Rank: 'One Pair' Values: [8, 12, 11, 10]
+ Cards: ['14H', '8C', '6C', '5H', '5C'] Rank: 'One Pair' Values: [5, 14, 8, 6]
+Hand #703: Player One wins
+ Cards: ['12D', '11S', '11H', '8S', '3H'] Rank: 'One Pair' Values: [11, 12, 8, 3]
+ Cards: ['6D', '5C', '4H', '3C', '3S'] Rank: 'One Pair' Values: [3, 6, 5, 4]
+Hand #704: Player One wins
+ Cards: ['14H', '6D', '5H', '4S', '4C'] Rank: 'One Pair' Values: [4, 14, 6, 5]
+ Cards: ['11D', '8D', '7C', '5S', '3H'] Rank: 'High Card' Values: [11, 8, 7, 5, 3]
+Hand #705: Player One wins
+ Cards: ['14H', '11S', '8H', '3H', '2H'] Rank: 'High Card' Values: [14, 11, 8, 3, 2]
+ Cards: ['13D', '12C', '7D', '4H', '3C'] Rank: 'High Card' Values: [13, 12, 7, 4, 3]
+Hand #706: Player One wins
+ Cards: ['13D', '8H', '6S', '5H', '2H'] Rank: 'High Card' Values: [13, 8, 6, 5, 2]
+ Cards: ['12D', '8S', '7S', '3C', '2D'] Rank: 'High Card' Values: [12, 8, 7, 3, 2]
+Hand #707: Player One wins
+ Cards: ['14H', '13C', '12C', '7S', '2S'] Rank: 'High Card' Values: [14, 13, 12, 7, 2]
+ Cards: ['12S', '10C', '8D', '6D', '4C'] Rank: 'High Card' Values: [12, 10, 8, 6, 4]
+Hand #708: Player Two wins
+ Cards: ['12D', '9H', '5S', '3S', '2C'] Rank: 'High Card' Values: [12, 9, 5, 3, 2]
+ Cards: ['9D', '7S', '7C', '6C', '2H'] Rank: 'One Pair' Values: [7, 9, 6, 2]
+Hand #709: Player One wins
+ Cards: ['11D', '6C', '5C', '5S', '3C'] Rank: 'One Pair' Values: [5, 11, 6, 3]
+ Cards: ['13S', '11C', '10S', '5D', '3S'] Rank: 'High Card' Values: [13, 11, 10, 5, 3]
+Hand #710: Player Two wins
+ Cards: ['13S', '7C', '6S', '5S', '2S'] Rank: 'High Card' Values: [13, 7, 6, 5, 2]
+ Cards: ['12S', '10C', '5H', '2D', '2H'] Rank: 'One Pair' Values: [2, 12, 10, 5]
+Hand #711: Player Two wins
+ Cards: ['14S', '10S', '7H', '6S', '5H'] Rank: 'High Card' Values: [14, 10, 7, 6, 5]
+ Cards: ['13D', '9S', '9D', '3C', '2H'] Rank: 'One Pair' Values: [9, 13, 3, 2]
+Hand #712: Player One wins
+ Cards: ['12S', '11S', '4S', '4H', '3S'] Rank: 'One Pair' Values: [4, 12, 11, 3]
+ Cards: ['14C', '9D', '7C', '6S', '2S'] Rank: 'High Card' Values: [14, 9, 7, 6, 2]
+Hand #713: Player Two wins
+ Cards: ['11H', '8C', '7C', '5H', '2H'] Rank: 'High Card' Values: [11, 8, 7, 5, 2]
+ Cards: ['13H', '12H', '12S', '12C', '5D'] Rank: 'Three of a Kind' Values: [12, 13, 5]
+Hand #714: Player Two wins
+ Cards: ['13C', '10D', '7C', '3S', '3H'] Rank: 'One Pair' Values: [3, 13, 10, 7]
+ Cards: ['13H', '8D', '8S', '8C', '5H'] Rank: 'Three of a Kind' Values: [8, 13, 5]
+Hand #715: Player Two wins
+ Cards: ['13H', '11D', '10S', '4H', '3C'] Rank: 'High Card' Values: [13, 11, 10, 4, 3]
+ Cards: ['14S', '12C', '11S', '7H', '5S'] Rank: 'High Card' Values: [14, 12, 11, 7, 5]
+Hand #716: Player Two wins
+ Cards: ['14H', '9D', '8D', '4D', '2C'] Rank: 'High Card' Values: [14, 9, 8, 4, 2]
+ Cards: ['13C', '6H', '6C', '6S', '2D'] Rank: 'Three of a Kind' Values: [6, 13, 2]
+Hand #717: Player Two wins
+ Cards: ['9D', '7H', '6H', '3S', '2S'] Rank: 'High Card' Values: [9, 7, 6, 3, 2]
+ Cards: ['13H', '13D', '8H', '4D', '3D'] Rank: 'One Pair' Values: [13, 8, 4, 3]
+Hand #718: Player One wins
+ Cards: ['14C', '13H', '11H', '10C', '9C'] Rank: 'High Card' Values: [14, 13, 11, 10, 9]
+ Cards: ['11D', '10D', '5H', '4D', '3S'] Rank: 'High Card' Values: [11, 10, 5, 4, 3]
+Hand #719: Player One wins
+ Cards: ['14S', '9D', '7S', '4H', '4C'] Rank: 'One Pair' Values: [4, 14, 9, 7]
+ Cards: ['13H', '12S', '9S', '7D', '2S'] Rank: 'High Card' Values: [13, 12, 9, 7, 2]
+Hand #720: Player One wins
+ Cards: ['13S', '8D', '8S', '8C', '3S'] Rank: 'Three of a Kind' Values: [8, 13, 3]
+ Cards: ['13H', '11C', '5C', '5D', '2H'] Rank: 'One Pair' Values: [5, 13, 11, 2]
+Hand #721: Player Two wins
+ Cards: ['13C', '12H', '8S', '4D', '2C'] Rank: 'High Card' Values: [13, 12, 8, 4, 2]
+ Cards: ['14C', '12C', '11S', '9D', '6H'] Rank: 'High Card' Values: [14, 12, 11, 9, 6]
+Hand #722: Player One wins
+ Cards: ['11S', '11D', '8S', '8C', '7C'] Rank: 'Two Pairs' Values: [8, 11, 7]
+ Cards: ['14C', '9C', '6S', '4C', '4S'] Rank: 'One Pair' Values: [4, 14, 9, 6]
+Hand #723: Player Two wins
+ Cards: ['12H', '11C', '7D', '5D', '2C'] Rank: 'High Card' Values: [12, 11, 7, 5, 2]
+ Cards: ['11S', '11H', '8S', '4C', '2D'] Rank: 'One Pair' Values: [11, 8, 4, 2]
+Hand #724: Player Two wins
+ Cards: ['11S', '11H', '10S', '7S', '4C'] Rank: 'One Pair' Values: [11, 10, 7, 4]
+ Cards: ['13C', '13H', '12D', '5H', '4S'] Rank: 'One Pair' Values: [13, 12, 5, 4]
+Hand #725: Player One wins
+ Cards: ['12D', '8C', '8D', '6S', '2D'] Rank: 'One Pair' Values: [8, 12, 6, 2]
+ Cards: ['14C', '12H', '10D', '9D', '5S'] Rank: 'High Card' Values: [14, 12, 10, 9, 5]
+Hand #726: Player One wins
+ Cards: ['12H', '12C', '11S', '3D', '3C'] Rank: 'Two Pairs' Values: [3, 12, 11]
+ Cards: ['13H', '8S', '7H', '5C', '4H'] Rank: 'High Card' Values: [13, 8, 7, 5, 4]
+Hand #727: Player Two wins
+ Cards: ['11C', '8S', '7C', '5S', '2C'] Rank: 'High Card' Values: [11, 8, 7, 5, 2]
+ Cards: ['13C', '12C', '5D', '3H', '2H'] Rank: 'High Card' Values: [13, 12, 5, 3, 2]
+Hand #728: Player Two wins
+ Cards: ['13D', '8D', '6H', '5S', '4H'] Rank: 'High Card' Values: [13, 8, 6, 5, 4]
+ Cards: ['14H', '12D', '12H', '6D', '3D'] Rank: 'One Pair' Values: [12, 14, 6, 3]
+Hand #729: Player Two wins
+ Cards: ['13S', '7S', '6C', '4D', '2S'] Rank: 'High Card' Values: [13, 7, 6, 4, 2]
+ Cards: ['14C', '12S', '11D', '10S', '5H'] Rank: 'High Card' Values: [14, 12, 11, 10, 5]
+Hand #730: Player Two wins
+ Cards: ['12S', '10C', '7C', '5D', '2D'] Rank: 'High Card' Values: [12, 10, 7, 5, 2]
+ Cards: ['14C', '13C', '12C', '11S', '6C'] Rank: 'High Card' Values: [14, 13, 12, 11, 6]
+Hand #731: Player Two wins
+ Cards: ['13S', '10S', '4D', '3H', '2C'] Rank: 'High Card' Values: [13, 10, 4, 3, 2]
+ Cards: ['14D', '9S', '8S', '7S', '4H'] Rank: 'High Card' Values: [14, 9, 8, 7, 4]
+Hand #732: Player One wins
+ Cards: ['12D', '12H', '9H', '5H', '4H'] Rank: 'One Pair' Values: [12, 9, 5, 4]
+ Cards: ['14D', '13H', '11C', '4D', '3S'] Rank: 'High Card' Values: [14, 13, 11, 4, 3]
+Hand #733: Player Two wins
+ Cards: ['14C', '13C', '8D', '6D', '4D'] Rank: 'High Card' Values: [14, 13, 8, 6, 4]
+ Cards: ['13H', '11D', '4C', '2D', '2C'] Rank: 'One Pair' Values: [2, 13, 11, 4]
+Hand #734: Player One wins
+ Cards: ['14H', '9H', '3H', '2C', '2D'] Rank: 'One Pair' Values: [2, 14, 9, 3]
+ Cards: ['13S', '10C', '9C', '7D', '6D'] Rank: 'High Card' Values: [13, 10, 9, 7, 6]
+Hand #735: Player Two wins
+ Cards: ['13D', '8C', '7C', '5C', '3H'] Rank: 'High Card' Values: [13, 8, 7, 5, 3]
+ Cards: ['14S', '14H', '5H', '4S', '2S'] Rank: 'One Pair' Values: [14, 5, 4, 2]
+Hand #736: Player Two wins
+ Cards: ['13D', '11D', '10H', '4H', '3H'] Rank: 'High Card' Values: [13, 11, 10, 4, 3]
+ Cards: ['14C', '13H', '10C', '5C', '3S'] Rank: 'High Card' Values: [14, 13, 10, 5, 3]
+Hand #737: Player One wins
+ Cards: ['14H', '12C', '7H', '7S', '6D'] Rank: 'One Pair' Values: [7, 14, 12, 6]
+ Cards: ['14S', '11D', '10D', '6H', '2D'] Rank: 'High Card' Values: [14, 11, 10, 6, 2]
+Hand #738: Player Two wins
+ Cards: ['11H', '10C', '9S', '7H', '5D'] Rank: 'High Card' Values: [11, 10, 9, 7, 5]
+ Cards: ['14S', '13H', '11C', '7D', '5S'] Rank: 'High Card' Values: [14, 13, 11, 7, 5]
+Hand #739: Player Two wins
+ Cards: ['14D', '10H', '8C', '6H', '2H'] Rank: 'High Card' Values: [14, 10, 8, 6, 2]
+ Cards: ['13D', '12D', '9H', '6S', '6C'] Rank: 'One Pair' Values: [6, 13, 12, 9]
+Hand #740: Player Two wins
+ Cards: ['13C', '12H', '9D', '4D', '3S'] Rank: 'High Card' Values: [13, 12, 9, 4, 3]
+ Cards: ['11S', '11H', '9H', '4H', '2C'] Rank: 'One Pair' Values: [11, 9, 4, 2]
+Hand #741: Player Two wins
+ Cards: ['13H', '11C', '10C', '7H', '4H'] Rank: 'High Card' Values: [13, 11, 10, 7, 4]
+ Cards: ['12S', '9S', '7D', '7S', '3H'] Rank: 'One Pair' Values: [7, 12, 9, 3]
+Hand #742: Player Two wins
+ Cards: ['14D', '11H', '7D', '7H', '6C'] Rank: 'One Pair' Values: [7, 14, 11, 6]
+ Cards: ['12H', '4H', '4D', '3S', '3H'] Rank: 'Two Pairs' Values: [4, 3, 12]
+Hand #743: Player One wins
+ Cards: ['14S', '11D', '6C', '5C', '2H'] Rank: 'High Card' Values: [14, 11, 6, 5, 2]
+ Cards: ['12C', '11H', '10C', '4D', '3C'] Rank: 'High Card' Values: [12, 11, 10, 4, 3]
+Hand #744: Player Two wins
+ Cards: ['14C', '11D', '6H', '4C', '3H'] Rank: 'High Card' Values: [14, 11, 6, 4, 3]
+ Cards: ['14D', '11C', '9H', '7D', '7H'] Rank: 'One Pair' Values: [7, 14, 11, 9]
+Hand #745: Player One wins
+ Cards: ['10C', '10S', '8C', '4H', '2C'] Rank: 'One Pair' Values: [10, 8, 4, 2]
+ Cards: ['13S', '11D', '9S', '6S', '2H'] Rank: 'High Card' Values: [13, 11, 9, 6, 2]
+Hand #746: Player Two wins
+ Cards: ['12S', '12C', '9S', '4C', '3H'] Rank: 'One Pair' Values: [12, 9, 4, 3]
+ Cards: ['13C', '9H', '9D', '9C', '6D'] Rank: 'Three of a Kind' Values: [9, 13, 6]
+Hand #747: Player Two wins
+ Cards: ['14D', '12H', '8C', '5C', '2C'] Rank: 'High Card' Values: [14, 12, 8, 5, 2]
+ Cards: ['12D', '11C', '10H', '8D', '8H'] Rank: 'One Pair' Values: [8, 12, 11, 10]
+Hand #748: Player One wins
+ Cards: ['12C', '12D', '9C', '2C', '2S'] Rank: 'Two Pairs' Values: [2, 12, 9]
+ Cards: ['12S', '11H', '8D', '4D', '3S'] Rank: 'High Card' Values: [12, 11, 8, 4, 3]
+Hand #749: Player Two wins
+ Cards: ['9D', '7S', '7C', '3S', '2C'] Rank: 'One Pair' Values: [7, 9, 3, 2]
+ Cards: ['11C', '10D', '10C', '9H', '3C'] Rank: 'One Pair' Values: [10, 11, 9, 3]
+Hand #750: Player One wins
+ Cards: ['10S', '8H', '5C', '4C', '3C'] Rank: 'High Card' Values: [10, 8, 5, 4, 3]
+ Cards: ['8D', '7C', '6S', '4H', '2C'] Rank: 'High Card' Values: [8, 7, 6, 4, 2]
+Hand #751: Player Two wins
+ Cards: ['13S', '10C', '7H', '4H', '2H'] Rank: 'High Card' Values: [13, 10, 7, 4, 2]
+ Cards: ['14S', '14H', '12S', '3S', '2C'] Rank: 'One Pair' Values: [14, 12, 3, 2]
+Hand #752: Player Two wins
+ Cards: ['8C', '4S', '2D', '2H', '2C'] Rank: 'Three of a Kind' Values: [2, 8, 4]
+ Cards: ['7D', '6S', '5S', '4C', '3S'] Rank: 'Straight' Values: [7, 6, 5, 4, 3]
+Hand #753: Player Two wins
+ Cards: ['12C', '10H', '10D', '5D', '3C'] Rank: 'One Pair' Values: [10, 12, 5, 3]
+ Cards: ['14S', '13D', '13C', '13S', '12S'] Rank: 'Three of a Kind' Values: [13, 14, 12]
+Hand #754: Player One wins
+ Cards: ['14H', '13D', '13S', '9H', '4D'] Rank: 'One Pair' Values: [13, 14, 9, 4]
+ Cards: ['11C', '7S', '6H', '5C', '4C'] Rank: 'High Card' Values: [11, 7, 6, 5, 4]
+Hand #755: Player Two wins
+ Cards: ['13C', '12S', '10C', '5C', '4H'] Rank: 'High Card' Values: [13, 12, 10, 5, 4]
+ Cards: ['14H', '12H', '11C', '9S', '2H'] Rank: 'High Card' Values: [14, 12, 11, 9, 2]
+Hand #756: Player Two wins
+ Cards: ['9H', '5H', '4S', '3H', '3C'] Rank: 'One Pair' Values: [3, 9, 5, 4]
+ Cards: ['12D', '12C', '11H', '8H', '2H'] Rank: 'One Pair' Values: [12, 11, 8, 2]
+Hand #757: Player Two wins
+ Cards: ['14S', '7H', '5D', '3D', '2C'] Rank: 'High Card' Values: [14, 7, 5, 3, 2]
+ Cards: ['11H', '7D', '6H', '6S', '4C'] Rank: 'One Pair' Values: [6, 11, 7, 4]
+Hand #758: Player One wins
+ Cards: ['14H', '11D', '11S', '9C', '9H'] Rank: 'Two Pairs' Values: [9, 11, 14]
+ Cards: ['13S', '12H', '8S', '8H', '3H'] Rank: 'One Pair' Values: [8, 13, 12, 3]
+Hand #759: Player Two wins
+ Cards: ['14C', '12C', '10S', '4D', '3S'] Rank: 'High Card' Values: [14, 12, 10, 4, 3]
+ Cards: ['14D', '14H', '9H', '8S', '3D'] Rank: 'One Pair' Values: [14, 9, 8, 3]
+Hand #760: Player Two wins
+ Cards: ['12S', '9C', '9S', '7H', '3H'] Rank: 'One Pair' Values: [9, 12, 7, 3]
+ Cards: ['14H', '14C', '11H', '11S', '5H'] Rank: 'Two Pairs' Values: [11, 14, 5]
+Hand #761: Player One wins
+ Cards: ['14C', '11D', '8D', '3C', '2H'] Rank: 'High Card' Values: [14, 11, 8, 3, 2]
+ Cards: ['9C', '8H', '7H', '5S', '4D'] Rank: 'High Card' Values: [9, 8, 7, 5, 4]
+Hand #762: Player One wins
+ Cards: ['11H', '11S', '9H', '7C', '6C'] Rank: 'One Pair' Values: [11, 9, 7, 6]
+ Cards: ['9S', '9D', '8C', '7H', '4H'] Rank: 'One Pair' Values: [9, 8, 7, 4]
+Hand #763: Player Two wins
+ Cards: ['14S', '9S', '6H', '4D', '2D'] Rank: 'High Card' Values: [14, 9, 6, 4, 2]
+ Cards: ['14D', '12D', '11S', '11H', '9H'] Rank: 'One Pair' Values: [11, 14, 12, 9]
+Hand #764: Player One wins
+ Cards: ['14H', '13H', '11H', '7S', '6H'] Rank: 'High Card' Values: [14, 13, 11, 7, 6]
+ Cards: ['10D', '7H', '6S', '5S', '2C'] Rank: 'High Card' Values: [10, 7, 6, 5, 2]
+Hand #765: Player Two wins
+ Cards: ['11H', '8H', '6S', '5H', '5S'] Rank: 'One Pair' Values: [5, 11, 8, 6]
+ Cards: ['12C', '10C', '9D', '9S', '4C'] Rank: 'One Pair' Values: [9, 12, 10, 4]
+Hand #766: Player Two wins
+ Cards: ['13D', '7D', '5H', '3H', '2C'] Rank: 'High Card' Values: [13, 7, 5, 3, 2]
+ Cards: ['14S', '12D', '11S', '7H', '4D'] Rank: 'High Card' Values: [14, 12, 11, 7, 4]
+Hand #767: Player Two wins
+ Cards: ['12H', '10S', '10H', '8H', '6C'] Rank: 'One Pair' Values: [10, 12, 8, 6]
+ Cards: ['9C', '9D', '5H', '3C', '3H'] Rank: 'Two Pairs' Values: [9, 3, 5]
+Hand #768: Player Two wins
+ Cards: ['14D', '13H', '11S', '5D', '3H'] Rank: 'High Card' Values: [14, 13, 11, 5, 3]
+ Cards: ['14S', '14C', '13C', '9S', '5C'] Rank: 'One Pair' Values: [14, 13, 9, 5]
+Hand #769: Player Two wins
+ Cards: ['13H', '12S', '11C', '8C', '2C'] Rank: 'High Card' Values: [13, 12, 11, 8, 2]
+ Cards: ['14H', '13C', '10C', '6D', '2D'] Rank: 'High Card' Values: [14, 13, 10, 6, 2]
+Hand #770: Player Two wins
+ Cards: ['9D', '7C', '4D', '3H', '2S'] Rank: 'High Card' Values: [9, 7, 4, 3, 2]
+ Cards: ['13H', '13S', '8D', '7D', '6D'] Rank: 'One Pair' Values: [13, 8, 7, 6]
+Hand #771: Player Two wins
+ Cards: ['14C', '11H', '10C', '9H', '2S'] Rank: 'High Card' Values: [14, 11, 10, 9, 2]
+ Cards: ['12C', '8H', '5S', '3H', '3S'] Rank: 'One Pair' Values: [3, 12, 8, 5]
+Hand #772: Player One wins
+ Cards: ['14S', '13D', '8H', '4C', '3S'] Rank: 'High Card' Values: [14, 13, 8, 4, 3]
+ Cards: ['12H', '11H', '10S', '7C', '3H'] Rank: 'High Card' Values: [12, 11, 10, 7, 3]
+Hand #773: Player One wins
+ Cards: ['11H', '9D', '7S', '7H', '6D'] Rank: 'One Pair' Values: [7, 11, 9, 6]
+ Cards: ['14S', '6C', '4C', '3D', '3S'] Rank: 'One Pair' Values: [3, 14, 6, 4]
+Hand #774: Player One wins
+ Cards: ['8S', '4S', '4C', '2H', '2C'] Rank: 'Two Pairs' Values: [2, 4, 8]
+ Cards: ['13C', '12C', '12D', '8C', '5H'] Rank: 'One Pair' Values: [12, 13, 8, 5]
+Hand #775: Player One wins
+ Cards: ['12S', '12C', '6C', '3H', '3S'] Rank: 'Two Pairs' Values: [3, 12, 6]
+ Cards: ['9D', '6S', '5D', '2D', '2C'] Rank: 'One Pair' Values: [2, 9, 6, 5]
+Hand #776: Player One wins
+ Cards: ['11H', '8D', '3H', '2H', '2S'] Rank: 'One Pair' Values: [2, 11, 8, 3]
+ Cards: ['14D', '7S', '6C', '5C', '2D'] Rank: 'High Card' Values: [14, 7, 6, 5, 2]
+Hand #777: Player Two wins
+ Cards: ['12H', '11S', '9H', '8S', '5D'] Rank: 'High Card' Values: [12, 11, 9, 8, 5]
+ Cards: ['14D', '10S', '7S', '6S', '2H'] Rank: 'High Card' Values: [14, 10, 7, 6, 2]
+Hand #778: Player Two wins
+ Cards: ['12C', '9S', '7H', '6D', '5H'] Rank: 'High Card' Values: [12, 9, 7, 6, 5]
+ Cards: ['13C', '11D', '7D', '5C', '4H'] Rank: 'High Card' Values: [13, 11, 7, 5, 4]
+Hand #779: Player One wins
+ Cards: ['12C', '9H', '9C', '5S', '4D'] Rank: 'One Pair' Values: [9, 12, 5, 4]
+ Cards: ['13S', '7C', '6S', '4C', '2S'] Rank: 'High Card' Values: [13, 7, 6, 4, 2]
+Hand #780: Player Two wins
+ Cards: ['9H', '8D', '7C', '4H', '3S'] Rank: 'High Card' Values: [9, 8, 7, 4, 3]
+ Cards: ['11S', '8H', '7S', '6H', '5C'] Rank: 'High Card' Values: [11, 8, 7, 6, 5]
+Hand #781: Player Two wins
+ Cards: ['11S', '10D', '6H', '4H', '2D'] Rank: 'High Card' Values: [11, 10, 6, 4, 2]
+ Cards: ['13C', '11C', '10H', '5H', '4D'] Rank: 'High Card' Values: [13, 11, 10, 5, 4]
+Hand #782: Player Two wins
+ Cards: ['14C', '10H', '8D', '7C', '3H'] Rank: 'High Card' Values: [14, 10, 8, 7, 3]
+ Cards: ['13C', '9S', '4C', '4D', '2D'] Rank: 'One Pair' Values: [4, 13, 9, 2]
+Hand #783: Player Two wins
+ Cards: ['13D', '12S', '9C', '7S', '3D'] Rank: 'High Card' Values: [13, 12, 9, 7, 3]
+ Cards: ['14D', '13S', '10S', '4C', '4H'] Rank: 'One Pair' Values: [4, 14, 13, 10]
+Hand #784: Player Two wins
+ Cards: ['12H', '9C', '8H', '7D', '2S'] Rank: 'High Card' Values: [12, 9, 8, 7, 2]
+ Cards: ['13S', '13D', '7H', '5D', '4C'] Rank: 'One Pair' Values: [13, 7, 5, 4]
+Hand #785: Player One wins
+ Cards: ['11C', '9C', '6S', '2S', '2H'] Rank: 'One Pair' Values: [2, 11, 9, 6]
+ Cards: ['12C', '11H', '10C', '6C', '5C'] Rank: 'High Card' Values: [12, 11, 10, 6, 5]
+Hand #786: Player One wins
+ Cards: ['14C', '13C', '8H', '8S', '7S'] Rank: 'One Pair' Values: [8, 14, 13, 7]
+ Cards: ['12S', '11C', '6H', '6S', '3D'] Rank: 'One Pair' Values: [6, 12, 11, 3]
+Hand #787: Player One wins
+ Cards: ['11S', '11H', '8C', '4S', '2D'] Rank: 'One Pair' Values: [11, 8, 4, 2]
+ Cards: ['14D', '8H', '6H', '6D', '5D'] Rank: 'One Pair' Values: [6, 14, 8, 5]
+Hand #788: Player Two wins
+ Cards: ['9H', '7D', '6H', '4H', '2S'] Rank: 'High Card' Values: [9, 7, 6, 4, 2]
+ Cards: ['14S', '14C', '8H', '7C', '5S'] Rank: 'One Pair' Values: [14, 8, 7, 5]
+Hand #789: Player Two wins
+ Cards: ['11S', '6D', '5H', '4S', '3C'] Rank: 'High Card' Values: [11, 6, 5, 4, 3]
+ Cards: ['12H', '9C', '6S', '2S', '2C'] Rank: 'One Pair' Values: [2, 12, 9, 6]
+Hand #790: Player Two wins
+ Cards: ['9S', '6S', '5S', '4C', '3D'] Rank: 'High Card' Values: [9, 6, 5, 4, 3]
+ Cards: ['12S', '12D', '10C', '8D', '8S'] Rank: 'Two Pairs' Values: [8, 12, 10]
+Hand #791: Player One wins
+ Cards: ['14H', '9C', '9H', '5S', '3D'] Rank: 'One Pair' Values: [9, 14, 5, 3]
+ Cards: ['14D', '11C', '7D', '3S', '2C'] Rank: 'High Card' Values: [14, 11, 7, 3, 2]
+Hand #792: Player Two wins
+ Cards: ['14S', '10C', '7H', '6S', '3C'] Rank: 'High Card' Values: [14, 10, 7, 6, 3]
+ Cards: ['13H', '13C', '9H', '7S', '6D'] Rank: 'One Pair' Values: [13, 9, 7, 6]
+Hand #793: Player Two wins
+ Cards: ['10C', '8H', '6S', '5H', '3S'] Rank: 'High Card' Values: [10, 8, 6, 5, 3]
+ Cards: ['14C', '11H', '8C', '7D', '2S'] Rank: 'High Card' Values: [14, 11, 8, 7, 2]
+Hand #794: Player One wins
+ Cards: ['12D', '11C', '9D', '9C', '3S'] Rank: 'One Pair' Values: [9, 12, 11, 3]
+ Cards: ['13S', '8C', '8H', '5D', '4D'] Rank: 'One Pair' Values: [8, 13, 5, 4]
+Hand #795: Player Two wins
+ Cards: ['14H', '11S', '11D', '9D', '6D'] Rank: 'One Pair' Values: [11, 14, 9, 6]
+ Cards: ['9H', '9S', '8C', '8H', '3H'] Rank: 'Two Pairs' Values: [8, 9, 3]
+Hand #796: Player Two wins
+ Cards: ['8S', '6S', '4C', '4D', '2D'] Rank: 'One Pair' Values: [4, 8, 6, 2]
+ Cards: ['14D', '14H', '10C', '9H', '4S'] Rank: 'One Pair' Values: [14, 10, 9, 4]
+Hand #797: Player One wins
+ Cards: ['14C', '13C', '12C', '10S', '10H'] Rank: 'One Pair' Values: [10, 14, 13, 12]
+ Cards: ['8C', '7S', '6D', '4H', '2H'] Rank: 'High Card' Values: [8, 7, 6, 4, 2]
+Hand #798: Player Two wins
+ Cards: ['12D', '11S', '9D', '5S', '3C'] Rank: 'High Card' Values: [12, 11, 9, 5, 3]
+ Cards: ['14H', '11C', '10S', '9H', '2H'] Rank: 'High Card' Values: [14, 11, 10, 9, 2]
+Hand #799: Player One wins
+ Cards: ['12H', '9C', '5D', '4D', '3H'] Rank: 'High Card' Values: [12, 9, 5, 4, 3]
+ Cards: ['11C', '7D', '5H', '4S', '3S'] Rank: 'High Card' Values: [11, 7, 5, 4, 3]
+Hand #800: Player Two wins
+ Cards: ['10H', '8S', '7C', '3H', '2H'] Rank: 'High Card' Values: [10, 8, 7, 3, 2]
+ Cards: ['14C', '11D', '11S', '10S', '8D'] Rank: 'One Pair' Values: [11, 14, 10, 8]
+Hand #801: Player Two wins
+ Cards: ['13C', '11D', '10D', '9C', '2H'] Rank: 'High Card' Values: [13, 11, 10, 9, 2]
+ Cards: ['14D', '8C', '5S', '2S', '2C'] Rank: 'One Pair' Values: [2, 14, 8, 5]
+Hand #802: Player Two wins
+ Cards: ['13D', '7C', '5H', '4D', '3D'] Rank: 'High Card' Values: [13, 7, 5, 4, 3]
+ Cards: ['12H', '12D', '10C', '7D', '6H'] Rank: 'One Pair' Values: [12, 10, 7, 6]
+Hand #803: Player One wins
+ Cards: ['13C', '13D', '7H', '5S', '2C'] Rank: 'One Pair' Values: [13, 7, 5, 2]
+ Cards: ['14H', '12C', '12H', '7S', '6H'] Rank: 'One Pair' Values: [12, 14, 7, 6]
+Hand #804: Player One wins
+ Cards: ['14C', '6H', '5C', '5H', '2C'] Rank: 'One Pair' Values: [5, 14, 6, 2]
+ Cards: ['10D', '9C', '7C', '2D', '2S'] Rank: 'One Pair' Values: [2, 10, 9, 7]
+Hand #805: Player Two wins
+ Cards: ['14H', '9D', '7C', '4D', '3D'] Rank: 'High Card' Values: [14, 9, 7, 4, 3]
+ Cards: ['13S', '11D', '8C', '4H', '4C'] Rank: 'One Pair' Values: [4, 13, 11, 8]
+Hand #806: Player Two wins
+ Cards: ['12H', '11S', '10H', '8H', '3C'] Rank: 'High Card' Values: [12, 11, 10, 8, 3]
+ Cards: ['14S', '12S', '12C', '4C', '3D'] Rank: 'One Pair' Values: [12, 14, 4, 3]
+Hand #807: Player Two wins
+ Cards: ['11H', '7S', '6D', '5H', '4D'] Rank: 'High Card' Values: [11, 7, 6, 5, 4]
+ Cards: ['13H', '11S', '7D', '6H', '3C'] Rank: 'High Card' Values: [13, 11, 7, 6, 3]
+Hand #808: Player One wins
+ Cards: ['12D', '8S', '7D', '2H', '2C'] Rank: 'One Pair' Values: [2, 12, 8, 7]
+ Cards: ['11C', '8C', '7C', '5H', '2S'] Rank: 'High Card' Values: [11, 8, 7, 5, 2]
+Hand #809: Player Two wins
+ Cards: ['12H', '10C', '9D', '8S', '2H'] Rank: 'High Card' Values: [12, 10, 9, 8, 2]
+ Cards: ['14D', '12D', '8D', '7C', '6S'] Rank: 'High Card' Values: [14, 12, 8, 7, 6]
+Hand #810: Player One wins
+ Cards: ['14D', '9H', '7C', '3S', '2H'] Rank: 'High Card' Values: [14, 9, 7, 3, 2]
+ Cards: ['11D', '10S', '9S', '4C', '2D'] Rank: 'High Card' Values: [11, 10, 9, 4, 2]
+Hand #811: Player Two wins
+ Cards: ['14S', '12C', '4H', '3S', '2C'] Rank: 'High Card' Values: [14, 12, 4, 3, 2]
+ Cards: ['10D', '10C', '8H', '8S', '7S'] Rank: 'Two Pairs' Values: [8, 10, 7]
+Hand #812: Player One wins
+ Cards: ['11H', '10H', '10D', '4D', '3S'] Rank: 'One Pair' Values: [10, 11, 4, 3]
+ Cards: ['12S', '5S', '5D', '4H', '2C'] Rank: 'One Pair' Values: [5, 12, 4, 2]
+Hand #813: Player Two wins
+ Cards: ['12D', '12H', '10C', '8C', '6D'] Rank: 'One Pair' Values: [12, 10, 8, 6]
+ Cards: ['12C', '9S', '9D', '4S', '4H'] Rank: 'Two Pairs' Values: [9, 4, 12]
+Hand #814: Player One wins
+ Cards: ['11S', '11D', '9D', '8C', '6H'] Rank: 'One Pair' Values: [11, 9, 8, 6]
+ Cards: ['14D', '12C', '10D', '6S', '3H'] Rank: 'High Card' Values: [14, 12, 10, 6, 3]
+Hand #815: Player One wins
+ Cards: ['13C', '10D', '8S', '7C', '3D'] Rank: 'High Card' Values: [13, 10, 8, 7, 3]
+ Cards: ['9H', '8D', '7D', '4S', '3S'] Rank: 'High Card' Values: [9, 8, 7, 4, 3]
+Hand #816: Player Two wins
+ Cards: ['13D', '9D', '6C', '4S', '3D'] Rank: 'High Card' Values: [13, 9, 6, 4, 3]
+ Cards: ['14C', '13C', '13S', '10C', '5S'] Rank: 'One Pair' Values: [13, 14, 10, 5]
+Hand #817: Player Two wins
+ Cards: ['12H', '11S', '7C', '6S', '3D'] Rank: 'High Card' Values: [12, 11, 7, 6, 3]
+ Cards: ['13D', '8C', '6H', '6D', '2D'] Rank: 'One Pair' Values: [6, 13, 8, 2]
+Hand #818: Player Two wins
+ Cards: ['11D', '8S', '5S', '4H', '2S'] Rank: 'High Card' Values: [11, 8, 5, 4, 2]
+ Cards: ['14C', '10S', '6S', '5C', '2D'] Rank: 'High Card' Values: [14, 10, 6, 5, 2]
+Hand #819: Player One wins
+ Cards: ['8C', '5H', '5S', '4S', '3C'] Rank: 'One Pair' Values: [5, 8, 4, 3]
+ Cards: ['14S', '8D', '7C', '3D', '3H'] Rank: 'One Pair' Values: [3, 14, 8, 7]
+Hand #820: Player One wins
+ Cards: ['14S', '14D', '10S', '7C', '3H'] Rank: 'One Pair' Values: [14, 10, 7, 3]
+ Cards: ['12S', '11C', '7D', '6C', '6H'] Rank: 'One Pair' Values: [6, 12, 11, 7]
+Hand #821: Player Two wins
+ Cards: ['14C', '12H', '9S', '4C', '3S'] Rank: 'High Card' Values: [14, 12, 9, 4, 3]
+ Cards: ['10S', '9H', '5H', '5D', '4H'] Rank: 'One Pair' Values: [5, 10, 9, 4]
+Hand #822: Player One wins
+ Cards: ['10D', '7H', '7S', '6C', '5C'] Rank: 'One Pair' Values: [7, 10, 6, 5]
+ Cards: ['14D', '11D', '5S', '2H', '2S'] Rank: 'One Pair' Values: [2, 14, 11, 5]
+Hand #823: Player Two wins
+ Cards: ['13C', '11D', '7D', '6C', '3S'] Rank: 'High Card' Values: [13, 11, 7, 6, 3]
+ Cards: ['13H', '12S', '10S', '8D', '8S'] Rank: 'One Pair' Values: [8, 13, 12, 10]
+Hand #824: Player Two wins
+ Cards: ['12S', '10H', '8S', '8D', '6C'] Rank: 'One Pair' Values: [8, 12, 10, 6]
+ Cards: ['14C', '14H', '9S', '8H', '2C'] Rank: 'One Pair' Values: [14, 9, 8, 2]
+Hand #825: Player Two wins
+ Cards: ['13H', '12H', '10D', '8S', '7H'] Rank: 'High Card' Values: [13, 12, 10, 8, 7]
+ Cards: ['14H', '14S', '11D', '4D', '3D'] Rank: 'One Pair' Values: [14, 11, 4, 3]
+Hand #826: Player Two wins
+ Cards: ['11C', '10S', '3D', '2H', '2S'] Rank: 'One Pair' Values: [2, 11, 10, 3]
+ Cards: ['13H', '12C', '11H', '11S', '6C'] Rank: 'One Pair' Values: [11, 13, 12, 6]
+Hand #827: Player One wins
+ Cards: ['13C', '10H', '7S', '6H', '2D'] Rank: 'High Card' Values: [13, 10, 7, 6, 2]
+ Cards: ['12S', '10C', '9D', '8C', '2S'] Rank: 'High Card' Values: [12, 10, 9, 8, 2]
+Hand #828: Player Two wins
+ Cards: ['13H', '9D', '8H', '6S', '3C'] Rank: 'High Card' Values: [13, 9, 8, 6, 3]
+ Cards: ['10H', '6D', '5D', '2C', '2H'] Rank: 'One Pair' Values: [2, 10, 6, 5]
+Hand #829: Player Two wins
+ Cards: ['14D', '10C', '7D', '6H', '4D'] Rank: 'High Card' Values: [14, 10, 7, 6, 4]
+ Cards: ['10S', '10D', '9H', '8S', '7S'] Rank: 'One Pair' Values: [10, 9, 8, 7]
+Hand #830: Player One wins
+ Cards: ['11S', '11D', '11C', '6D', '2H'] Rank: 'Three of a Kind' Values: [11, 6, 2]
+ Cards: ['14C', '13H', '8D', '6C', '3D'] Rank: 'High Card' Values: [14, 13, 8, 6, 3]
+Hand #831: Player One wins
+ Cards: ['13H', '11D', '9S', '5D', '4H'] Rank: 'High Card' Values: [13, 11, 9, 5, 4]
+ Cards: ['12S', '7S', '5C', '4C', '3H'] Rank: 'High Card' Values: [12, 7, 5, 4, 3]
+Hand #832: Player Two wins
+ Cards: ['11D', '5D', '4H', '3S', '3C'] Rank: 'One Pair' Values: [3, 11, 5, 4]
+ Cards: ['13H', '12H', '12S', '7S', '4D'] Rank: 'One Pair' Values: [12, 13, 7, 4]
+Hand #833: Player Two wins
+ Cards: ['14H', '12D', '11D', '10S', '8S'] Rank: 'High Card' Values: [14, 12, 11, 10, 8]
+ Cards: ['6H', '5S', '4C', '3S', '2C'] Rank: 'Straight' Values: [6, 5, 4, 3, 2]
+Hand #834: Player One wins
+ Cards: ['14S', '12S', '11D', '8D', '3D'] Rank: 'High Card' Values: [14, 12, 11, 8, 3]
+ Cards: ['13S', '12C', '10H', '7C', '6S'] Rank: 'High Card' Values: [13, 12, 10, 7, 6]
+Hand #835: Player One wins
+ Cards: ['12C', '8C', '7S', '7H', '2H'] Rank: 'One Pair' Values: [7, 12, 8, 2]
+ Cards: ['14C', '13H', '10H', '6D', '2D'] Rank: 'High Card' Values: [14, 13, 10, 6, 2]
+Hand #836: Player One wins
+ Cards: ['13H', '7H', '7D', '6C', '5S'] Rank: 'One Pair' Values: [7, 13, 6, 5]
+ Cards: ['14H', '8C', '7S', '5C', '3D'] Rank: 'High Card' Values: [14, 8, 7, 5, 3]
+Hand #837: Player Two wins
+ Cards: ['14D', '13D', '7D', '6C', '3C'] Rank: 'High Card' Values: [14, 13, 7, 6, 3]
+ Cards: ['13S', '8C', '4D', '4S', '2D'] Rank: 'One Pair' Values: [4, 13, 8, 2]
+Hand #838: Player Two wins
+ Cards: ['8D', '7C', '5S', '2D', '2S'] Rank: 'One Pair' Values: [2, 8, 7, 5]
+ Cards: ['14H', '14D', '10D', '9D', '2C'] Rank: 'One Pair' Values: [14, 10, 9, 2]
+Hand #839: Player One wins
+ Cards: ['14D', '13S', '11H', '4S', '3C'] Rank: 'High Card' Values: [14, 13, 11, 4, 3]
+ Cards: ['10H', '9C', '8C', '7C', '5C'] Rank: 'High Card' Values: [10, 9, 8, 7, 5]
+Hand #840: Player One wins
+ Cards: ['14S', '11D', '10D', '7C', '4D'] Rank: 'High Card' Values: [14, 11, 10, 7, 4]
+ Cards: ['12H', '9S', '8C', '5H', '3C'] Rank: 'High Card' Values: [12, 9, 8, 5, 3]
+Hand #841: Player One wins
+ Cards: ['9C', '9S', '8S', '6S', '3H'] Rank: 'One Pair' Values: [9, 8, 6, 3]
+ Cards: ['14H', '13S', '12D', '11H', '5H'] Rank: 'High Card' Values: [14, 13, 12, 11, 5]
+Hand #842: Player Two wins
+ Cards: ['12C', '9C', '5S', '4H', '2H'] Rank: 'High Card' Values: [12, 9, 5, 4, 2]
+ Cards: ['14S', '10D', '9D', '8C', '7D'] Rank: 'High Card' Values: [14, 10, 9, 8, 7]
+Hand #843: Player Two wins
+ Cards: ['13D', '10C', '9D', '8C', '2C'] Rank: 'High Card' Values: [13, 10, 9, 8, 2]
+ Cards: ['13H', '12C', '7S', '3D', '3C'] Rank: 'One Pair' Values: [3, 13, 12, 7]
+Hand #844: Player One wins
+ Cards: ['14S', '12S', '5S', '4D', '4C'] Rank: 'One Pair' Values: [4, 14, 12, 5]
+ Cards: ['13S', '12H', '11D', '9D', '6S'] Rank: 'High Card' Values: [13, 12, 11, 9, 6]
+Hand #845: Player One wins
+ Cards: ['14H', '6D', '6C', '5H', '4C'] Rank: 'One Pair' Values: [6, 14, 5, 4]
+ Cards: ['10S', '9H', '7D', '5S', '3D'] Rank: 'High Card' Values: [10, 9, 7, 5, 3]
+Hand #846: Player Two wins
+ Cards: ['12S', '11D', '9C', '8D', '7C'] Rank: 'High Card' Values: [12, 11, 9, 8, 7]
+ Cards: ['14C', '13H', '6S', '6C', '3S'] Rank: 'One Pair' Values: [6, 14, 13, 3]
+Hand #847: Player Two wins
+ Cards: ['11H', '9S', '8H', '6D', '5D'] Rank: 'High Card' Values: [11, 9, 8, 6, 5]
+ Cards: ['14S', '12C', '7H', '6S', '3S'] Rank: 'High Card' Values: [14, 12, 7, 6, 3]
+Hand #848: Player Two wins
+ Cards: ['14D', '12D', '11H', '5C', '2H'] Rank: 'High Card' Values: [14, 12, 11, 5, 2]
+ Cards: ['14H', '14S', '13C', '4H', '2C'] Rank: 'One Pair' Values: [14, 13, 4, 2]
+Hand #849: Player One wins
+ Cards: ['11H', '9C', '6H', '2C', '2D'] Rank: 'One Pair' Values: [2, 11, 9, 6]
+ Cards: ['13C', '11S', '9H', '6D', '5D'] Rank: 'High Card' Values: [13, 11, 9, 6, 5]
+Hand #850: Player Two wins
+ Cards: ['13D', '10H', '9D', '7D', '3H'] Rank: 'High Card' Values: [13, 10, 9, 7, 3]
+ Cards: ['14S', '14D', '12C', '6S', '6H'] Rank: 'Two Pairs' Values: [6, 14, 12]
+Hand #851: Player Two wins
+ Cards: ['13C', '11D', '7D', '4H', '3H'] Rank: 'High Card' Values: [13, 11, 7, 4, 3]
+ Cards: ['12S', '11S', '10H', '3C', '3D'] Rank: 'One Pair' Values: [3, 12, 11, 10]
+Hand #852: Player Two wins
+ Cards: ['12D', '8C', '5H', '4C', '3H'] Rank: 'High Card' Values: [12, 8, 5, 4, 3]
+ Cards: ['14S', '14D', '11D', '8H', '6H'] Rank: 'One Pair' Values: [14, 11, 8, 6]
+Hand #853: Player Two wins
+ Cards: ['13D', '12C', '10H', '8S', '5D'] Rank: 'High Card' Values: [13, 12, 10, 8, 5]
+ Cards: ['11S', '10S', '7D', '5S', '5H'] Rank: 'One Pair' Values: [5, 11, 10, 7]
+Hand #854: Player Two wins
+ Cards: ['13C', '12S', '9D', '7D', '3H'] Rank: 'High Card' Values: [13, 12, 9, 7, 3]
+ Cards: ['14H', '10S', '7S', '6D', '3C'] Rank: 'High Card' Values: [14, 10, 7, 6, 3]
+Hand #855: Player One wins
+ Cards: ['14H', '12C', '7C', '7H', '4H'] Rank: 'One Pair' Values: [7, 14, 12, 4]
+ Cards: ['14C', '10H', '6D', '5D', '4D'] Rank: 'High Card' Values: [14, 10, 6, 5, 4]
+Hand #856: Player Two wins
+ Cards: ['13D', '8H', '4H', '3C', '2S'] Rank: 'High Card' Values: [13, 8, 4, 3, 2]
+ Cards: ['11H', '11D', '10C', '6C', '5H'] Rank: 'One Pair' Values: [11, 10, 6, 5]
+Hand #857: Player One wins
+ Cards: ['11S', '8C', '4S', '4H', '3D'] Rank: 'One Pair' Values: [4, 11, 8, 3]
+ Cards: ['13D', '12S', '11H', '10D', '7S'] Rank: 'High Card' Values: [13, 12, 11, 10, 7]
+Hand #858: Player Two wins
+ Cards: ['13D', '12C', '7C', '7H', '4D'] Rank: 'One Pair' Values: [7, 13, 12, 4]
+ Cards: ['14D', '13H', '10D', '10C', '6S'] Rank: 'One Pair' Values: [10, 14, 13, 6]
+Hand #859: Player Two wins
+ Cards: ['13C', '9H', '5H', '4D', '3H'] Rank: 'High Card' Values: [13, 9, 5, 4, 3]
+ Cards: ['14D', '12D', '6S', '6H', '3D'] Rank: 'One Pair' Values: [6, 14, 12, 3]
+Hand #860: Player One wins
+ Cards: ['12H', '10H', '10S', '7C', '6H'] Rank: 'One Pair' Values: [10, 12, 7, 6]
+ Cards: ['13C', '10D', '6S', '5S', '2C'] Rank: 'High Card' Values: [13, 10, 6, 5, 2]
+Hand #861: Player Two wins
+ Cards: ['11D', '11H', '7C', '5S', '4D'] Rank: 'One Pair' Values: [11, 7, 5, 4]
+ Cards: ['14C', '13D', '13H', '7D', '4H'] Rank: 'One Pair' Values: [13, 14, 7, 4]
+Hand #862: Player Two wins
+ Cards: ['8D', '8H', '7D', '6C', '5C'] Rank: 'One Pair' Values: [8, 7, 6, 5]
+ Cards: ['12D', '11H', '11D', '10H', '8S'] Rank: 'One Pair' Values: [11, 12, 10, 8]
+Hand #863: Player One wins
+ Cards: ['9D', '8D', '7D', '7C', '6C'] Rank: 'One Pair' Values: [7, 9, 8, 6]
+ Cards: ['14S', '13D', '12H', '11H', '5C'] Rank: 'High Card' Values: [14, 13, 12, 11, 5]
+Hand #864: Player Two wins
+ Cards: ['9S', '8C', '4C', '3C', '2C'] Rank: 'High Card' Values: [9, 8, 4, 3, 2]
+ Cards: ['13S', '11H', '8D', '4H', '2D'] Rank: 'High Card' Values: [13, 11, 8, 4, 2]
+Hand #865: Player Two wins
+ Cards: ['13H', '11H', '8H', '7S', '6C'] Rank: 'High Card' Values: [13, 11, 8, 7, 6]
+ Cards: ['14H', '9D', '6D', '3H', '2D'] Rank: 'High Card' Values: [14, 9, 6, 3, 2]
+Hand #866: Player Two wins
+ Cards: ['10C', '9C', '8D', '7H', '4D'] Rank: 'High Card' Values: [10, 9, 8, 7, 4]
+ Cards: ['13S', '13D', '10D', '10H', '3C'] Rank: 'Two Pairs' Values: [10, 13, 3]
+Hand #867: Player Two wins
+ Cards: ['14S', '12D', '11D', '9H', '8D'] Rank: 'High Card' Values: [14, 12, 11, 9, 8]
+ Cards: ['13D', '9D', '9C', '2C', '2S'] Rank: 'Two Pairs' Values: [9, 2, 13]
+Hand #868: Player One wins
+ Cards: ['13S', '8D', '7H', '5C', '3H'] Rank: 'High Card' Values: [13, 8, 7, 5, 3]
+ Cards: ['12H', '9H', '8C', '5H', '2D'] Rank: 'High Card' Values: [12, 9, 8, 5, 2]
+Hand #869: Player One wins
+ Cards: ['12D', '10H', '6D', '6C', '2D'] Rank: 'One Pair' Values: [6, 12, 10, 2]
+ Cards: ['14D', '13C', '4C', '3H', '3S'] Rank: 'One Pair' Values: [3, 14, 13, 4]
+Hand #870: Player Two wins
+ Cards: ['11S', '9D', '4H', '3H', '3C'] Rank: 'One Pair' Values: [3, 11, 9, 4]
+ Cards: ['12H', '12C', '11C', '10C', '5H'] Rank: 'One Pair' Values: [12, 11, 10, 5]
+Hand #871: Player One wins
+ Cards: ['6H', '5C', '3D', '3S', '3C'] Rank: 'Three of a Kind' Values: [3, 6, 5]
+ Cards: ['12H', '11C', '7S', '5S', '2S'] Rank: 'High Card' Values: [12, 11, 7, 5, 2]
+Hand #872: Player One wins
+ Cards: ['14C', '8C', '5C', '5D', '4D'] Rank: 'One Pair' Values: [5, 14, 8, 4]
+ Cards: ['12D', '4H', '3C', '3H', '2S'] Rank: 'One Pair' Values: [3, 12, 4, 2]
+Hand #873: Player Two wins
+ Cards: ['14H', '13D', '10D', '9C', '2C'] Rank: 'High Card' Values: [14, 13, 10, 9, 2]
+ Cards: ['12D', '12C', '11S', '6S', '4C'] Rank: 'One Pair' Values: [12, 11, 6, 4]
+Hand #874: Player Two wins
+ Cards: ['12S', '10C', '8C', '4H', '3S'] Rank: 'High Card' Values: [12, 10, 8, 4, 3]
+ Cards: ['14D', '11S', '11C', '7C', '3H'] Rank: 'One Pair' Values: [11, 14, 7, 3]
+Hand #875: Player Two wins
+ Cards: ['13S', '11C', '9C', '5H', '4D'] Rank: 'High Card' Values: [13, 11, 9, 5, 4]
+ Cards: ['10D', '10S', '9S', '9H', '8S'] Rank: 'Two Pairs' Values: [9, 10, 8]
+Hand #876: Player One wins
+ Cards: ['14S', '14C', '12D', '10S', '7D'] Rank: 'One Pair' Values: [14, 12, 10, 7]
+ Cards: ['14H', '10D', '8H', '6H', '2C'] Rank: 'High Card' Values: [14, 10, 8, 6, 2]
+Hand #877: Player Two wins
+ Cards: ['14D', '9H', '8C', '6S', '4S'] Rank: 'High Card' Values: [14, 9, 8, 6, 4]
+ Cards: ['13H', '9D', '8D', '8S', '3C'] Rank: 'One Pair' Values: [8, 13, 9, 3]
+Hand #878: Player Two wins
+ Cards: ['13H', '12S', '7S', '4D', '2D'] Rank: 'High Card' Values: [13, 12, 7, 4, 2]
+ Cards: ['14D', '11S', '11C', '4C', '3C'] Rank: 'One Pair' Values: [11, 14, 4, 3]
+Hand #879: Player Two wins
+ Cards: ['13C', '12S', '10D', '9S', '7H'] Rank: 'High Card' Values: [13, 12, 10, 9, 7]
+ Cards: ['14C', '11S', '11H', '10H', '5H'] Rank: 'One Pair' Values: [11, 14, 10, 5]
+Hand #880: Player Two wins
+ Cards: ['14C', '12S', '7C', '6D', '2S'] Rank: 'High Card' Values: [14, 12, 7, 6, 2]
+ Cards: ['14S', '13S', '13H', '6S', '5S'] Rank: 'One Pair' Values: [13, 14, 6, 5]
+Hand #881: Player Two wins
+ Cards: ['13H', '12S', '8H', '6D', '3C'] Rank: 'High Card' Values: [13, 12, 8, 6, 3]
+ Cards: ['9C', '9D', '6C', '5C', '2H'] Rank: 'One Pair' Values: [9, 6, 5, 2]
+Hand #882: Player Two wins
+ Cards: ['11S', '7D', '6H', '4C', '2C'] Rank: 'High Card' Values: [11, 7, 6, 4, 2]
+ Cards: ['14C', '12D', '11C', '10D', '3H'] Rank: 'High Card' Values: [14, 12, 11, 10, 3]
+Hand #883: Player Two wins
+ Cards: ['12C', '11D', '8H', '4H', '4C'] Rank: 'One Pair' Values: [4, 12, 11, 8]
+ Cards: ['13D', '13S', '13C', '7S', '5C'] Rank: 'Three of a Kind' Values: [13, 7, 5]
+Hand #884: Player One wins
+ Cards: ['12D', '6D', '3H', '2D', '2S'] Rank: 'One Pair' Values: [2, 12, 6, 3]
+ Cards: ['14S', '10H', '7H', '6S', '5S'] Rank: 'High Card' Values: [14, 10, 7, 6, 5]
+Hand #885: Player One wins
+ Cards: ['14S', '8D', '8S', '6D', '2C'] Rank: 'One Pair' Values: [8, 14, 6, 2]
+ Cards: ['14H', '12D', '11C', '10D', '8H'] Rank: 'High Card' Values: [14, 12, 11, 10, 8]
+Hand #886: Player One wins
+ Cards: ['12H', '10D', '9C', '9H', '2D'] Rank: 'One Pair' Values: [9, 12, 10, 2]
+ Cards: ['10C', '8H', '5C', '3D', '2H'] Rank: 'High Card' Values: [10, 8, 5, 3, 2]
+Hand #887: Player One wins
+ Cards: ['13C', '13H', '8S', '3D', '2S'] Rank: 'One Pair' Values: [13, 8, 3, 2]
+ Cards: ['11H', '10S', '10C', '6S', '4D'] Rank: 'One Pair' Values: [10, 11, 6, 4]
+Hand #888: Player One wins
+ Cards: ['14C', '13C', '12S', '9H', '9D'] Rank: 'One Pair' Values: [9, 14, 13, 12]
+ Cards: ['14H', '8D', '6H', '5D', '4D'] Rank: 'High Card' Values: [14, 8, 6, 5, 4]
+Hand #889: Player Two wins
+ Cards: ['12S', '9S', '7C', '5C', '4H'] Rank: 'High Card' Values: [12, 9, 7, 5, 4]
+ Cards: ['14D', '11S', '8S', '7D', '2H'] Rank: 'High Card' Values: [14, 11, 8, 7, 2]
+Hand #890: Player One wins
+ Cards: ['14C', '14S', '9S', '3D', '2C'] Rank: 'One Pair' Values: [14, 9, 3, 2]
+ Cards: ['13H', '11C', '3H', '2D', '2H'] Rank: 'One Pair' Values: [2, 13, 11, 3]
+Hand #891: Player Two wins
+ Cards: ['13H', '12H', '11D', '10C', '7H'] Rank: 'High Card' Values: [13, 12, 11, 10, 7]
+ Cards: ['13S', '8H', '8D', '5S', '4C'] Rank: 'One Pair' Values: [8, 13, 5, 4]
+Hand #892: Player One wins
+ Cards: ['7H', '5H', '3S', '2H', '2S'] Rank: 'One Pair' Values: [2, 7, 5, 3]
+ Cards: ['14S', '13D', '12S', '9H', '3C'] Rank: 'High Card' Values: [14, 13, 12, 9, 3]
+Hand #893: Player Two wins
+ Cards: ['14D', '11D', '6H', '5S', '3D'] Rank: 'High Card' Values: [14, 11, 6, 5, 3]
+ Cards: ['14C', '9C', '9S', '6D', '3S'] Rank: 'One Pair' Values: [9, 14, 6, 3]
+Hand #894: Player Two wins
+ Cards: ['14C', '9C', '5D', '3D', '2D'] Rank: 'High Card' Values: [14, 9, 5, 3, 2]
+ Cards: ['14D', '6C', '6S', '4S', '2S'] Rank: 'One Pair' Values: [6, 14, 4, 2]
+Hand #895: Player Two wins
+ Cards: ['12C', '6S', '4C', '3H', '2D'] Rank: 'High Card' Values: [12, 6, 4, 3, 2]
+ Cards: ['13C', '12H', '12D', '11H', '2H'] Rank: 'One Pair' Values: [12, 13, 11, 2]
+Hand #896: Player Two wins
+ Cards: ['12C', '9S', '8S', '4D', '3C'] Rank: 'High Card' Values: [12, 9, 8, 4, 3]
+ Cards: ['12S', '12D', '8H', '5C', '2H'] Rank: 'One Pair' Values: [12, 8, 5, 2]
+Hand #897: Player One wins
+ Cards: ['13D', '7H', '6D', '6S', '3S'] Rank: 'One Pair' Values: [6, 13, 7, 3]
+ Cards: ['13H', '11C', '6C', '5C', '2H'] Rank: 'High Card' Values: [13, 11, 6, 5, 2]
+Hand #898: Player Two wins
+ Cards: ['10C', '9S', '8H', '6S', '3S'] Rank: 'High Card' Values: [10, 9, 8, 6, 3]
+ Cards: ['14D', '10S', '8S', '7S', '2D'] Rank: 'High Card' Values: [14, 10, 8, 7, 2]
+Hand #899: Player Two wins
+ Cards: ['9C', '6H', '5C', '3C', '3H'] Rank: 'One Pair' Values: [3, 9, 6, 5]
+ Cards: ['12H', '12D', '11C', '10D', '8H'] Rank: 'One Pair' Values: [12, 11, 10, 8]
+Hand #900: Player Two wins
+ Cards: ['12D', '11S', '10D', '5D', '3C'] Rank: 'High Card' Values: [12, 11, 10, 5, 3]
+ Cards: ['14S', '13H', '10H', '9H', '2C'] Rank: 'High Card' Values: [14, 13, 10, 9, 2]
+Hand #901: Player Two wins
+ Cards: ['11D', '10C', '9S', '5C', '3D'] Rank: 'High Card' Values: [11, 10, 9, 5, 3]
+ Cards: ['14D', '13C', '12H', '9H', '5H'] Rank: 'High Card' Values: [14, 13, 12, 9, 5]
+Hand #902: Player Two wins
+ Cards: ['10C', '8H', '7H', '4H', '3H'] Rank: 'High Card' Values: [10, 8, 7, 4, 3]
+ Cards: ['14C', '10D', '7C', '6S', '2S'] Rank: 'High Card' Values: [14, 10, 7, 6, 2]
+Hand #903: Player Two wins
+ Cards: ['12S', '11C', '9D', '5D', '3C'] Rank: 'High Card' Values: [12, 11, 9, 5, 3]
+ Cards: ['13S', '11H', '6C', '4D', '2S'] Rank: 'High Card' Values: [13, 11, 6, 4, 2]
+Hand #904: Player Two wins
+ Cards: ['10S', '9S', '7H', '6S', '3C'] Rank: 'High Card' Values: [10, 9, 7, 6, 3]
+ Cards: ['13D', '9C', '6D', '4C', '3D'] Rank: 'High Card' Values: [13, 9, 6, 4, 3]
+Hand #905: Player One wins
+ Cards: ['14H', '14C', '9H', '7H', '2D'] Rank: 'One Pair' Values: [14, 9, 7, 2]
+ Cards: ['12C', '11H', '7C', '3S', '2S'] Rank: 'High Card' Values: [12, 11, 7, 3, 2]
+Hand #906: Player Two wins
+ Cards: ['14C', '12D', '9H', '3C', '2H'] Rank: 'High Card' Values: [14, 12, 9, 3, 2]
+ Cards: ['14S', '13D', '13H', '8S', '8C'] Rank: 'Two Pairs' Values: [8, 13, 14]
+Hand #907: Player One wins
+ Cards: ['10D', '10H', '7S', '6D', '2D'] Rank: 'One Pair' Values: [10, 7, 6, 2]
+ Cards: ['11D', '8D', '5S', '4D', '2H'] Rank: 'High Card' Values: [11, 8, 5, 4, 2]
+Hand #908: Player One wins
+ Cards: ['13D', '12H', '12S', '11D', '8S'] Rank: 'One Pair' Values: [12, 13, 11, 8]
+ Cards: ['13C', '11H', '5H', '4D', '3S'] Rank: 'High Card' Values: [13, 11, 5, 4, 3]
+Hand #909: Player Two wins
+ Cards: ['13H', '12C', '8H', '6D', '3C'] Rank: 'High Card' Values: [13, 12, 8, 6, 3]
+ Cards: ['14H', '10D', '7D', '3S', '2D'] Rank: 'High Card' Values: [14, 10, 7, 3, 2]
+Hand #910: Player Two wins
+ Cards: ['12H', '9H', '6S', '5S', '4S'] Rank: 'High Card' Values: [12, 9, 6, 5, 4]
+ Cards: ['10S', '10H', '7S', '6C', '6D'] Rank: 'Two Pairs' Values: [10, 6, 7]
+Hand #911: Player Two wins
+ Cards: ['12S', '11S', '6C', '6D', '4C'] Rank: 'One Pair' Values: [6, 12, 11, 4]
+ Cards: ['10S', '9C', '8D', '8S', '3H'] Rank: 'One Pair' Values: [8, 10, 9, 3]
+Hand #912: Player Two wins
+ Cards: ['14S', '11S', '7S', '5C', '2C'] Rank: 'High Card' Values: [14, 11, 7, 5, 2]
+ Cards: ['14H', '14D', '10C', '5S', '2H'] Rank: 'One Pair' Values: [14, 10, 5, 2]
+Hand #913: Player One wins
+ Cards: ['13D', '10S', '9C', '9D', '6C'] Rank: 'One Pair' Values: [9, 13, 10, 6]
+ Cards: ['12D', '11C', '4H', '2S', '2C'] Rank: 'One Pair' Values: [2, 12, 11, 4]
+Hand #914: Player Two wins
+ Cards: ['13C', '12S', '10C', '9H', '3H'] Rank: 'High Card' Values: [13, 12, 10, 9, 3]
+ Cards: ['14D', '13S', '10H', '4H', '3C'] Rank: 'High Card' Values: [14, 13, 10, 4, 3]
+Hand #915: Player One wins
+ Cards: ['13H', '13D', '9C', '9D', '2H'] Rank: 'Two Pairs' Values: [9, 13, 2]
+ Cards: ['13C', '11H', '10C', '7S', '2D'] Rank: 'High Card' Values: [13, 11, 10, 7, 2]
+Hand #916: Player Two wins
+ Cards: ['14S', '13C', '8C', '7C', '3S'] Rank: 'High Card' Values: [14, 13, 8, 7, 3]
+ Cards: ['12H', '9C', '9S', '5D', '3H'] Rank: 'One Pair' Values: [9, 12, 5, 3]
+Hand #917: Player One wins
+ Cards: ['10D', '8C', '4C', '2D', '2H'] Rank: 'One Pair' Values: [2, 10, 8, 4]
+ Cards: ['12C', '10C', '7D', '5D', '2C'] Rank: 'High Card' Values: [12, 10, 7, 5, 2]
+Hand #918: Player Two wins
+ Cards: ['13S', '12H', '10D', '6C', '4D'] Rank: 'High Card' Values: [13, 12, 10, 6, 4]
+ Cards: ['14D', '13H', '8D', '7C', '5D'] Rank: 'High Card' Values: [14, 13, 8, 7, 5]
+Hand #919: Player One wins
+ Cards: ['9S', '8S', '8C', '4C', '2S'] Rank: 'One Pair' Values: [8, 9, 4, 2]
+ Cards: ['12D', '7C', '7H', '6H', '3D'] Rank: 'One Pair' Values: [7, 12, 6, 3]
+Hand #920: Player Two wins
+ Cards: ['12H', '10S', '8S', '6C', '5H'] Rank: 'High Card' Values: [12, 10, 8, 6, 5]
+ Cards: ['5C', '4S', '3C', '2S', '2H'] Rank: 'One Pair' Values: [2, 5, 4, 3]
+Hand #921: Player One wins
+ Cards: ['11C', '8S', '6S', '3S', '2H'] Rank: 'High Card' Values: [11, 8, 6, 3, 2]
+ Cards: ['9D', '8C', '7H', '3H', '2S'] Rank: 'High Card' Values: [9, 8, 7, 3, 2]
+Hand #922: Player Two wins
+ Cards: ['14C', '12C', '9C', '8H', '2C'] Rank: 'High Card' Values: [14, 12, 9, 8, 2]
+ Cards: ['11D', '6S', '4C', '4H', '3S'] Rank: 'One Pair' Values: [4, 11, 6, 3]
+Hand #923: Player One wins
+ Cards: ['9S', '7D', '4C', '3H', '3S'] Rank: 'One Pair' Values: [3, 9, 7, 4]
+ Cards: ['11C', '10C', '8H', '5H', '3D'] Rank: 'High Card' Values: [11, 10, 8, 5, 3]
+Hand #924: Player Two wins
+ Cards: ['13D', '12H', '9S', '2S', '2D'] Rank: 'One Pair' Values: [2, 13, 12, 9]
+ Cards: ['14D', '12D', '9H', '9C', '6D'] Rank: 'One Pair' Values: [9, 14, 12, 6]
+Hand #925: Player Two wins
+ Cards: ['13S', '11C', '9S', '8D', '2D'] Rank: 'High Card' Values: [13, 11, 9, 8, 2]
+ Cards: ['13C', '11D', '10H', '4C', '4S'] Rank: 'One Pair' Values: [4, 13, 11, 10]
+Hand #926: Player Two wins
+ Cards: ['13H', '10S', '6D', '5C', '4D'] Rank: 'High Card' Values: [13, 10, 6, 5, 4]
+ Cards: ['14S', '14D', '13D', '9H', '5H'] Rank: 'One Pair' Values: [14, 13, 9, 5]
+Hand #927: Player Two wins
+ Cards: ['12D', '11S', '7C', '6D', '5D'] Rank: 'High Card' Values: [12, 11, 7, 6, 5]
+ Cards: ['12H', '12S', '10H', '5C', '5H'] Rank: 'Two Pairs' Values: [12, 5, 10]
+Hand #928: Player Two wins
+ Cards: ['13H', '12H', '11H', '9D', '5H'] Rank: 'High Card' Values: [13, 12, 11, 9, 5]
+ Cards: ['10C', '10H', '6C', '4C', '4D'] Rank: 'Two Pairs' Values: [10, 4, 6]
+Hand #929: Player One wins
+ Cards: ['14S', '13H', '13D', '10S', '9D'] Rank: 'One Pair' Values: [13, 14, 10, 9]
+ Cards: ['9C', '8H', '7S', '5S', '4D'] Rank: 'High Card' Values: [9, 8, 7, 5, 4]
+Hand #930: Player Two wins
+ Cards: ['14S', '13H', '9D', '7D', '2S'] Rank: 'High Card' Values: [14, 13, 9, 7, 2]
+ Cards: ['14H', '10S', '10H', '7C', '4C'] Rank: 'One Pair' Values: [10, 14, 7, 4]
+Hand #931: Player One wins
+ Cards: ['14C', '13S', '9S', '8S', '4D'] Rank: 'High Card' Values: [14, 13, 9, 8, 4]
+ Cards: ['12H', '10H', '9D', '8D', '5C'] Rank: 'High Card' Values: [12, 10, 9, 8, 5]
+Hand #932: Player One wins
+ Cards: ['12S', '10C', '8C', '5D', '5C'] Rank: 'One Pair' Values: [5, 12, 10, 8]
+ Cards: ['8D', '4C', '3D', '3S', '2C'] Rank: 'One Pair' Values: [3, 8, 4, 2]
+Hand #933: Player One wins
+ Cards: ['13S', '13C', '9D', '3C', '2D'] Rank: 'One Pair' Values: [13, 9, 3, 2]
+ Cards: ['13H', '11C', '8C', '6C', '4S'] Rank: 'High Card' Values: [13, 11, 8, 6, 4]
+Hand #934: Player One wins
+ Cards: ['14H', '8H', '7D', '7S', '6H'] Rank: 'One Pair' Values: [7, 14, 8, 6]
+ Cards: ['13C', '12D', '6C', '4C', '3C'] Rank: 'High Card' Values: [13, 12, 6, 4, 3]
+Hand #935: Player Two wins
+ Cards: ['14S', '12H', '8H', '3H', '2C'] Rank: 'High Card' Values: [14, 12, 8, 3, 2]
+ Cards: ['13C', '8C', '7D', '4C', '4H'] Rank: 'One Pair' Values: [4, 13, 8, 7]
+Hand #936: Player Two wins
+ Cards: ['12D', '10D', '5S', '4H', '2C'] Rank: 'High Card' Values: [12, 10, 5, 4, 2]
+ Cards: ['14H', '12H', '11H', '8S', '4C'] Rank: 'High Card' Values: [14, 12, 11, 8, 4]
+Hand #937: Player Two wins
+ Cards: ['12S', '11S', '8H', '5S', '3H'] Rank: 'High Card' Values: [12, 11, 8, 5, 3]
+ Cards: ['9H', '9C', '3S', '2S', '2C'] Rank: 'Two Pairs' Values: [9, 2, 3]
+Hand #938: Player Two wins
+ Cards: ['12D', '11C', '10S', '7S', '6H'] Rank: 'High Card' Values: [12, 11, 10, 7, 6]
+ Cards: ['14C', '13C', '10D', '5S', '3H'] Rank: 'High Card' Values: [14, 13, 10, 5, 3]
+Hand #939: Player One wins
+ Cards: ['14S', '12H', '12S', '11C', '7D'] Rank: 'One Pair' Values: [12, 14, 11, 7]
+ Cards: ['13C', '5C', '5S', '4C', '2C'] Rank: 'One Pair' Values: [5, 13, 4, 2]
+Hand #940: Player One wins
+ Cards: ['14S', '12H', '11S', '4H', '3D'] Rank: 'High Card' Values: [14, 12, 11, 4, 3]
+ Cards: ['11C', '9C', '8D', '7H', '2S'] Rank: 'High Card' Values: [11, 9, 8, 7, 2]
+Hand #941: Player One wins
+ Cards: ['9D', '5D', '4D', '4S', '2S'] Rank: 'One Pair' Values: [4, 9, 5, 2]
+ Cards: ['12S', '9C', '8H', '7H', '2D'] Rank: 'High Card' Values: [12, 9, 8, 7, 2]
+Hand #942: Player Two wins
+ Cards: ['11S', '10S', '7H', '6D', '3H'] Rank: 'High Card' Values: [11, 10, 7, 6, 3]
+ Cards: ['14C', '11H', '8S', '7C', '2D'] Rank: 'High Card' Values: [14, 11, 8, 7, 2]
+Hand #943: Player Two wins
+ Cards: ['13C', '11H', '10C', '5H', '3C'] Rank: 'High Card' Values: [13, 11, 10, 5, 3]
+ Cards: ['9H', '9D', '8H', '5S', '4C'] Rank: 'One Pair' Values: [9, 8, 5, 4]
+Hand #944: Player Two wins
+ Cards: ['14D', '13C', '9H', '8S', '5H'] Rank: 'High Card' Values: [14, 13, 9, 8, 5]
+ Cards: ['14H', '13S', '13H', '9D', '8D'] Rank: 'One Pair' Values: [13, 14, 9, 8]
+Hand #945: Player Two wins
+ Cards: ['13S', '11C', '9H', '6S', '2H'] Rank: 'High Card' Values: [13, 11, 9, 6, 2]
+ Cards: ['14H', '12C', '9C', '5H', '3H'] Rank: 'High Card' Values: [14, 12, 9, 5, 3]
+Hand #946: Player Two wins
+ Cards: ['14D', '13H', '6C', '5C', '5S'] Rank: 'One Pair' Values: [5, 14, 13, 6]
+ Cards: ['12C', '11C', '10D', '9H', '9C'] Rank: 'One Pair' Values: [9, 12, 11, 10]
+Hand #947: Player One wins
+ Cards: ['12H', '11C', '5S', '5D', '2D'] Rank: 'One Pair' Values: [5, 12, 11, 2]
+ Cards: ['13S', '12S', '10S', '8H', '2H'] Rank: 'High Card' Values: [13, 12, 10, 8, 2]
+Hand #948: Player One wins
+ Cards: ['14H', '11H', '7H', '5H', '5S'] Rank: 'One Pair' Values: [5, 14, 11, 7]
+ Cards: ['14S', '13H', '10D', '8S', '3C'] Rank: 'High Card' Values: [14, 13, 10, 8, 3]
+Hand #949: Player Two wins
+ Cards: ['11D', '6H', '4C', '3D', '2C'] Rank: 'High Card' Values: [11, 6, 4, 3, 2]
+ Cards: ['14H', '13C', '11H', '7S', '6C'] Rank: 'High Card' Values: [14, 13, 11, 7, 6]
+Hand #950: Player One wins
+ Cards: ['14D', '13S', '9D', '7S', '4C'] Rank: 'High Card' Values: [14, 13, 9, 7, 4]
+ Cards: ['13C', '9C', '8H', '7D', '3S'] Rank: 'High Card' Values: [13, 9, 8, 7, 3]
+Hand #951: Player One wins
+ Cards: ['8H', '7H', '5C', '5H', '3C'] Rank: 'One Pair' Values: [5, 8, 7, 3]
+ Cards: ['13H', '12C', '11C', '6D', '3D'] Rank: 'High Card' Values: [13, 12, 11, 6, 3]
+Hand #952: Player Two wins
+ Cards: ['12C', '7D', '5D', '4H', '2D'] Rank: 'High Card' Values: [12, 7, 5, 4, 2]
+ Cards: ['14D', '14H', '12H', '9H', '8H'] Rank: 'One Pair' Values: [14, 12, 9, 8]
+Hand #953: Player Two wins
+ Cards: ['13D', '11S', '9D', '8C', '3S'] Rank: 'High Card' Values: [13, 11, 9, 8, 3]
+ Cards: ['6D', '5D', '3C', '2H', '2S'] Rank: 'One Pair' Values: [2, 6, 5, 3]
+Hand #954: Player One wins
+ Cards: ['10S', '8S', '6S', '6H', '3C'] Rank: 'One Pair' Values: [6, 10, 8, 3]
+ Cards: ['10D', '8D', '6C', '5S', '3H'] Rank: 'High Card' Values: [10, 8, 6, 5, 3]
+Hand #955: Player One wins
+ Cards: ['13S', '11H', '9C', '7C', '3D'] Rank: 'High Card' Values: [13, 11, 9, 7, 3]
+ Cards: ['12S', '9S', '6H', '5S', '4H'] Rank: 'High Card' Values: [12, 9, 6, 5, 4]
+Hand #956: Player Two wins
+ Cards: ['13C', '10H', '7S', '6S', '4S'] Rank: 'High Card' Values: [13, 10, 7, 6, 4]
+ Cards: ['13D', '13S', '11C', '11H', '3S'] Rank: 'Two Pairs' Values: [11, 13, 3]
+Hand #957: Player Two wins
+ Cards: ['12H', '7C', '6D', '3C', '2S'] Rank: 'High Card' Values: [12, 7, 6, 3, 2]
+ Cards: ['14H', '8H', '7S', '5H', '2C'] Rank: 'High Card' Values: [14, 8, 7, 5, 2]
+Hand #958: Player One wins
+ Cards: ['13C', '13H', '12D', '8D', '6D'] Rank: 'One Pair' Values: [13, 12, 8, 6]
+ Cards: ['9D', '9C', '7H', '5C', '3D'] Rank: 'One Pair' Values: [9, 7, 5, 3]
+Hand #959: Player Two wins
+ Cards: ['11S', '9S', '8S', '6H', '2D'] Rank: 'High Card' Values: [11, 9, 8, 6, 2]
+ Cards: ['13C', '10C', '7C', '6D', '2S'] Rank: 'High Card' Values: [13, 10, 7, 6, 2]
+Hand #960: Player One wins
+ Cards: ['13D', '13C', '11H', '9C', '7H'] Rank: 'One Pair' Values: [13, 11, 9, 7]
+ Cards: ['8S', '7S', '6H', '3D', '2S'] Rank: 'High Card' Values: [8, 7, 6, 3, 2]
+Hand #961: Player Two wins
+ Cards: ['9H', '8H', '4H', '4C', '2D'] Rank: 'One Pair' Values: [4, 9, 8, 2]
+ Cards: ['8S', '8D', '7H', '5S', '2H'] Rank: 'One Pair' Values: [8, 7, 5, 2]
+Hand #962: Player One wins
+ Cards: ['14D', '7C', '7S', '5S', '3C'] Rank: 'One Pair' Values: [7, 14, 5, 3]
+ Cards: ['13H', '11C', '9H', '4D', '3D'] Rank: 'High Card' Values: [13, 11, 9, 4, 3]
+Hand #963: Player Two wins
+ Cards: ['14S', '9C', '7D', '6D', '5D'] Rank: 'High Card' Values: [14, 9, 7, 6, 5]
+ Cards: ['13H', '12H', '12S', '11C', '4C'] Rank: 'One Pair' Values: [12, 13, 11, 4]
+Hand #964: Player Two wins
+ Cards: ['13D', '12S', '11D', '7D', '3D'] Rank: 'High Card' Values: [13, 12, 11, 7, 3]
+ Cards: ['12C', '12D', '11S', '8S', '6D'] Rank: 'One Pair' Values: [12, 11, 8, 6]
+Hand #965: Player Two wins
+ Cards: ['12H', '10H', '8C', '6S', '5S'] Rank: 'High Card' Values: [12, 10, 8, 6, 5]
+ Cards: ['14S', '14C', '11D', '9H', '2C'] Rank: 'One Pair' Values: [14, 11, 9, 2]
+Hand #966: Player One wins
+ Cards: ['13S', '12C', '12H', '7S', '3C'] Rank: 'One Pair' Values: [12, 13, 7, 3]
+ Cards: ['14H', '13C', '5C', '5D', '4C'] Rank: 'One Pair' Values: [5, 14, 13, 4]
+Hand #967: Player Two wins
+ Cards: ['14H', '9D', '6C', '4H', '2C'] Rank: 'High Card' Values: [14, 9, 6, 4, 2]
+ Cards: ['13D', '10S', '5C', '3H', '3D'] Rank: 'One Pair' Values: [3, 13, 10, 5]
+Hand #968: Player Two wins
+ Cards: ['14S', '12S', '11S', '10D', '8S'] Rank: 'High Card' Values: [14, 12, 11, 10, 8]
+ Cards: ['14C', '13D', '13S', '4H', '3H'] Rank: 'One Pair' Values: [13, 14, 4, 3]
+Hand #969: Player Two wins
+ Cards: ['10S', '9H', '7D', '5D', '4H'] Rank: 'High Card' Values: [10, 9, 7, 5, 4]
+ Cards: ['12C', '9C', '8C', '4C', '2H'] Rank: 'High Card' Values: [12, 9, 8, 4, 2]
+Hand #970: Player Two wins
+ Cards: ['13S', '9H', '7D', '4D', '2C'] Rank: 'High Card' Values: [13, 9, 7, 4, 2]
+ Cards: ['14D', '13D', '12H', '11S', '4C'] Rank: 'High Card' Values: [14, 13, 12, 11, 4]
+Hand #971: Player Two wins
+ Cards: ['14D', '14H', '13H', '12D', '9D'] Rank: 'One Pair' Values: [14, 13, 12, 9]
+ Cards: ['13D', '11S', '11C', '11D', '9H'] Rank: 'Three of a Kind' Values: [11, 13, 9]
+Hand #972: Player One wins
+ Cards: ['10S', '8S', '7S', '4S', '3C'] Rank: 'High Card' Values: [10, 8, 7, 4, 3]
+ Cards: ['7C', '6H', '5C', '4D', '2S'] Rank: 'High Card' Values: [7, 6, 5, 4, 2]
+Hand #973: Player One wins
+ Cards: ['13D', '11S', '7S', '6D', '5C'] Rank: 'High Card' Values: [13, 11, 7, 6, 5]
+ Cards: ['12H', '10D', '8S', '6S', '2H'] Rank: 'High Card' Values: [12, 10, 8, 6, 2]
+Hand #974: Player One wins
+ Cards: ['12H', '10C', '10D', '6C', '6H'] Rank: 'Two Pairs' Values: [10, 6, 12]
+ Cards: ['12C', '9D', '8H', '4C', '2H'] Rank: 'High Card' Values: [12, 9, 8, 4, 2]
+Hand #975: Player Two wins
+ Cards: ['10S', '6H', '4D', '3D', '2H'] Rank: 'High Card' Values: [10, 6, 4, 3, 2]
+ Cards: ['8S', '7H', '6S', '6C', '2C'] Rank: 'One Pair' Values: [6, 8, 7, 2]
+Hand #976: Player One wins
+ Cards: ['11D', '11H', '9H', '9D', '3S'] Rank: 'Two Pairs' Values: [9, 11, 3]
+ Cards: ['14H', '8S', '6S', '3H', '2C'] Rank: 'High Card' Values: [14, 8, 6, 3, 2]
+Hand #977: Player Two wins
+ Cards: ['12S', '8C', '5S', '3H', '2C'] Rank: 'High Card' Values: [12, 8, 5, 3, 2]
+ Cards: ['14D', '7D', '4S', '3C', '2S'] Rank: 'High Card' Values: [14, 7, 4, 3, 2]
+Hand #978: Player One wins
+ Cards: ['14S', '12C', '12H', '10S', '5C'] Rank: 'One Pair' Values: [12, 14, 10, 5]
+ Cards: ['11S', '6S', '5H', '4S', '4C'] Rank: 'One Pair' Values: [4, 11, 6, 5]
+Hand #979: Player Two wins
+ Cards: ['11H', '10D', '6H', '5C', '4C'] Rank: 'High Card' Values: [11, 10, 6, 5, 4]
+ Cards: ['13D', '13H', '12S', '11S', '4H'] Rank: 'One Pair' Values: [13, 12, 11, 4]
+Hand #980: Player Two wins
+ Cards: ['13H', '11C', '10C', '9H', '4D'] Rank: 'High Card' Values: [13, 11, 10, 9, 4]
+ Cards: ['13C', '9D', '8D', '8H', '3C'] Rank: 'One Pair' Values: [8, 13, 9, 3]
+Hand #981: Player One wins
+ Cards: ['14D', '10C', '9S', '8S', '2H'] Rank: 'High Card' Values: [14, 10, 9, 8, 2]
+ Cards: ['10S', '7H', '5C', '4H', '2C'] Rank: 'High Card' Values: [10, 7, 5, 4, 2]
+Hand #982: Player Two wins
+ Cards: ['13S', '6C', '5S', '4H', '2S'] Rank: 'High Card' Values: [13, 6, 5, 4, 2]
+ Cards: ['14H', '13D', '9C', '8H', '7C'] Rank: 'High Card' Values: [14, 13, 9, 8, 7]
+Hand #983: Player One wins
+ Cards: ['12H', '12S', '10S', '10D', '3C'] Rank: 'Two Pairs' Values: [10, 12, 3]
+ Cards: ['14H', '11H', '8D', '7D', '2C'] Rank: 'High Card' Values: [14, 11, 8, 7, 2]
+Hand #984: Player One wins
+ Cards: ['14C', '13C', '5D', '5S', '3H'] Rank: 'One Pair' Values: [5, 14, 13, 3]
+ Cards: ['12S', '7H', '4S', '4C', '2H'] Rank: 'One Pair' Values: [4, 12, 7, 2]
+Hand #985: Player Two wins
+ Cards: ['13H', '12C', '11H', '7D', '3D'] Rank: 'High Card' Values: [13, 12, 11, 7, 3]
+ Cards: ['13D', '10D', '10H', '6D', '6C'] Rank: 'Two Pairs' Values: [10, 6, 13]
+Hand #986: Player Two wins
+ Cards: ['10H', '9D', '8D', '6C', '5S'] Rank: 'High Card' Values: [10, 9, 8, 6, 5]
+ Cards: ['13H', '9S', '8C', '7D', '6D'] Rank: 'High Card' Values: [13, 9, 8, 7, 6]
+Hand #987: Player One wins
+ Cards: ['12S', '12C', '11D', '7S', '2S'] Rank: 'One Pair' Values: [12, 11, 7, 2]
+ Cards: ['13S', '12H', '11C', '8D', '4S'] Rank: 'High Card' Values: [13, 12, 11, 8, 4]
+Hand #988: Player Two wins
+ Cards: ['13D', '11D', '9S', '7S', '5S'] Rank: 'High Card' Values: [13, 11, 9, 7, 5]
+ Cards: ['14D', '11C', '9C', '7C', '2D'] Rank: 'High Card' Values: [14, 11, 9, 7, 2]
+Hand #989: Player One wins
+ Cards: ['14H', '11H', '9C', '5H', '4S'] Rank: 'High Card' Values: [14, 11, 9, 5, 4]
+ Cards: ['10D', '7C', '6S', '5D', '2D'] Rank: 'High Card' Values: [10, 7, 6, 5, 2]
+Hand #990: Player One wins
+ Cards: ['13C', '9C', '7H', '6C', '6S'] Rank: 'One Pair' Values: [6, 13, 9, 7]
+ Cards: ['13S', '12D', '10D', '5S', '4H'] Rank: 'High Card' Values: [13, 12, 10, 5, 4]
+Hand #991: Player Two wins
+ Cards: ['13S', '10H', '8D', '6S', '2D'] Rank: 'High Card' Values: [13, 10, 8, 6, 2]
+ Cards: ['11D', '10D', '10S', '9H', '3S'] Rank: 'One Pair' Values: [10, 11, 9, 3]
+Hand #992: Player Two wins
+ Cards: ['13H', '11S', '9D', '5D', '4H'] Rank: 'High Card' Values: [13, 11, 9, 5, 4]
+ Cards: ['12C', '11D', '10C', '10D', '10S'] Rank: 'Three of a Kind' Values: [10, 12, 11]
+Hand #993: Player One wins
+ Cards: ['14C', '14D', '12S', '12D', '4C'] Rank: 'Two Pairs' Values: [12, 14, 4]
+ Cards: ['14S', '13C', '6S', '3H', '2D'] Rank: 'High Card' Values: [14, 13, 6, 3, 2]
+Hand #994: Player Two wins
+ Cards: ['12S', '10D', '7C', '4C', '3C'] Rank: 'High Card' Values: [12, 10, 7, 4, 3]
+ Cards: ['14S', '14D', '13C', '9C', '8D'] Rank: 'One Pair' Values: [14, 13, 9, 8]
+Hand #995: Player Two wins
+ Cards: ['13C', '12C', '8H', '7H', '6D'] Rank: 'High Card' Values: [13, 12, 8, 7, 6]
+ Cards: ['14H', '8C', '7S', '6S', '5S'] Rank: 'High Card' Values: [14, 8, 7, 6, 5]
+Hand #996: Player Two wins
+ Cards: ['14D', '11C', '9H', '6D', '3S'] Rank: 'High Card' Values: [14, 11, 9, 6, 3]
+ Cards: ['14S', '13H', '11D', '11H', '6S'] Rank: 'One Pair' Values: [11, 14, 13, 6]
+Hand #997: Player Two wins
+ Cards: ['14D', '13S', '10S', '7H', '3D'] Rank: 'High Card' Values: [14, 13, 10, 7, 3]
+ Cards: ['14C', '12D', '11H', '11S', '2D'] Rank: 'One Pair' Values: [11, 14, 12, 2]
+Hand #998: Player Two wins
+ Cards: ['11D', '10C', '9C', '7C', '6D'] Rank: 'High Card' Values: [11, 10, 9, 7, 6]
+ Cards: ['11C', '6H', '6C', '3D', '3S'] Rank: 'Two Pairs' Values: [3, 6, 11]
+Hand #999: Player One wins
+ Cards: ['13C', '13D', '12C', '11C', '3S'] Rank: 'One Pair' Values: [13, 12, 11, 3]
+ Cards: ['14H', '12S', '10S', '8D', '2C'] Rank: 'High Card' Values: [14, 12, 10, 8, 2]
+Hand #1000: Player One wins
+ Cards: ['14S', '13D', '11D', '8H', '3D'] Rank: 'High Card' Values: [14, 13, 11, 8, 3]
+ Cards: ['12D', '8C', '7C', '6C', '5C'] Rank: 'High Card' Values: [12, 8, 7, 6, 5]
+Player one won 376 hands
