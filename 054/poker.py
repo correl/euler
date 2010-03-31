@@ -5,6 +5,15 @@ class InvalidCard(Exception):
 class InvalidHand(Exception):
     pass
 
+def unique_combinations(items, n):
+    if n==0: yield []
+    else:
+        for i in xrange(len(items)):
+            for cc in unique_combinations(items[i+1:],n-1):
+                yield [items[i]]+cc
+
+
+
 class Card:
     values = {'T': 10, 'J': 11, 'Q': 12, 'K': 13, 'A': 14}
     def __init__(self, string):
@@ -116,6 +125,25 @@ class Hand:
         if not self.__values:
             self.rank()
         return self.__values
+    @staticmethod
+    def create_best_hand(cards):
+        if len(cards) == 5:
+            return Hand(cards)
+        elif len(cards) < 5:
+            raise InvalidHand
+        else:
+            return Hand.create_best_hand_bruteforce(cards)
+        return false
+    @staticmethod
+    def create_best_hand_bruteforce(cards):
+        combos = unique_combinations(cards, 5)
+        hands = [Hand(combo) for combo in combos]
+        hands = sorted(hands, cmp=Hand.compare, reverse=True)
+        return hands[0]
+    @staticmethod
+    def create_best_hand_smart(cards):
+        #TODO: Figure out a smarter algorithm for getting the best hand!
+        pass
     @staticmethod
     def compare(a, b):
         # Compare hand rankings
