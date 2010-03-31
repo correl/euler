@@ -16,7 +16,7 @@ class TestCards(unittest.TestCase):
         self.assertRaises(poker.InvalidCard, poker.Card, '9Z')
     def test_compare(self):
         cards = ['QH', '9D', 'JS']
-        cards_sorted = sorted([poker.Card(c) for c in cards], cmp=poker.Card.compare, reverse=True)
+        cards_sorted = sorted([poker.Card(c) for c in cards], reverse=True)
         self.assertEqual([c.value for c in cards_sorted], [12, 11, 9])
 
 class TestFiveCardHands(unittest.TestCase):
@@ -41,7 +41,7 @@ class TestFiveCardHands(unittest.TestCase):
         self.assertEqual([hand.rank(), hand.values()], [poker.Hand.STRAIGHT, [14, 13, 12, 11, 10]])
     def test_ace_low_straight(self):
         hand = poker.Hand(['AH', '2S', '3C', '4S', '5S'])
-        self.assertEqual([hand.rank(), hand.values()], [poker.Hand.STRAIGHT, [14, 5, 4, 3, 2]])
+        self.assertEqual([hand.rank(), hand.values()], [poker.Hand.STRAIGHT, [5, 4, 3, 2, 1]])
     def test_compare_ace_low_straight(self):
         low = poker.Hand(['AH', '2S', '3C', '4S', '5S'])
         high = poker.Hand(['2S', '3C', '4S', '5S', '6S'])
@@ -77,10 +77,10 @@ class TestSevenCardHands(unittest.TestCase):
         hand = poker.Hand.create_best_hand(['AH', 'KS', 'QC', 'JS', '9S', '7D', 'TS'])
         self.assertEqual([hand.rank(), hand.values()], [poker.Hand.STRAIGHT, [14, 13, 12, 11, 10]])
     def test_ace_low_straight(self):
-        hand = poker.Hand.create_best_hand(['AH', '2S', '3C', '4S', '6D', '4C', '5S'])
-        self.assertEqual([hand.rank(), hand.values()], [poker.Hand.STRAIGHT, [14, 5, 4, 3, 2]])
+        hand = poker.Hand.create_best_hand(['AH', '2S', '3C', '4S', '9D', '4C', '5S'])
+        self.assertEqual([hand.rank(), hand.values()], [poker.Hand.STRAIGHT, [5, 4, 3, 2, 1]])
     def test_compare_ace_low_straight(self):
-        low = poker.Hand.create_best_hand(['AH', '2S', '3C', '4S', '6D', '4C', '5S'])
+        low = poker.Hand.create_best_hand(['AH', '2S', '3C', '4S', '9D', '4C', '5S'])
         high = poker.Hand.create_best_hand(['2S', '3C', '4S', '5S', '8D', 'TC', '6S'])
         self.assertTrue(low < high)
     def test_compare_ranks(self):

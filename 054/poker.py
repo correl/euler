@@ -28,14 +28,8 @@ class Card:
         self.suit = string[1]
         if not self.suit in ['H', 'C', 'S', 'D']:
             raise InvalidCard
-    @staticmethod
-    def compare(a, b):
-        if a.value > b.value:
-            return 1
-        elif a.value == b.value:
-            return 0
-        else:
-            return -1
+    def __cmp__(self, other):
+        return cmp(self.value, other.value)
 
 class Hand:
     HIGH_CARD = 0
@@ -62,7 +56,7 @@ class Hand:
     ]
     def __init__(self, cards):
         self.__rank = None
-        self.__cards = sorted([Card(c) for c in cards], cmp=Card.compare, reverse=True)
+        self.__cards = sorted([Card(c) for c in cards], reverse=True)
         self.__values = []
         self.rank()
     def __str__(self):
@@ -88,9 +82,13 @@ class Hand:
                 merged[c.value] = 1
         if (len(merged)) == 5:
             # All unique cards, check for a straight
-            if self.__cards[0].value - self.__cards[4].value == 4 or \
-               (self.__cards[4].value == 2 and self.__cards[1].value == 5 and self.__cards[0].value == 14):
+            if self.__cards[0].value - self.__cards[4].value == 4:
                 straight = True
+            if self.__cards[4].value == 2 and self.__cards[1].value == 5 and self.__cards[0].value == 14:
+                straight = True
+                # Set the value of the ace to 1 and resort so hand comparisons work correctly
+                self.__cards[0].value = 1
+                self.__cards = sorted(self.__cards, reverse=True)
             if straight and flush:
                 if self.__cards[0].value == 14:
                     self.__rank = Hand.ROYAL_FLUSH
@@ -138,20 +136,19 @@ class Hand:
     def create_best_hand_bruteforce(cards):
         combos = unique_combinations(cards, 5)
         hands = [Hand(combo) for combo in combos]
-        hands = sorted(hands, cmp=Hand.compare, reverse=True)
+        hands = sorted(hands, reverse=True)
         return hands[0]
     @staticmethod
     def create_best_hand_smart(cards):
         #TODO: Figure out a smarter algorithm for getting the best hand!
         pass
-    @staticmethod
-    def compare(a, b):
+    def __cmp__(self, other):
         # Compare hand rankings
-        result = cmp(a.rank(), b.rank())
+        result = cmp(self.rank(), other.rank())
         if (result == 0):
             # Compare hand values
-            for i in range(len(a.values())):
-                result = cmp(a.values()[i], b.values()[i])
+            for i in range(len(self.values())):
+                result = cmp(self.values()[i], other.values()[i])
                 if (result != 0):
                     return result
         return result
