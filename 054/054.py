@@ -12,7 +12,7 @@ if __name__ == '__main__':
             cards = line.strip().split()
             one = poker.Hand(cards[:5])
             two = poker.Hand(cards[-5:])
-            result = poker.Hand.compare(one, two)
+            result = cmp(one, two)
             if result > 0:
                 wins = wins + 1
                 outcome = 'Player One wins'
