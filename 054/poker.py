@@ -52,23 +52,23 @@ class Hand:
         'Royal Flush'
     ]
     def __init__(self, cards):
-        self._rank = None
-        self._cards = sorted([Card(c) for c in cards], cmp=Card.compare, reverse=True)
-        self._values = []
+        self.__rank = None
+        self.__cards = sorted([Card(c) for c in cards], cmp=Card.compare, reverse=True)
+        self.__values = []
         self.rank()
     def __str__(self):
         return str.format("Cards: {0} Rank: '{1}' Values: {2}",
-            [str(c.value) + c.suit for c in self._cards],
+            [str(c.value) + c.suit for c in self.__cards],
             Hand.RANKS[self.rank()],
             self.values())
     def rank(self):
-        if self._rank:
-            return self._rank
+        if self.__rank:
+            return self.__rank
         flush = True
         straight = False
         last = None
         merged = {}
-        for c in self._cards:
+        for c in self.__cards:
             if last:
                 if flush and c.suit != last.suit:
                     flush = False
@@ -79,43 +79,43 @@ class Hand:
                 merged[c.value] = 1
         if (len(merged)) == 5:
             # All unique cards, check for a straight
-            if self._cards[0].value - self._cards[4].value == 4 or \
-               (self._cards[4].value == 2 and self._cards[1].value == 5 and self._cards[0].value == 14):
+            if self.__cards[0].value - self.__cards[4].value == 4 or \
+               (self.__cards[4].value == 2 and self.__cards[1].value == 5 and self.__cards[0].value == 14):
                 straight = True
             if straight and flush:
-                if self._cards[0].value == 14:
-                    self._rank = Hand.ROYAL_FLUSH
+                if self.__cards[0].value == 14:
+                    self.__rank = Hand.ROYAL_FLUSH
                 else:
-                    self._rank = Hand.STRAIGHT_FLUSH
+                    self.__rank = Hand.STRAIGHT_FLUSH
             elif flush:
-                self._rank = Hand.FLUSH
+                self.__rank = Hand.FLUSH
             elif straight:
-                self._rank = Hand.STRAIGHT
+                self.__rank = Hand.STRAIGHT
             else:
-                self._rank = Hand.HIGH_CARD
-            self._values = [c.value for c in self._cards]
+                self.__rank = Hand.HIGH_CARD
+            self.__values = [c.value for c in self.__cards]
         else:
             multiples = [m for m in sorted(merged.items(), key = operator.itemgetter(1), reverse = True) if m[1] > 1]
             if len(multiples) > 1:
                 if multiples[0][1] == multiples[1][1]:
-                    self._rank = Hand.TWO_PAIRS
+                    self.__rank = Hand.TWO_PAIRS
                 else:
-                    self._rank = Hand.FULL_HOUSE 
+                    self.__rank = Hand.FULL_HOUSE 
             else:
                 if multiples[0][1] > 3:
-                    self._rank = Hand.FOUR_OF_A_KIND
+                    self.__rank = Hand.FOUR_OF_A_KIND
                 elif multiples[0][1] == 3:
-                    self._rank = Hand.THREE_OF_A_KIND
+                    self.__rank = Hand.THREE_OF_A_KIND
                 else:
-                    self._rank = Hand.ONE_PAIR
+                    self.__rank = Hand.ONE_PAIR
             mvalues = [m[0] for m in multiples]
-            self._values = mvalues + [c.value for c in self._cards if c.value not in mvalues]
+            self.__values = mvalues + [c.value for c in self.__cards if c.value not in mvalues]
 
-        return self._rank
+        return self.__rank
     def values(self):
-        if not self._values:
+        if not self.__values:
             self.rank()
-        return self._values
+        return self.__values
     @staticmethod
     def compare(a, b):
         # Compare hand rankings
