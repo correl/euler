@@ -35,7 +35,7 @@ class TestFiveCardHands(unittest.TestCase):
         }
     def test_hand_rankings(self):
         for rank, hand in self.rank_hands.iteritems():
-            self.assertEqual(hand.rank(), rank, 'Ranking hand: {0}'.format(poker.Hand.RANKS[rank]))
+            self.assertEqual(hand.rank(), rank, 'Ranking hand: {0}, got {1}'.format(poker.Hand.RANKS[rank], poker.Hand.RANKS[hand.rank()]))
     def test_ace_high_straight(self):
         hand = poker.Hand(['AH', 'KS', 'QC', 'JS', 'TS'])
         self.assertEqual([hand.rank(), hand.values()], [poker.Hand.STRAIGHT, [14, 13, 12, 11, 10]])
@@ -72,12 +72,12 @@ class TestSevenCardHands(unittest.TestCase):
         }
     def test_hand_rankings(self):
         for rank, hand in self.rank_hands.iteritems():
-            self.assertEqual(hand.rank(), rank, 'Ranking hand: {0}'.format(poker.Hand.RANKS[rank]))
+            self.assertEqual(hand.rank(), rank, 'Ranking hand: {0}, got {1}'.format(poker.Hand.RANKS[rank], poker.Hand.RANKS[hand.rank()]))
     def test_ace_high_straight(self):
         hand = poker.Hand.create_best_hand(['AH', 'KS', 'QC', 'JS', '9S', '7D', 'TS'])
         self.assertEqual([hand.rank(), hand.values()], [poker.Hand.STRAIGHT, [14, 13, 12, 11, 10]])
     def test_ace_low_straight(self):
-        hand = poker.Hand.create_best_hand(['AH', '2S', '3C', '4S', '9D', '4C', '5S'])
+        hand = poker.Hand.create_best_hand(['AH', '2S', '3C', '4S', '9D', 'JC', '5S'])
         self.assertEqual([hand.rank(), hand.values()], [poker.Hand.STRAIGHT, [5, 4, 3, 2, 1]])
     def test_compare_ace_low_straight(self):
         low = poker.Hand.create_best_hand(['AH', '2S', '3C', '4S', '9D', '4C', '5S'])

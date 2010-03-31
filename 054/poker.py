@@ -15,21 +15,28 @@ def unique_combinations(items, n):
 
 
 class Card:
-    values = {'T': 10, 'J': 11, 'Q': 12, 'K': 13, 'A': 14}
+    VALUES = {'T': 10, 'J': 11, 'Q': 12, 'K': 13, 'A': 14}
+    SUITS = {'Hearts': 'H', 'Diamonds': 'D', 'Clubs': 'C', 'Spades': 'S'}
     def __init__(self, string):
         self.value = string[0]
         if self.value in '23456789':
             self.value = int(self.value)
         else:
             try:
-                self.value = Card.values[self.value]
+                self.value = Card.VALUES[self.value]
             except KeyError as e:
-                raise InvalidCard
+                raise InvalidCard('Invalid value: {0}'.format(string))
         self.suit = string[1]
-        if not self.suit in ['H', 'C', 'S', 'D']:
-            raise InvalidCard
+        if not self.suit in Card.SUITS.values():
+            raise InvalidCard('Invalid suit: {0}'.format(string))
     def __cmp__(self, other):
         return cmp(self.value, other.value)
+    def __repr__(self):
+        val = self.value
+        for k, v in Card.VALUES.iteritems():
+            if self.value == v:
+                val = k
+        return str.format('{0}{1}', val, self.suit)
 
 class Hand:
     HIGH_CARD = 0
@@ -55,11 +62,13 @@ class Hand:
         'Royal Flush'
     ]
     def __init__(self, cards):
+        if len(cards) != 5:
+            raise InvalidHand(cards)
         self.__rank = None
         self.__cards = sorted([Card(c) for c in cards], reverse=True)
         self.__values = []
         self.rank()
-    def __str__(self):
+    def __repr__(self):
         return str.format("Cards: {0} Rank: '{1}' Values: {2}",
             [str(c.value) + c.suit for c in self.__cards],
             Hand.RANKS[self.rank()],
@@ -130,7 +139,7 @@ class Hand:
         elif len(cards) < 5:
             raise InvalidHand
         else:
-            return Hand.create_best_hand_bruteforce(cards)
+            return Hand.create_best_hand_smart(cards)
         return false
     @staticmethod
     def create_best_hand_bruteforce(cards):
@@ -140,8 +149,84 @@ class Hand:
         return hands[0]
     @staticmethod
     def create_best_hand_smart(cards):
-        #TODO: Figure out a smarter algorithm for getting the best hand!
-        pass
+        """
+        TODO: Implement the following logic (or something better):
+        
+        * Find all flushes
+        * Find all straights
+        ** Return best hand present in both flushes and straights, if applicable
+        * Find all sets
+        ** Return best quads with top remaining card
+        ** Find and return best full house
+        ** Find and return best three of a kind with top remaining cards
+        ** Find and return best two pair with top remaining cards
+        ** Find and return best single pair with top remaining cards
+        ** Return top 5 cards
+        """
+        cards = sorted([Card(c) for c in cards], reverse=True)
+        
+        # Get all flushes
+        flushes = []
+        for suit in Card.SUITS.values():
+            suited = [str(c) for c in cards if c.suit == suit]
+            if len(suited) >= 5:
+                combos = unique_combinations(suited, 5)
+                for combo in combos: flushes.append(Hand(combo))
+        flushes = sorted(flushes, reverse=True)
+        if (flushes and flushes[0].rank() >= Hand.STRAIGHT_FLUSH):
+            # Straight flush! No need to check anything else
+            return flushes[0]
+        
+        #Get all sets
+        merged = {}
+        for c in cards:
+            if c.value in merged:
+                merged[c.value] = merged[c.value] + 1
+            else:
+                merged[c.value] = 1
+        multiples = [m for m in sorted(merged.items(), key = operator.itemgetter(1), reverse = True) if m[1] > 1]
+        quads = [c[0] for c in multiples if c[1] == 4]
+        quads = [c for c in cards if c.value in quads]
+        trips = [c[0] for c in multiples if c[1] == 3]
+        trips = [c for c in cards if c.value in trips]
+        pairs = [c[0] for c in multiples if c[1] == 2]
+        pairs = [c for c in cards if c.value in pairs]
+        remaining = [c for c in cards if c.value not in [m[0] for m in multiples]]
+        
+        if quads:
+            h = quads[:4]
+            remaining = [c for c in cards if c.value not in [cc.value for cc in h]][:1]
+            for r in remaining: h.append(r)
+            return Hand([str(c) for c in h])
+        if trips and pairs:
+            # Get a full house together
+            h = trips[:3]
+            remaining = pairs[:2]
+            for r in remaining: h.append(r)
+            return Hand([str(c) for c in h])
+        if flushes:
+            # We've already got a flush, return it!
+            return flushes[0]
+        # Look for a straight!
+        if trips:
+            h = trips[:3]
+            remaining = [c for c in cards if c.value not in [cc.value for cc in h]][:2]
+            for r in remaining: h.append(r)
+            return Hand([str(c) for c in h])
+        if pairs:
+            if len(pairs) > 2:
+                h = pairs[:4]
+                remaining = [c for c in cards if c.value not in [cc.value for cc in h]][:1]
+                for r in remaining: h.append(r)
+                return Hand([str(c) for c in h])
+            else:
+                h = pairs
+                remaining = [c for c in cards if c.value not in [cc.value for cc in h]][:3]
+                for r in remaining: h.append(r)
+                return Hand([str(c) for c in h])
+        
+        
+        return Hand.create_best_hand_bruteforce([str(c) for c in cards])
     def __cmp__(self, other):
         # Compare hand rankings
         result = cmp(self.rank(), other.rank())
