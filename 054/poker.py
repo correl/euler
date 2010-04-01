@@ -1,4 +1,5 @@
 import operator
+import random
 
 class InvalidCard(Exception):
     """Invalid Card Exception
@@ -54,6 +55,32 @@ class Card:
                 val = k
         return str.format('{0}{1}', val, self.suit)
 
+class Deck():
+    def __init__(self):
+        self.__cards = []
+        for suit in Card.SUITS.values():
+            for i in range(2,15):
+                if i >= 10:
+                    for k, v in Card.VALUES.iteritems():
+                        if i == v: value = k
+                else:
+                    value = i
+                self.__cards.append(Card('{0}{1}'.format(value, suit)))
+    def shuffle(self):
+        random.shuffle(self.__cards)
+    def cards(self):
+        return self.__cards
+    def deal(self, n=1, players=[]):
+        if players:
+            for i in range(n):
+                for player in players:
+                    player.add_card(self.__cards.pop())
+        else:
+            cards = []
+            for i in range(n):
+                cards.append(self.__cards.pop())
+            return cards
+
 class Hand:
     HIGH_CARD = 0
     ONE_PAIR = 1
@@ -87,7 +114,7 @@ class Hand:
     def __repr__(self):
         """Builds a string representation of the hand"""
         return str.format("Cards: {0} Rank: '{1}' Values: {2}",
-            [str(c.value) + c.suit for c in self.__cards],
+            self.__cards,
             Hand.RANKS[self.rank()],
             self.values())
     def rank(self):
@@ -140,7 +167,7 @@ class Hand:
                     self.__rank = Hand.TWO_PAIRS
                 else:
                     self.__rank = Hand.FULL_HOUSE 
-            else:
+            elif multiples:
                 if multiples[0][1] > 3:
                     self.__rank = Hand.FOUR_OF_A_KIND
                 elif multiples[0][1] == 3:
@@ -307,3 +334,46 @@ class Hand:
                 if (result != 0):
                     return result
         return result
+
+class Player:
+    def __init__(self, name):
+        self.__name = name
+        self.__hand = None
+        self.__cards = []
+        self.__community_cards = []
+    def add_card(self, card, community=False):
+        if community:
+            self.__community_cards.append(card)
+        else:
+            self.__cards.append(card)
+        
+        # Rebuild and re-evaluate hand
+        self.__hand = Hand.create_best_hand([str(c) for c in self.__community_cards + self.__cards])
+    def hand(self):
+        return self.__hand
+    def __repr__(self):
+        return '"{0}"\n\tCards: {1}\n\tHand: {2}'.format(self.__name, self.__cards, self.__hand)
+    def __cmp__(self, other):
+        return cmp(self.hand(), other.hand())
+    
+if __name__ == '__main__':
+    deck = Deck()
+    deck.shuffle()
+    players = []
+    for i in range(1,10):
+        players.append(Player('Player {0}'.format(i)))
+    community_cards = []
+    deck.deal(2, players)
+    deck.deal()
+    community_cards.extend(deck.deal(3))
+    deck.deal()
+    community_cards.extend(deck.deal())
+    deck.deal()
+    community_cards.extend(deck.deal())
+    for player in players:
+        for card in community_cards:
+            player.add_card(card, True)
+    players = sorted(players, reverse=True)
+    print 'Community', community_cards
+    for player in players:
+        print player
