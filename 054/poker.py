@@ -208,6 +208,18 @@ class Hand:
             # We've already got a flush, return it!
             return flushes[0]
         # Look for a straight!
+        mvals = sorted(merged.keys(), reverse=True)
+        for i in range(0, len(mvals) -4, 1):
+            if (mvals[i] - mvals[i + 4]) == 4:
+                # Regular straight
+                h = [[c for c in cards if c.value == v][0] for v in mvals[i:i + 5]]
+                return Hand([str(c) for c in h])
+            elif 14 in [c.value for c in cards] and mvals[i + 1] == 5 and mvals[i + 4] == 2:
+                # Ace low straight
+                h = [[c for c in cards if c.value == v][0] for v in mvals[i + 1:i + 5]]
+                h.append([c for c in cards if c.value == 14][0])
+                return Hand([str(c) for c in h])
+        
         if trips:
             h = trips[:3]
             remaining = [c for c in cards if c.value not in [cc.value for cc in h]][:2]
@@ -225,8 +237,8 @@ class Hand:
                 for r in remaining: h.append(r)
                 return Hand([str(c) for c in h])
         
-        
-        return Hand.create_best_hand_bruteforce([str(c) for c in cards])
+        # High card, send the top 5 reverse-sorted cards
+        return Hand([str(c) for c in cards[:5]])
     def __cmp__(self, other):
         # Compare hand rankings
         result = cmp(self.rank(), other.rank())
