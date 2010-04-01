@@ -62,7 +62,7 @@ class Hand:
         'Royal Flush'
     ]
     def __init__(self, cards):
-        if len(cards) != 5:
+        if len(cards) < 1 or len(cards) > 5:
             raise InvalidHand(cards)
         self.__rank = None
         self.__cards = sorted([Card(c) for c in cards], reverse=True)
