@@ -181,10 +181,8 @@ class Hand:
         Uses smart hand creation if more than five cards are specified.
         """
         
-        if len(cards) == 5:
+        if len(cards) <= 5:
             return Hand(cards)
-        elif len(cards) < 5:
-            raise InvalidHand
         else:
             return Hand.create_best_hand_smart(cards)
         return false
