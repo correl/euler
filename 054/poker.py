@@ -1,8 +1,16 @@
 import operator
 
 class InvalidCard(Exception):
+    """Invalid Card Exception
+    
+    Thrown if an invalid face value or suit is supplied for a card
+    """
     pass
 class InvalidHand(Exception):
+    """Invalid Hand Exception
+    
+    Thrown if the hand being created includes zero or more than 5 cards
+    """
     pass
 
 def unique_combinations(items, n):
@@ -15,6 +23,8 @@ def unique_combinations(items, n):
 
 
 class Card:
+    """Represents a single poker playing card"""
+    
     VALUES = {'T': 10, 'J': 11, 'Q': 12, 'K': 13, 'A': 14}
     SUITS = {'Hearts': 'H', 'Diamonds': 'D', 'Clubs': 'C', 'Spades': 'S'}
     def __init__(self, string):
@@ -30,8 +40,14 @@ class Card:
         if not self.suit in Card.SUITS.values():
             raise InvalidCard('Invalid suit: {0}'.format(string))
     def __cmp__(self, other):
+        """Compare hand values
+        
+        Compares this card's value with another. Used for sorting.
+        """
+        
         return cmp(self.value, other.value)
     def __repr__(self):
+        """Builds a string representation of the hand"""
         val = self.value
         for k, v in Card.VALUES.iteritems():
             if self.value == v:
@@ -69,11 +85,18 @@ class Hand:
         self.__values = []
         self.rank()
     def __repr__(self):
+        """Builds a string representation of the hand"""
         return str.format("Cards: {0} Rank: '{1}' Values: {2}",
             [str(c.value) + c.suit for c in self.__cards],
             Hand.RANKS[self.rank()],
             self.values())
     def rank(self):
+        """Get the hand rank
+        
+        Determines the rank of the poker hand if it has not already been
+        computed, and returns it.
+        """
+        
         if self.__rank:
             return self.__rank
         flush = True
@@ -129,11 +152,35 @@ class Hand:
 
         return self.__rank
     def values(self):
+        """Returns a list of card values for the hand
+        
+        Values for sets are provided first in order of importance and descending
+        strength, followed by all additional card values in order of descending
+        strength. Used for comparison and sorting.
+        
+        Examples:
+            Full House  ['5S', '5D', '5H', '8S', '8C']
+            Values = [5, 8]
+            
+            Two Pair    ['9D', '9S', '5H', '5C', 'KH']
+            Values = [9, 5, 13]
+            
+            Straight    ['AS', '2H', '3C', '4C', '5H']
+            Values = [5, 4, 3, 2, 1]
+        """
         if not self.__values:
             self.rank()
         return self.__values
     @staticmethod
     def create_best_hand(cards):
+        """Create the strongest possible poker hand
+        
+        Using the supplied cards, this will build the strongest possible five-
+        card poker hand.
+        
+        Uses smart hand creation if more than five cards are specified.
+        """
+        
         if len(cards) == 5:
             return Hand(cards)
         elif len(cards) < 5:
@@ -143,14 +190,22 @@ class Hand:
         return false
     @staticmethod
     def create_best_hand_bruteforce(cards):
+        """Create the strongest possible poker hand
+        
+        Builds every possible poker hand from the supplied set of cards, and
+        returns the strongest result.
+        """
+        
         combos = unique_combinations(cards, 5)
         hands = [Hand(combo) for combo in combos]
         hands = sorted(hands, reverse=True)
         return hands[0]
     @staticmethod
     def create_best_hand_smart(cards):
-        """
-        TODO: Implement the following logic (or something better):
+        """Create the strongest possible poker hand
+        
+        Intelligently seeks out the strongest possible poker hand from the
+        supplied set of cards using the following steps:
         
         * Find all flushes
         * Find all straights
@@ -240,7 +295,12 @@ class Hand:
         # High card, send the top 5 reverse-sorted cards
         return Hand([str(c) for c in cards[:5]])
     def __cmp__(self, other):
-        # Compare hand rankings
+        """Compare hand rankings
+        
+        Compares this hand with another by first checking rank, and if they are
+        equal in that regard, by their card values. Used for sorting.
+        """
+        
         result = cmp(self.rank(), other.rank())
         if (result == 0):
             # Compare hand values
