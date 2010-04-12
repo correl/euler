@@ -1,6 +1,6 @@
 def primes(limit):
-    primes = []
-    i = 2
+    primes = [2]
+    i = 3
     while len(primes) < limit:
         is_prime = True
         for p in primes:
@@ -9,7 +9,7 @@ def primes(limit):
                 break
         if is_prime:
             primes.append(i)
-        i = i + 1
+        i = i + 2
     return primes
 
 print '6th Prime', primes(6)[-1]
