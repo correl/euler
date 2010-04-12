@@ -22,15 +22,23 @@ def product(l):
 
 def factor(n):
     primes = pfactor(n)
-    factors = []
+    factors = [1, n]
     pow = {}
     for p in primes:
         if p not in pow.keys():
             pow[p] = 0
         pow[p] = pow[p] + 1
         factors.append(p**pow[p])
-    for p in [f for f in factors if f < n / 2]:
-        factors.append(n / p)
+    
+    for p in [f for f in factors if f > 1]:
+        f = n / p
+        if f not in factors:
+            factors.append(n / p)
+    combos = unique_combinations(factors, 2)
+    for c in combos:
+        f = product(c)
+        if f < n and n % f == 0 and f not in factors:
+            factors.append(f)
     
     if n not in factors:
         factors.append(n)
@@ -42,7 +50,7 @@ if __name__ == '__main__':
         i = i + 1
         t = triangle(i)
         f = factor(t)
-        print 'Checking triangle', i, t
+        print 'Checking triangle', i, t, len(f)
         if len(f) > 500:
             break
     
