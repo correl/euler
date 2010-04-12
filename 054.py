@@ -1,9 +1,9 @@
-import poker
+from p054 import poker
 
 if __name__ == '__main__':
     wins = 0
     counter = 0
-    with open('poker.txt', 'r') as f:
+    with open('p054/poker.txt', 'r') as f:
         while True:
             line = f.readline()
             if not line:
