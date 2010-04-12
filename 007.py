@@ -12,5 +12,6 @@ def primes(limit):
         i = i + 2
     return primes
 
-print '6th Prime', primes(6)[-1]
-print '10001st Prime', primes(10001)[-1]
+if __name__ == '__main__':
+    print '6th Prime', primes(6)[-1]
+    print '10001st Prime', primes(10001)[-1]

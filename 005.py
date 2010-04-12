@@ -8,5 +8,5 @@ def divisible(n):
                 break
         if ii == 1:
             return x
-
-print 'Smallest number: ', divisible(20)
+if __name__ == '__main__':
+    print 'Smallest number: ', divisible(20)

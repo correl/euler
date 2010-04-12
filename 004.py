@@ -7,5 +7,5 @@ def palindrome():
                 palindromes[i * ii] = [i, ii]
     p = sorted(palindromes.keys(), reverse=True)[0]
     print 'Palindrome: {0}x{1}: {2}'.format(palindromes[p][0], palindromes[p][1], p)
-
-palindrome()
+if __name__ == '__main__':
+    palindrome()
