@@ -8,5 +8,6 @@ def pfactor(n):
     p.append(i)
     return sorted(p, reverse=True)
 
-print 'Prime factors of 600851475143:'
-print pfactor(600851475143)
+if __name__ == '__main__':
+    print 'Prime factors of 600851475143:'
+    print pfactor(600851475143)
