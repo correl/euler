@@ -176,6 +176,8 @@ class Hand:
                     self.__rank = Hand.ONE_PAIR
             mvalues = [m[0] for m in multiples]
             self.__values = mvalues + [c.value for c in self.__cards if c.value not in mvalues]
+            if not self.__rank:
+                self.__rank = Hand.HIGH_CARD
 
         return self.__rank
     def values(self):
@@ -348,6 +350,9 @@ class Player:
             self.__cards.append(card)
         
         # Rebuild and re-evaluate hand
+        self.__hand = Hand.create_best_hand([str(c) for c in self.__community_cards + self.__cards])
+    def discard(self, index):
+        self.__cards.pop(index)
         self.__hand = Hand.create_best_hand([str(c) for c in self.__community_cards + self.__cards])
     def hand(self):
         return self.__hand
