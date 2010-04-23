@@ -174,7 +174,7 @@ class Hand:
                     self.__rank = Hand.THREE_OF_A_KIND
                 else:
                     self.__rank = Hand.ONE_PAIR
-            mvalues = [m[0] for m in multiples]
+            mvalues = sorted([m[0] for m in multiples], reverse=True)
             self.__values = mvalues + [c.value for c in self.__cards if c.value not in mvalues]
             if not self.__rank:
                 self.__rank = Hand.HIGH_CARD

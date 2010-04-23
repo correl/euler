@@ -46,6 +46,10 @@ class TestFiveCardHands(unittest.TestCase):
         low = poker.Hand(['AH', '2S', '3C', '4S', '5S'])
         high = poker.Hand(['2S', '3C', '4S', '5S', '6S'])
         self.assertTrue(low < high)
+    def test_compare_two_pair(self):
+        low = poker.Hand(['7S', '9D', 'JH', '7D', 'JS'])
+        high = poker.Hand(['AS', 'AD', '5C', '2D', '2H'])
+        self.assertTrue(low < high)
     def test_compare_ranks(self):
         for rank, hand in self.rank_hands.iteritems():
             for rank2, hand2 in self.rank_hands.iteritems():
@@ -82,6 +86,10 @@ class TestSevenCardHands(unittest.TestCase):
     def test_compare_ace_low_straight(self):
         low = poker.Hand.create_best_hand(['AH', '2S', '3C', '4S', '9D', '4C', '5S'])
         high = poker.Hand.create_best_hand(['2S', '3C', '4S', '5S', '8D', 'TC', '6S'])
+        self.assertTrue(low < high)
+    def test_compare_two_pair(self):
+        low = poker.Hand.create_best_hand(['3D', 'KC', '7S', '9D', 'JH', '7D', 'JS'])
+        high = poker.Hand.create_best_hand(['4D', '9H', 'AS', 'AD', '5C', '2D', '2H'])
         self.assertTrue(low < high)
     def test_compare_ranks(self):
         for rank, hand in self.rank_hands.iteritems():
