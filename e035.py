@@ -1,3 +1,11 @@
+"""How many circular primes are there below one million?
+
+The number, 197, is called a circular prime because all rotations of the digits: 197, 971, and 719, are themselves prime.
+There are thirteen such primes below 100: 2, 3, 5, 7, 11, 13, 17, 31, 37, 71, 73, 79, and 97.
+
+How many circular primes are there below one million?
+"""
+
 from e007 import primes
 
 class NotCircular(Exception):
@@ -19,7 +27,7 @@ def cyclic_rotation(n):
         for i in xrange(len(s)):
             yield int(s[i:] + s[:i])
 
-if __name__ == '__main__':
+def main():
     MAX = 1000000
     circular_primes = []
     print 'Generating primes for p < {0}...'.format(MAX)
@@ -40,3 +48,6 @@ if __name__ == '__main__':
             pass
         # Clear all permutations from the list?
     print 'Circular Primes ({0}): {1}'.format(len(circular_primes), circular_primes)
+
+if __name__ == '__main__':
+    main()

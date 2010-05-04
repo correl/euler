@@ -1,3 +1,5 @@
+"""Find the first ten digits of the sum of one-hundred 50-digit numbers."""
+
 NUMBERS = """
 37107287533902102798797998220837590246510135740250
 46376937677490009712648124896970078050417018260538
@@ -103,6 +105,10 @@ NUMBERS = """
 
 NUMBERS = [int(n) for n in NUMBERS]
 
-s = sum(NUMBERS)
-print 'Sum:', s
-print 'First 10 Digits:', str(s)[:10]
+def main():
+    s = sum(NUMBERS)
+    print 'Sum:', s
+    print 'First 10 Digits:', str(s)[:10]
+
+if __name__ == '__main__':
+    main()

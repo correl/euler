@@ -1,3 +1,5 @@
+"""Discover the largest product of five consecutive digits in the 1000-digit number."""
+
 NUMBER = """
 73167176531330624919225119674426574742355349194934
 96983520312774506326239578318016984801869478851843
@@ -21,14 +23,18 @@ NUMBER = """
 71636269561882670428252483600823257530420752963450
 """.replace('\n', '')
 
-max = 0
-set = None
-for i in range(len(NUMBER) - 4):
-    product = 1
-    for ii in [int(n) for n in NUMBER[i:i+5]]:
-        product = product * ii
-    if product > max:
-        max = product
-        set = NUMBER[i:i+5]
+def main():
+    max = 0
+    set = None
+    for i in range(len(NUMBER) - 4):
+        product = 1
+        for ii in [int(n) for n in NUMBER[i:i+5]]:
+            product = product * ii
+        if product > max:
+            max = product
+            set = NUMBER[i:i+5]
+    
+    print 'Max product is {0} from {1}'.format(max, set)
 
-print 'Max product is {0} from {1}'.format(max, set)
+if __name__ == '__main__':
+    main()

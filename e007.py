@@ -1,3 +1,9 @@
+"""Find the 10001st prime.
+
+By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
+What is the 10001st prime number?
+"""
+
 import math
 
 def is_prime(n):
@@ -32,6 +38,9 @@ def primes(max_count = 0, max_value = 0):
             primes.append(i)
     return primes
 
-if __name__ == '__main__':
+def main():
     print '6th Prime', primes(6)[-1]
     print '10001st Prime', primes(10001)[-1]
+
+if __name__ == '__main__':
+    main()

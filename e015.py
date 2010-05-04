@@ -1,4 +1,13 @@
+"""Starting in the top left corner in a 20 by 20 grid, how many routes are there to the bottom right corner?
+
+Starting in the top left corner of a 22 grid, there are 6 routes (without backtracking) to the bottom right corner.
+    [See: p015/p_015.gif]
+
+How many routes are there through a 2020 grid?
 """
+
+"""Notes:
+
 Calculate the number of possible paths from the top left corner to the bottom
 right, without backtracking (no moving up or left)
 
@@ -26,8 +35,11 @@ def pascal(row, col):
 def paths(size):
     return pascal(size + (size - 2), size - 1)
 
-if __name__ == '__main__':
+def main():
     # 20x20 grid
     # Points = cubes + 1
     size = 21
     print 'Paths: ', paths(size)
+
+if __name__ == '__main__':
+    main()
