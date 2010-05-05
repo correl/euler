@@ -46,7 +46,12 @@ class Card:
         Compares this card's value with another. Used for sorting.
         """
         
-        return cmp(self.value, other.value)
+        result = cmp(self.value, other.value)
+        if result == 0:
+            """Values are identical, suits differ. Doesn't affect ranking in
+            any way."""
+            result = cmp(self.suit, other.suit)
+        return result
     def __repr__(self):
         """Builds a string representation of the hand"""
         val = self.value
@@ -200,6 +205,8 @@ class Hand:
         if not self.__values:
             self.rank()
         return self.__values
+    def cards(self):
+        return self.__cards
     @staticmethod
     def create_best_hand(cards):
         """Create the strongest possible poker hand
@@ -213,7 +220,8 @@ class Hand:
         if len(cards) <= 5:
             return Hand(cards)
         else:
-            return Hand.create_best_hand_smart(cards)
+            for hand in Hand.create_best_hand_smart(cards):
+                return hand
         return false
     @staticmethod
     def create_best_hand_bruteforce(cards):
@@ -257,7 +265,7 @@ class Hand:
         flushes = sorted(flushes, reverse=True)
         if (flushes and flushes[0].rank() >= Hand.STRAIGHT_FLUSH):
             # Straight flush! No need to check anything else
-            return flushes[0]
+            yield flushes[0]
         
         #Get all sets
         merged = {}
@@ -279,48 +287,48 @@ class Hand:
             h = quads[:4]
             remaining = [c for c in cards if c.value not in [cc.value for cc in h]][:1]
             for r in remaining: h.append(r)
-            return Hand([str(c) for c in h])
+            yield Hand([str(c) for c in h])
         if trips and pairs:
             # Get a full house together
             h = trips[:3]
             remaining = pairs[:2]
             for r in remaining: h.append(r)
-            return Hand([str(c) for c in h])
+            yield Hand([str(c) for c in h])
         if flushes:
             # We've already got a flush, return it!
-            return flushes[0]
+            yield flushes[0]
         # Look for a straight!
         mvals = sorted(merged.keys(), reverse=True)
         for i in range(0, len(mvals) -4, 1):
             if (mvals[i] - mvals[i + 4]) == 4:
                 # Regular straight
                 h = [[c for c in cards if c.value == v][0] for v in mvals[i:i + 5]]
-                return Hand([str(c) for c in h])
+                yield Hand([str(c) for c in h])
             elif 14 in [c.value for c in cards] and mvals[i + 1] == 5 and mvals[i + 4] == 2:
                 # Ace low straight
                 h = [[c for c in cards if c.value == v][0] for v in mvals[i + 1:i + 5]]
                 h.append([c for c in cards if c.value == 14][0])
-                return Hand([str(c) for c in h])
+                yield Hand([str(c) for c in h])
         
         if trips:
             h = trips[:3]
             remaining = [c for c in cards if c.value not in [cc.value for cc in h]][:2]
             for r in remaining: h.append(r)
-            return Hand([str(c) for c in h])
+            yield Hand([str(c) for c in h])
         if pairs:
             if len(pairs) > 2:
                 h = pairs[:4]
                 remaining = [c for c in cards if c.value not in [cc.value for cc in h]][:1]
                 for r in remaining: h.append(r)
-                return Hand([str(c) for c in h])
+                yield Hand([str(c) for c in h])
             else:
                 h = pairs
                 remaining = [c for c in cards if c.value not in [cc.value for cc in h]][:3]
                 for r in remaining: h.append(r)
-                return Hand([str(c) for c in h])
+                yield Hand([str(c) for c in h])
         
         # High card, send the top 5 reverse-sorted cards
-        return Hand([str(c) for c in cards[:5]])
+        yield Hand([str(c) for c in cards[:5]])
     def __cmp__(self, other):
         """Compare hand rankings
         
@@ -336,6 +344,22 @@ class Hand:
                 if (result != 0):
                     return result
         return result
+
+class ChinesePokerHand:
+    def __init__(self, cards):
+        if len(cards) != 13:
+            raise InvalidHand();
+        self.__cards = cards
+        self.build_hands()
+    def build_hands(self):
+        self.build_hands_dumb()
+    def build_hands_dumb(self):
+        self.__bottom = Hand.create_best_hand([str(c) for c in self.__cards])
+        self.__middle = Hand.create_best_hand([str(c) for c in self.__cards if c not in self.__bottom.cards()])
+        self.__top = Hand.create_best_hand([str(c) for c in self.__cards if c not in (self.__bottom.cards() + self.__middle.cards())])
+    def __repr__(self):
+        return 'Chinese Poker Hand:\n\tTop: {0}\n\tMiddle: {1}\n\tBottom: {2}'.format(self.__top, self.__middle, self.__bottom)
+    
 
 class Player:
     def __init__(self, name):
@@ -382,3 +406,11 @@ if __name__ == '__main__':
     print 'Community', community_cards
     for player in players:
         print player
+    
+    print '\nChinese Poker Example'
+    deck = Deck()
+    deck.shuffle()
+    for i in range(4):
+        cards = deck.deal(13)
+        chinese = ChinesePokerHand(cards)
+        print chinese
