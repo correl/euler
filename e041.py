@@ -9,7 +9,7 @@ from e007 import is_prime
 from e035 import permutations
 
 def pandigital_prime_generator(n):
-  if n not in [3, 7, 9]:
+  if n > 7:
     raise Exception('Invalid pandigital prime length')
   for end in [3, 7, 9]:
     digits = range(1, n + 1)
@@ -22,7 +22,7 @@ def pandigital_prime_generator(n):
         yield number
 
 def main():
-  for len in [9, 7, 3]:
+  for len in range(7, 2, -1):
     for n in sorted(pandigital_prime_generator(len), reverse=True):
       print 'Pandigital Prime:', n
       return
