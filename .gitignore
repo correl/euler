@@ -1,0 +1,6 @@
+# Temporary files / backups
+*~
+.*.swp
+
+# Compiled scripts
+*.py[oc]
