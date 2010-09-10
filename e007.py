@@ -26,6 +26,14 @@ def is_prime(n):
         f = f + 6
     return True
 
+def prime_generator():
+    i = 1
+    yield 2
+    while True:
+        i += 2
+        if is_prime(i):
+            yield i
+
 def primes(max_count = 0, max_value = 0):
     if not max_count and not max_value:
         raise Exception('There must be a constraint on how many primes to return!')
@@ -39,8 +47,15 @@ def primes(max_count = 0, max_value = 0):
     return primes
 
 def main():
-    print '6th Prime', primes(6)[-1]
-    print '10001st Prime', primes(10001)[-1]
+    i = 0
+    prime = 0
+    generator = prime_generator()
+    while i < 10000:
+        i += 1
+        prime = generator.next()
+        if i == 6:
+            print '6th Prime', prime
+    print '10001st Prime', prime
 
 if __name__ == '__main__':
     main()

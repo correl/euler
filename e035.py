@@ -6,7 +6,7 @@ There are thirteen such primes below 100: 2, 3, 5, 7, 11, 13, 17, 31, 37, 71, 73
 How many circular primes are there below one million?
 """
 
-from e007 import primes
+from e007 import is_prime, prime_generator
 
 class NotCircular(Exception):
     pass
@@ -30,10 +30,10 @@ def cyclic_rotation(n):
 def main():
     MAX = 1000000
     circular_primes = []
-    print 'Generating primes for p < {0}...'.format(MAX)
-    prime_list = primes(0, MAX)
-    print 'Searching for circular primes...'
-    for prime in prime_list:
+    print 'Searching for circular primes for p < {0}...'.format(MAX)
+    for prime in prime_generator():
+        if prime >= MAX:
+            break
         try:
             # Ensure the prime *can* be circular
             if prime > 9:
@@ -41,7 +41,7 @@ def main():
                     raise NotCircular()
             # Check all permutations
             for rotation in cyclic_rotation(prime):
-                if rotation not in prime_list:
+                if not is_prime(rotation):
                     raise NotCircular()
             circular_primes.append(prime)
         except NotCircular:
