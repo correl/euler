@@ -26,6 +26,8 @@ contain common English words, decrypt the message and find the sum of the ASCII
 values in the original text.
 """
 
+import os
+
 def encrypt(text, key):
     encrypted = []
     key_n = 0
@@ -88,7 +90,7 @@ def get_key(encrypted, key_len=3):
 if __name__ == '__main__':
     #e = encrypt('Myles is a ridiculous dog who loves his bone', 'amz')
     #print get_key(e)
-    with open('cipher1.txt', 'r') as codefile:
+    with open(os.path.join(os.path.dirname(__file__), 'p059', 'cipher1.txt'), 'r') as codefile:
         codes = [int(c) for c in codefile.readline().split(',')]
     best = get_key(codes)[-1][1]
     print 'Using', best
