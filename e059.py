@@ -55,23 +55,45 @@ def get_key(encrypted, key_len=3):
         chars.append(list(valid_chars))
     # Loop through the encrypted text, clearing out invalid key chars
     key_n = 0
-    valid_results = valid_chars
-    #valid_results.append(ord(c) for c in ' .?!')
     for value in encrypted:
         for c in chars[key_n]:
             result = value ^ c
-            if result not in valid_results:
+            #if result not in valid_results:
+            if result < 0x20 or result > 0x7e:
                 chars[key_n].remove(c)
         key_n += 1
         if key_n >= key_len:
             key_n = 0
-    print chars
-    return keys
+    #print chars
+    # gather keys
+    keys = [chr(c) for c in chars[0]]
+    for n in range(1, key_len):
+        _keys = []
+        for last in keys:
+            for c in chars[n]:
+                _keys.append(last + chr(c))
+        keys = _keys
+    words = ['there', 'who', 'the', 'is', 'in', 'it']
+    scored = []
+    for k in keys:
+        d = decrypt(encrypted, k)
+        score = 1
+        for word in words:
+            if word in d:
+                score *= len(word)
+        scored.append((score, k))
+    return sorted([s for s in scored if s[0] > 1])
     
 
 if __name__ == '__main__':
-    e = encrypt('Myles is a ridiculous dog who loves his bone', 'abc')
-    get_key(e)
+    #e = encrypt('Myles is a ridiculous dog who loves his bone', 'amz')
+    #print get_key(e)
     with open('cipher1.txt', 'r') as codefile:
         codes = [int(c) for c in codefile.readline().split(',')]
+    best = get_key(codes)[-1][1]
+    print 'Using', best
+    d = decrypt(codes, best)
+    print 'Decrypted:'
+    print d
+    print 'Sum:', sum([ord(c) for c in d])
 
