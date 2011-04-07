@@ -87,7 +87,7 @@ def get_key(encrypted, key_len=3):
     return sorted([s for s in scored if s[0] > 1])
     
 
-if __name__ == '__main__':
+def main():
     #e = encrypt('Myles is a ridiculous dog who loves his bone', 'amz')
     #print get_key(e)
     with open(os.path.join(os.path.dirname(__file__), 'p059', 'cipher1.txt'), 'r') as codefile:
@@ -99,3 +99,5 @@ if __name__ == '__main__':
     print d
     print 'Sum:', sum([ord(c) for c in d])
 
+if __name__ == '__main__':
+    main()

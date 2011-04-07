@@ -25,6 +25,9 @@ def combinations(amount, denominations):
             n += 1
     return total
 
-if __name__ == '__main__':
+def main():
     coins = [200, 100, 50, 20, 10, 5, 2, 1]
     print combinations(200, coins)
+
+if __name__ == '__main__':
+    main()
