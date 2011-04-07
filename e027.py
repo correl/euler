@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """Find the value of d < 1000 for which 1/d contains the longest recurring cycle.A unit fraction contains 1 in the numerator.
 
 The decimal representation of the unit fractions with denominators 2 to 10 are given:
