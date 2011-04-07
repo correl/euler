@@ -10,11 +10,21 @@ It is possible to make £2 in the following way:
 How many different ways can £2 be made using any number of coins?
 """
 
+def combinations(amount, denominations):
+    total = 0
+    if not denominations:
+        return total
+    denominations = sorted(denominations, reverse=True)
+    for i in range(len(denominations)):
+        d = denominations[i]
+        n = 1
+        while d * n <= amount:
+            if d * n == amount:
+                total += 1
+            total += combinations(amount - (d * n), denominations[i+1:])
+            n += 1
+    return total
+
 if __name__ == '__main__':
-    coins = [1, 2, 5, 10, 20, 50, 100, 200]
     coins = [200, 100, 50, 20, 10, 5, 2, 1]
-    combinations = 0
-    for start in range(len(coins)):
-        current = start
-        total = 0
-        break
+    print combinations(200, coins)
