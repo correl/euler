@@ -7,13 +7,10 @@
 import Text.Printf
 
 multiples :: (Integral a) => a -> a
-multiples max =
-    if max < 3 then
-        0
-    else
-        if (max `mod` 5 == 0 || max `mod` 3 == 0) then
-            max + multiples (max - 1)
-        else multiples (max - 1)
+multiples max
+    | max < 3 = 0
+    | (max `mod` 5 == 0) || (max `mod` 3 == 0) = max + multiples (max - 1)
+    | otherwise = multiples (max - 1)
 
 main = do
     printf "Sum of multiples below 10: %d\n" (multiples 9 :: Int)
