@@ -8,20 +8,19 @@ What is the largest prime factor of the number 600851475143 ?
 import Text.Printf
 
 pfactor :: (Integral a) => a -> [a]
-pfactor n = pfactor_ n []
+pfactor n = pfactor_ n [] 2
 
-pfactor_ :: (Integral a) => a -> [a] -> [a]
-pfactor_ n factors = do
-    let next = pfactor_next n 2
-    if next == n
-        then factors ++ [n]
-        else pfactor_ (n `div` next) (factors ++ [next])
+pfactor_ n factors start =
+    let next = pfactor_next n start in
+    if n == next
+        then n:factors
+        else pfactor_ (n `div` next) (next:factors) next
 
 pfactor_next :: (Integral a) => a -> a -> a
-pfactor_next n factor
-    | n == factor = factor
-    | n `rem` factor == 0 = factor
-    | otherwise = pfactor_next n (factor + 1)
+pfactor_next n last
+    | n <= last = n
+    | otherwise = head (filter (\x -> n `rem` x == 0 || n == x) [last..n])
 
 main = do
-    printf "Largest prime factor of 600851475143: %d\n" (last (pfactor 600851475143) :: Int)
+    printf "Largest prime factor of 13195: %d\n" (head (pfactor 13195) :: Integer)
+    printf "Largest prime factor of 600851475143: %d\n" (head (pfactor 600851475143) :: Integer)
