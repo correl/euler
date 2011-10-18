@@ -9,9 +9,7 @@ Find the product abc.
 -}
 
 import Text.Printf
-
--- |A triangle consisting of three integral sides
-data Triangle = Triangle Int Int Int
+import Util.Triangle
 
 -- |Return the product of the sides of the first triangle having the sum of the sides 'sum'
 triplet :: Int -> Int
@@ -21,18 +19,6 @@ triplet sum = do
     let (Triangle a b c) = tri
     a * b * c
 
--- |Find all right triangles having sum of sides 'sum' and side c length of 'c'
-right_triangles :: Int -> Int -> [Triangle]
-right_triangles sum c = do
-    let diff = sum - c
-    let range = [1..(floor ((fromIntegral diff) / 2)) + 1]
-    let triangles = filter is_right_triangle (map (\x -> Triangle x (diff - x) c) range)
-    triangles
-
--- |Return whether the provided triangle is a right triangle using the pythagorean theorem
-is_right_triangle :: Triangle -> Bool
-is_right_triangle (Triangle a b c) =
-    a^2 + b^2 == c^2
 
 main = do
     printf "Pythagorean triplet product having a + b + c = 1000: %d\n" (triplet 1000 :: Int)
